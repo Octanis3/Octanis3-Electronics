@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Nestbox_v1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:octanis3
 LIBS:SeeedOPL-Capacitor-2016
 LIBS:SeeedOPL-Connector-2016
 LIBS:SeeedOPL-Crystal Oscillator-2016
@@ -43,7 +43,6 @@ LIBS:SeeedOPL-Resistor-2016
 LIBS:SeeedOPL-Sensor-2016
 LIBS:SeeedOPL-Switch-2016
 LIBS:SeeedOPL-Transistor-2016
-LIBS:crystal_4pin
 LIBS:Nestbox_v1-cache
 EELAYER 25 0
 EELAYER END
@@ -226,7 +225,7 @@ $EndSheet
 Text Notes 650  2650 0    60   ~ 0
 Concerning GPIOs:\nThe maximum total current, \nI(OHmax) and I(OLmax), \nfor all outputs combined should\nnot exceed ±48 mA(100 mA) to \nhold the maximum voltage drop \nof 0.25V (0.6V).
 $Comp
-L LED D1
+L LED-RESCUE-Nestbox_v1 D1
 U 1 1 587A720E
 P 650 4250
 F 0 "D1" H 650 4350 50  0000 C CNN
@@ -296,7 +295,7 @@ F 3 "" H 2050 4100 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L POT RV1
+L POT-RESCUE-Nestbox_v1 RV1
 U 1 1 587B63C8
 P 1400 3800
 F 0 "RV1" H 1400 3720 50  0000 C CNN
@@ -911,4 +910,5 @@ Wire Wire Line
 	3300 1750 3150 1750
 Wire Wire Line
 	3150 1750 3150 1800
+NoConn ~ 1500 5800
 $EndSCHEMATC

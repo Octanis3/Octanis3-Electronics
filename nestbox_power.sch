@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Nestbox_v1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:octanis3
 LIBS:SeeedOPL-Capacitor-2016
 LIBS:SeeedOPL-Connector-2016
 LIBS:SeeedOPL-Crystal Oscillator-2016
@@ -43,7 +43,6 @@ LIBS:SeeedOPL-Resistor-2016
 LIBS:SeeedOPL-Sensor-2016
 LIBS:SeeedOPL-Switch-2016
 LIBS:SeeedOPL-Transistor-2016
-LIBS:crystal_4pin
 LIBS:Nestbox_v1-cache
 EELAYER 25 0
 EELAYER END
@@ -300,9 +299,11 @@ F 3 "" H 1850 3000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Battery BT1
+L Battery-RESCUE-Nestbox_v1 BT1
 U 1 1 587BD6BC
 P 3650 3650
+AR Path="/587BD6BC" Ref="BT1"  Part="1" 
+AR Path="/587910A2/587BD6BC" Ref="BT1"  Part="1" 
 F 0 "BT1" H 3750 3700 50  0000 L CNN
 F 1 "Battery" H 3750 3600 50  0000 L CNN
 F 2 "Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight" V 3650 3690 50  0001 C CNN
