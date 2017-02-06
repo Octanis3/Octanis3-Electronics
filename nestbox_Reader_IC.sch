@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:Nestbox_v1-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,7 +29,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:octanis3
 LIBS:SeeedOPL-Capacitor-2016
 LIBS:SeeedOPL-Connector-2016
 LIBS:SeeedOPL-Crystal Oscillator-2016
@@ -43,7 +43,6 @@ LIBS:SeeedOPL-Resistor-2016
 LIBS:SeeedOPL-Sensor-2016
 LIBS:SeeedOPL-Switch-2016
 LIBS:SeeedOPL-Transistor-2016
-LIBS:crystal_4pin
 LIBS:Nestbox_v1-cache
 EELAYER 25 0
 EELAYER END
