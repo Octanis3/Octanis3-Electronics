@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:octanis3
 LIBS:SeeedOPL-Capacitor-2016
 LIBS:SeeedOPL-Connector-2016
 LIBS:SeeedOPL-Crystal Oscillator-2016
