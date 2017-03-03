@@ -49,7 +49,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 3
+Sheet 1 4
 Title "Octanis 3 Nestbox"
 Date ""
 Rev ""
@@ -520,12 +520,8 @@ F 3 "" H 6100 6300 50  0000 C CNN
 	1    6100 6300
 	-1   0    0    1   
 $EndComp
-Text GLabel 7200 5750 2    60   Input ~ 0
-LORA_TX
 Text GLabel 7200 5850 2    60   Input ~ 0
 LORA_RX
-Text Notes 7700 5850 0    60   ~ 0
-to be added later...\n
 $Comp
 L +BATT #PWR022
 U 1 1 587BD5F5
@@ -912,4 +908,12 @@ F 5 "302010178" H 5180 1900 20  0001 C CNN "SKU"
 	1    5150 1750
 	1    0    0    -1  
 $EndComp
+Text GLabel 7200 5750 2    60   Input ~ 0
+LORA_TX
+$Sheet
+S 7750 5650 1300 600 
+U 58B94629
+F0 "nestbox_lora" 60
+F1 "nestbox_lora.sch" 60
+$EndSheet
 $EndSCHEMATC
