@@ -3,9 +3,9 @@
   (general
     (links 198)
     (no_connects 198)
-    (area 0 0 0 0)
+    (area 93.240693 -56.124301 211.259302 197.193702)
     (thickness 1.6)
-    (drawings 0)
+    (drawings 15)
     (tracks 8)
     (zones 0)
     (modules 81)
@@ -62,8 +62,8 @@
     (pad_drill 0.762)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (grid_origin 137 69)
-    (visible_elements FFFFFF7F)
+    (grid_origin 96.868 142.66)
+    (visible_elements FFFEFF7F)
     (pcbplotparams
       (layerselection 0x00030_80000001)
       (usegerberextensions false)
@@ -258,8 +258,48 @@
     (add_net VDDA)
   )
 
+  (module Octanis3:MIDLED (layer F.Cu) (tedit 587BAE97) (tstamp 587BB144)
+    (at 194.368 56.16 270)
+    (descr "LED 1206 smd package")
+    (tags "LED1206 SMD")
+    (path /587A720E)
+    (attr smd)
+    (fp_text reference D1 (at 0 -2 270) (layer F.SilkS)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value "SFH 4656" (at 0 2.9 270) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_arc (start -0.1 2.6) (end -1.1 1.6) (angle 90) (layer F.Fab) (width 0.15))
+    (fp_line (start -2.15 1.05) (end 1.45 1.05) (layer F.SilkS) (width 0.15))
+    (fp_line (start -2.15 -1.05) (end 1.45 -1.05) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.1 -0.3) (end -0.1 0.3) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.1 0.3) (end -0.4 0) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.4 0) (end -0.2 -0.2) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.2 -0.2) (end -0.2 0.05) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.2 0.05) (end -0.25 0) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
+    (fp_line (start 0 0) (end 0.5 0) (layer F.SilkS) (width 0.15))
+    (fp_line (start -0.5 0) (end 0 -0.5) (layer F.SilkS) (width 0.15))
+    (fp_line (start 0 -0.5) (end 0 0.5) (layer F.SilkS) (width 0.15))
+    (fp_line (start 0 0.5) (end -0.5 0) (layer F.SilkS) (width 0.15))
+    (fp_line (start 2.5 -1.25) (end -2.5 -1.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.5 -1.25) (end -2.5 1.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start -2.5 1.25) (end 2.5 1.25) (layer F.CrtYd) (width 0.05))
+    (fp_line (start 2.5 1.25) (end 2.5 -1.25) (layer F.CrtYd) (width 0.05))
+    (pad 2 smd rect (at 1.41986 0 90) (size 1.59766 1.80086) (layers F.Cu F.Paste F.Mask)
+      (net 19 "Net-(D1-Pad2)"))
+    (pad 1 smd rect (at -1.41986 0 90) (size 1.59766 1.80086) (layers F.Cu F.Paste F.Mask)
+      (net 2 GND))
+    (model LEDs.3dshapes/LED_1206.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
   (module Socket_Strips:Socket_Strip_Straight_1x02 (layer F.Cu) (tedit 54E9F75E) (tstamp 587266A0)
-    (at 116.934 127.928 180)
+    (at 136.746 138.85 180)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /58653CFC)
@@ -292,7 +332,7 @@
   )
 
   (module chips:S-PVQFN-N48 (layer F.Cu) (tedit 58726B60) (tstamp 58726BAA)
-    (at 102.075 118.403)
+    (at 121.887 129.325)
     (descr "TI RGZ Package")
     (path /586409D8)
     (fp_text reference U1 (at 5.08 -3.81) (layer F.SilkS)
@@ -416,7 +456,7 @@
   )
 
   (module "SeeedOPL-Crystal Oscillator-2016:X2-SMD-L2.0X1.2X0.55MM" (layer F.Cu) (tedit 58726B65) (tstamp 58726BB0)
-    (at 99.535 112.053)
+    (at 119.347 122.975)
     (path /58726C13)
     (attr smd)
     (fp_text reference Y1 (at 0.3175 -1.3335) (layer F.SilkS)
@@ -443,7 +483,7 @@
   )
 
   (module Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight (layer F.Cu) (tedit 56C6219C) (tstamp 587B98CC)
-    (at 80.993 127.039)
+    (at 100.805 137.961)
     (descr "Connector Headers with Friction Lock, 22-27-2021, http://www.molex.com/pdm_docs/sd/022272021_sd.pdf")
     (tags "connector molex kk_6410 22-27-2021")
     (path /587910A2/587BD6BC)
@@ -482,7 +522,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0402 (layer F.Cu) (tedit 200000) (tstamp 587B993E)
-    (at 130.015 103.163 270)
+    (at 149.827 114.085 270)
     (descr 0402)
     (tags 0402)
     (path /5873D2FB/5874D0E8)
@@ -512,7 +552,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 587B9944)
-    (at 130.015 105.703)
+    (at 149.827 116.625)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5873D2FB/5874D2BE)
@@ -541,7 +581,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 587B994A)
-    (at 123.665 105.703 180)
+    (at 143.477 116.625 180)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5873D2FB/5874D24B)
@@ -570,7 +610,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0402 (layer F.Cu) (tedit 200000) (tstamp 587B9950)
-    (at 123.665 103.163 90)
+    (at 143.477 114.085 90)
     (descr 0402)
     (tags 0402)
     (path /5873D2FB/5874D198)
@@ -600,7 +640,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 587B9956)
-    (at 126.84 105.703)
+    (at 146.652 116.625)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5873D2FB/5874DA47)
@@ -629,7 +669,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 587B995C)
-    (at 126.84 103.163)
+    (at 146.652 114.085)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5873D2FB/5874D762)
@@ -658,7 +698,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 5415D631) (tstamp 587B9962)
-    (at 126.84 100.623)
+    (at 146.652 111.545)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5873D2FB/5874D869)
@@ -687,7 +727,7 @@
   )
 
   (module SeeedOPL-LED-2016:LED-0603 (layer F.Cu) (tedit 200000) (tstamp 587B9980)
-    (at 98.9 126.404 180)
+    (at 118.712 137.326 180)
     (path /587CED0E)
     (attr smd)
     (fp_text reference D2 (at 0.3175 -1.3335 180) (layer F.SilkS)
@@ -718,7 +758,7 @@
   )
 
   (module SeeedOPL-LED-2016:LED-0603 (layer F.Cu) (tedit 58B90896) (tstamp 587B9986)
-    (at 98.9 128.436 180)
+    (at 118.712 139.358 180)
     (path /587CEDB6)
     (attr smd)
     (fp_text reference D3 (at 0.3175 -1.3335 180) (layer F.SilkS)
@@ -749,7 +789,7 @@
   )
 
   (module murata-filter:NFM18PS (layer F.Cu) (tedit 0) (tstamp 587B998D)
-    (at 133.825 113.323)
+    (at 153.637 124.245)
     (descr "<b>EMI Filter</b><p> NFM18PS, muRata")
     (path /5873D2FB/5875833E)
     (fp_text reference FI1 (at -1.27 -0.7938) (layer F.SilkS)
@@ -773,7 +813,7 @@
   )
 
   (module SeeedOPL-Inductor-2016:L0603 (layer F.Cu) (tedit 200000) (tstamp 587B9993)
-    (at 94.455 117.133 270)
+    (at 114.267 128.055 270)
     (path /58728721)
     (attr smd)
     (fp_text reference L1 (at 0.3175 -1.3335 270) (layer F.SilkS)
@@ -793,7 +833,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 587B9999)
-    (at 115.41 117.133 90)
+    (at 135.222 128.055 90)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5873D2FB/5875690B)
@@ -822,7 +862,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 587B999F)
-    (at 130.015 108.243)
+    (at 149.827 119.165)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5873D2FB/5874C1F0)
@@ -851,7 +891,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 587B99A5)
-    (at 123.665 108.243 180)
+    (at 143.477 119.165 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5873D2FB/5874C251)
@@ -880,7 +920,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 587B99AB)
-    (at 146.525 107.608 180)
+    (at 166.845 119.292 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5873D2FB/58756C1D)
@@ -909,7 +949,7 @@
   )
 
   (module Resistors_SMD:R_0805 (layer F.Cu) (tedit 5415CDEB) (tstamp 587B99B1)
-    (at 142.08 107.608 180)
+    (at 162.4 119.292 180)
     (descr "Resistor SMD 0805, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0805")
     (path /5873D2FB/58756D26)
@@ -938,7 +978,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x02 (layer F.Cu) (tedit 54E9F75E) (tstamp 587B99BD)
-    (at 108.679 127.928)
+    (at 128.491 138.85)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /587BB574)
@@ -971,7 +1011,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x02 (layer F.Cu) (tedit 54E9F75E) (tstamp 587B99C3)
-    (at 105.504 127.928 180)
+    (at 125.316 138.85 180)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /587BBB5F)
@@ -1004,7 +1044,7 @@
   )
 
   (module Socket_Strips:Socket_Strip_Straight_1x03 (layer F.Cu) (tedit 54E9F429) (tstamp 587B99CA)
-    (at 89.756 115.228 90)
+    (at 109.568 126.15 90)
     (descr "Through hole socket strip")
     (tags "socket strip")
     (path /587910A2/587A29D9)
@@ -1039,7 +1079,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 587B99DC)
-    (at 91.788 106.084 90)
+    (at 111.6 117.006 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /587B570D)
@@ -1068,7 +1108,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 587B99E2)
-    (at 89.248 106.084 270)
+    (at 109.06 117.006 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /587B6600)
@@ -1097,7 +1137,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 587B99E8)
-    (at 95.852 120.816 90)
+    (at 115.664 131.738 90)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /587B6209)
@@ -1126,7 +1166,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 587B9A06)
-    (at 128.11 127.928 270)
+    (at 147.922 138.85 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5873D2FB/587499E2)
@@ -1155,7 +1195,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 587B9A18)
-    (at 114.14 122.213)
+    (at 133.952 133.135)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5873D2FB/58749A15)
@@ -1184,7 +1224,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 587B9A2A)
-    (at 124.3 127.928 270)
+    (at 144.112 138.85 270)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5873D2FB/58749977)
@@ -1213,7 +1253,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 587B9A36)
-    (at 114.14 113.958)
+    (at 133.952 124.88)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5873D2FB/58749B94)
@@ -1242,7 +1282,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 587B9A5A)
-    (at 126.84 98.083 180)
+    (at 146.652 109.005 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /5873D2FB/5874E4B6)
@@ -1271,7 +1311,7 @@
   )
 
   (module Resistors_SMD:R_0603 (layer F.Cu) (tedit 5415CC62) (tstamp 587B9A66)
-    (at 86.708 125.769 180)
+    (at 106.52 136.691 180)
     (descr "Resistor SMD 0603, reflow soldering, Vishay (see dcrcw.pdf)")
     (tags "resistor 0603")
     (path /587910A2/5879F41C)
@@ -1300,7 +1340,7 @@
   )
 
   (module pot:3223G (layer F.Cu) (tedit 0) (tstamp 587B9A6D)
-    (at 94.836 108.116 90)
+    (at 114.648 119.038 90)
     (descr "<b>3 mm SMD Trimming Potentiometer</b> Side Adjust<p>\nSource: http://www.bourns.com/data/global/PDFs/3223.PDF")
     (path /587B63C8)
     (fp_text reference RV1 (at -1.5875 -2.2225 90) (layer F.SilkS)
@@ -1330,7 +1370,7 @@
   )
 
   (module SeeedOPL-Switch-2016:SW2-2.6-3.0X2.5X1.2+0.4MM (layer F.Cu) (tedit 200000) (tstamp 587B9A73)
-    (at 82.644 109.64)
+    (at 102.456 120.562)
     (path /587B8F58)
     (attr smd)
     (fp_text reference SW1 (at 0.42164 -1.9431) (layer F.SilkS)
@@ -1357,7 +1397,7 @@
   )
 
   (module Octanis3:Crystal_ABM11-142 (layer F.Cu) (tedit 587B9CB8) (tstamp 587B9DC6)
-    (at 133.825 118.403)
+    (at 153.637 129.325)
     (descr "Crystal, Quarz, SMD, 0603, 4 Pads,")
     (tags "Crystal Quarz SMD 0603 4 Pads")
     (path /5873D2FB/5874B85F)
@@ -1382,7 +1422,7 @@
   )
 
   (module Octanis3:VFQFPN32 (layer F.Cu) (tedit 587BA4E1) (tstamp 587BADF6)
-    (at 127.475 115.863 270)
+    (at 147.287 126.785 270)
     (descr "<b>32-lead very thin fine pitch quad flat no-lead package (5 x 5)</b><p>\nSource: <a href=\"http://www.st.com/stonline/products/literature/ds/14771/stm8s105c4.pdf\"> Data sheet </a>")
     (path /5873D2FB/5874929D)
     (fp_text reference U2 (at 0 0 270) (layer F.SilkS)
@@ -1536,7 +1576,7 @@
   )
 
   (module Octanis3:RNC0014A (layer F.Cu) (tedit 587BA4B7) (tstamp 587BAE65)
-    (at 84.803 121.959 270)
+    (at 104.615 132.881 270)
     (path /587910A2/58791155)
     (fp_text reference U3 (at -2.5 3.5 270) (layer F.SilkS)
       (effects (font (size 1.2065 1.2065) (thickness 0.0762)) (justify left bottom))
@@ -1588,7 +1628,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0805 (layer F.Cu) (tedit 587BA5D2) (tstamp 587B9974)
-    (at 89.883 121.959 90)
+    (at 109.695 132.881 90)
     (descr 0805)
     (tags 0805)
     (path /587910A2/587914F4)
@@ -1610,7 +1650,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0805 (layer F.Cu) (tedit 587BA5D2) (tstamp 587B996E)
-    (at 89.883 119.419 90)
+    (at 109.695 130.341 90)
     (descr 0805)
     (tags 0805)
     (path /587910A2/58791489)
@@ -1632,7 +1672,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0805 (layer F.Cu) (tedit 587BA5D2) (tstamp 587B9968)
-    (at 80.993 120.689 180)
+    (at 100.805 131.611 180)
     (descr 0805)
     (tags 0805)
     (path /587910A2/5879142A)
@@ -1654,7 +1694,7 @@
   )
 
   (module Octanis3:XFL4020 (layer F.Cu) (tedit 587BA470) (tstamp 587B9FA3)
-    (at 84.381572 115.295701)
+    (at 104.193572 126.217701)
     (path /587910A2/587913C2)
     (fp_text reference L7 (at -0.2 -3.3) (layer F.SilkS)
       (effects (font (thickness 0.15)))
@@ -1673,7 +1713,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B9A60)
-    (at 89.248 125.134 180)
+    (at 109.06 136.056 180)
     (path /587910A2/58791607)
     (attr smd)
     (fp_text reference R24 (at -1.4605 -0.3175 270) (layer F.SilkS)
@@ -1693,7 +1733,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B9A54)
-    (at 126.205 108.878 180)
+    (at 146.017 119.8 180)
     (path /5873D2FB/5874C597)
     (attr smd)
     (fp_text reference R22 (at -1.4605 -0.3175 270) (layer F.SilkS)
@@ -1713,7 +1753,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B9A4E)
-    (at 127.475 108.878 180)
+    (at 147.287 119.8 180)
     (path /5873D2FB/5874C511)
     (attr smd)
     (fp_text reference R21 (at -1.4605 -0.3175 270) (layer F.SilkS)
@@ -1733,7 +1773,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B9A48)
-    (at 128.11 124.118)
+    (at 147.922 135.04)
     (path /5873D2FB/587495B8)
     (attr smd)
     (fp_text reference R20 (at -1.4605 -0.3175 90) (layer F.SilkS)
@@ -1753,7 +1793,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B9A42)
-    (at 117.95 113.958 270)
+    (at 137.762 124.88 270)
     (path /5873D2FB/5874AA74)
     (attr smd)
     (fp_text reference R19 (at -1.4605 -0.3175 360) (layer F.SilkS)
@@ -1773,7 +1813,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B9A3C)
-    (at 114.14 112.053 270)
+    (at 133.952 122.975 270)
     (path /5873D2FB/58749C45)
     (attr smd)
     (fp_text reference R18 (at -1.4605 -0.3175 360) (layer F.SilkS)
@@ -1793,7 +1833,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B9A30)
-    (at 124.3 124.118)
+    (at 144.112 135.04)
     (path /5873D2FB/5874961D)
     (attr smd)
     (fp_text reference R16 (at -1.4605 -0.3175 90) (layer F.SilkS)
@@ -1813,7 +1853,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B9A24)
-    (at 122.395 127.928)
+    (at 142.207 138.85)
     (path /5873D2FB/58749768)
     (attr smd)
     (fp_text reference R14 (at -1.4605 -0.3175 90) (layer F.SilkS)
@@ -1833,7 +1873,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B9A1E)
-    (at 114.14 124.118 270)
+    (at 133.952 135.04 270)
     (path /5873D2FB/58749BE1)
     (attr smd)
     (fp_text reference R13 (at -1.4605 -0.3175 360) (layer F.SilkS)
@@ -1853,7 +1893,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B9A12)
-    (at 117.95 122.213 270)
+    (at 137.762 133.135 270)
     (path /5873D2FB/5874AB03)
     (attr smd)
     (fp_text reference R11 (at -1.4605 -0.3175 360) (layer F.SilkS)
@@ -1873,7 +1913,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B9A0C)
-    (at 126.205 127.928 180)
+    (at 146.017 138.85 180)
     (path /5873D2FB/587498F4)
     (attr smd)
     (fp_text reference R10 (at -1.4605 -0.3175 270) (layer F.SilkS)
@@ -1893,7 +1933,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B9A00)
-    (at 126.205 124.118)
+    (at 146.017 135.04)
     (path /5873D2FB/58749667)
     (attr smd)
     (fp_text reference R8 (at -1.4605 -0.3175 90) (layer F.SilkS)
@@ -1913,7 +1953,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B99FA)
-    (at 86.708 110.148)
+    (at 106.52 121.07)
     (path /587B94DB)
     (attr smd)
     (fp_text reference R7 (at -1.4605 -0.3175 90) (layer F.SilkS)
@@ -1933,7 +1973,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B99F4)
-    (at 95.344 128.436 270)
+    (at 115.156 139.358 270)
     (path /587B92F0)
     (attr smd)
     (fp_text reference R6 (at -1.4605 -0.3175 360) (layer F.SilkS)
@@ -1953,7 +1993,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B99EE)
-    (at 95.344 126.404 270)
+    (at 115.156 137.326 270)
     (path /587B9294)
     (attr smd)
     (fp_text reference R5 (at -1.4605 -0.3175 360) (layer F.SilkS)
@@ -1973,7 +2013,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 587B99D6)
-    (at 133.952 124.372 90)
+    (at 153.764 135.294 90)
     (path /587A75A7)
     (attr smd)
     (fp_text reference R1 (at -1.4605 -0.3175 180) (layer F.SilkS)
@@ -1993,7 +2033,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B98D2)
-    (at 94.455 113.323 270)
+    (at 114.267 124.245 270)
     (descr 0603)
     (tags 0603)
     (path /587CBA36)
@@ -2015,7 +2055,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B98D8)
-    (at 98.9 108.878 180)
+    (at 118.712 119.8 180)
     (descr 0603)
     (tags 0603)
     (path /587CB591)
@@ -2037,7 +2077,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B98DE)
-    (at 100.805 108.878 180)
+    (at 120.617 119.8 180)
     (descr 0603)
     (tags 0603)
     (path /587CB4AD)
@@ -2059,7 +2099,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B98EA)
-    (at 106.52 110.783 180)
+    (at 126.332 121.705 180)
     (descr 0603)
     (tags 0603)
     (path /587CB67A)
@@ -2081,7 +2121,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B98F0)
-    (at 133.825 120.943 90)
+    (at 153.637 131.865 90)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/5874BB04)
@@ -2103,7 +2143,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B98F6)
-    (at 121.76 112.688 270)
+    (at 141.572 123.61 270)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/5874944F)
@@ -2125,7 +2165,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B98FC)
-    (at 135.095 115.863 90)
+    (at 154.907 126.785 90)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/5874BBAA)
@@ -2147,7 +2187,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B9902)
-    (at 117.315 117.133)
+    (at 137.127 128.055)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/587575EB)
@@ -2169,7 +2209,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B9908)
-    (at 119.22 117.133)
+    (at 139.032 128.055)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/587576E2)
@@ -2191,7 +2231,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B990E)
-    (at 121.125 117.133)
+    (at 140.937 128.055)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/587572C9)
@@ -2213,7 +2253,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B9914)
-    (at 134.46 106.973)
+    (at 154.272 117.895)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/5874C7E5)
@@ -2235,7 +2275,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B991A)
-    (at 119.22 106.973 180)
+    (at 139.032 117.895 180)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/5874C85F)
@@ -2257,7 +2297,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B9920)
-    (at 137 107.608)
+    (at 157.32 119.292)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/587577A5)
@@ -2279,7 +2319,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B9926)
-    (at 132.555 106.973)
+    (at 152.367 117.895)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/5874CA5E)
@@ -2301,7 +2341,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B992C)
-    (at 121.125 106.973 180)
+    (at 140.937 117.895 180)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/5874CAD9)
@@ -2323,7 +2363,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B9932)
-    (at 138.905 107.608)
+    (at 159.225 119.292)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/587571E8)
@@ -2345,7 +2385,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0603 (layer F.Cu) (tedit 587BA6E7) (tstamp 587B9938)
-    (at 133.825 111.418 90)
+    (at 153.637 122.34 90)
     (descr 0603)
     (tags 0603)
     (path /5873D2FB/587574EC)
@@ -2366,48 +2406,8 @@
       (net 16 "Net-(C14-Pad2)"))
   )
 
-  (module Octanis3:MIDLED (layer F.Cu) (tedit 587BAE97) (tstamp 587BB144)
-    (at 177.64 63.158 270)
-    (descr "LED 1206 smd package")
-    (tags "LED1206 SMD")
-    (path /587A720E)
-    (attr smd)
-    (fp_text reference D1 (at 0 -2 270) (layer F.SilkS)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value "SFH 4656" (at 0 2.9 270) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_arc (start -0.1 2.6) (end -1.1 1.6) (angle 90) (layer F.Fab) (width 0.15))
-    (fp_line (start -2.15 1.05) (end 1.45 1.05) (layer F.SilkS) (width 0.15))
-    (fp_line (start -2.15 -1.05) (end 1.45 -1.05) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.1 -0.3) (end -0.1 0.3) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.1 0.3) (end -0.4 0) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.4 0) (end -0.2 -0.2) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.2 -0.2) (end -0.2 0.05) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.2 0.05) (end -0.25 0) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.5 -0.5) (end -0.5 0.5) (layer F.SilkS) (width 0.15))
-    (fp_line (start 0 0) (end 0.5 0) (layer F.SilkS) (width 0.15))
-    (fp_line (start -0.5 0) (end 0 -0.5) (layer F.SilkS) (width 0.15))
-    (fp_line (start 0 -0.5) (end 0 0.5) (layer F.SilkS) (width 0.15))
-    (fp_line (start 0 0.5) (end -0.5 0) (layer F.SilkS) (width 0.15))
-    (fp_line (start 2.5 -1.25) (end -2.5 -1.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -2.5 -1.25) (end -2.5 1.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start -2.5 1.25) (end 2.5 1.25) (layer F.CrtYd) (width 0.05))
-    (fp_line (start 2.5 1.25) (end 2.5 -1.25) (layer F.CrtYd) (width 0.05))
-    (pad 2 smd rect (at 1.41986 0 90) (size 1.59766 1.80086) (layers F.Cu F.Paste F.Mask)
-      (net 19 "Net-(D1-Pad2)"))
-    (pad 1 smd rect (at -1.41986 0 90) (size 1.59766 1.80086) (layers F.Cu F.Paste F.Mask)
-      (net 2 GND))
-    (model LEDs.3dshapes/LED_1206.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 180))
-    )
-  )
-
   (module Octanis3:MIDLED_phototransistor (layer F.Cu) (tedit 587BADBB) (tstamp 587BB15A)
-    (at 77.945 62.523 270)
+    (at 99.368 56.66 270)
     (descr "LED 1206 smd package")
     (tags "LED1206 SMD")
     (path /587B57EC)
@@ -2447,7 +2447,7 @@
   )
 
   (module SeeedOPL-Capacitor-2016:C0805 (layer F.Cu) (tedit 587BA5D2) (tstamp 58B8E994)
-    (at 108.425 110.783 180)
+    (at 128.237 121.705 180)
     (descr 0805)
     (tags 0805)
     (path /58B8E196)
@@ -2469,7 +2469,7 @@
   )
 
   (module Octanis3:NFC_ANTENNA_CIRC (layer F.Cu) (tedit 58B8FFD4) (tstamp 58B8ECF2)
-    (at 126.84 94.908 270)
+    (at 146.652 104.56 270)
     (path /5873D2FB/587564A8)
     (fp_text reference ant1 (at 6 -3 270) (layer F.SilkS)
       (effects (font (thickness 0.15)))
@@ -2527,7 +2527,7 @@
   )
 
   (module Octanis3:RN2483 (layer F.Cu) (tedit 58B90C76) (tstamp 58B91445)
-    (at 138.27 110.783 270)
+    (at 158.336 123.102 270)
     (path /58B94629/58B9467A)
     (fp_text reference U4 (at 1 -28 270) (layer F.SilkS)
       (effects (font (thickness 0.15)))
@@ -2580,7 +2580,7 @@
   )
 
   (module SeeedOPL-Connector-2016:U-FL3P-SMD-2.6X2.6X1.0MM (layer F.Cu) (tedit 200000) (tstamp 58B91E9F)
-    (at 170.02 120.943)
+    (at 190.848 133.516)
     (path /58B94629/58B96D5F)
     (attr smd)
     (fp_text reference ANT_UHF1 (at 0.3175 -2.9845) (layer F.SilkS)
@@ -2650,7 +2650,7 @@
   )
 
   (module SeeedOPL-Resistor-2016:R0603 (layer F.Cu) (tedit 587BA37B) (tstamp 58B91EA5)
-    (at 157.066 107.354 270)
+    (at 177.386 120.054 270)
     (path /58B94629/58B96CE5)
     (attr smd)
     (fp_text reference R26 (at -1.4605 -0.3175 360) (layer F.SilkS)
@@ -2668,6 +2668,22 @@
     (pad 2 smd rect (at 0 0.762 180) (size 0.889 0.889) (layers F.Cu F.Paste F.Mask)
       (net 4 +3V3))
   )
+
+  (gr_line (start 101.868 77.66) (end 101.368 77.16) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 96.868 142.66) (end 96.868 54.66) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 58B92814))
+  (gr_arc (start 99.368 54.66) (end 96.868 54.66) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 58B9280D))
+  (gr_arc (start 99.368 54.16) (end 99.368 52.16) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 58B92804))
+  (gr_line (start 101.368 54.16) (end 101.368 77.16) (angle 90) (layer Edge.Cuts) (width 0.15) (tstamp 58B927F1))
+  (gr_line (start 192.368 77.16) (end 191.868 77.66) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 192.368 54.16) (end 192.368 77.16) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 194.868 54.16) (end 192.368 54.16) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_arc (start 194.868 53.66) (end 194.868 51.66) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 196.868 54.66) (end 196.868 53.66) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 196.868 142.66) (end 196.868 54.66) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 106.868 82.66) (end 101.868 77.66) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 186.868 82.66) (end 106.868 82.66) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 191.868 77.66) (end 186.868 82.66) (angle 90) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 96.868 142.66) (end 196.868 142.66) (angle 90) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 209.705 -53.515) (end 209.705 -55.13) (width 0.25) (layer F.Cu) (net 0))
   (segment (start 209.705 -55.13) (end 209.4357 -55.3993) (width 0.25) (layer F.Cu) (net 0) (tstamp 58726D94))
