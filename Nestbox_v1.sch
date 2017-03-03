@@ -544,7 +544,6 @@ F 3 "" H 8000 1000 50  0000 C CNN
 	1    8000 1000
 	-1   0    0    1   
 $EndComp
-NoConn ~ 6850 3200
 NoConn ~ 6850 3300
 NoConn ~ 6850 3400
 NoConn ~ 6850 3900
@@ -916,4 +915,8 @@ U 58B94629
 F0 "nestbox_lora" 60
 F1 "nestbox_lora.sch" 60
 $EndSheet
+Wire Wire Line
+	6850 3200 7300 3200
+Text GLabel 7300 3200 2    60   Input ~ 0
+LORA_RST_N
 $EndSCHEMATC
