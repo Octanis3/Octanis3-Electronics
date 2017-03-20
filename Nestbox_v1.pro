@@ -1,4 +1,4 @@
-update=2017 February 05, Sunday 18:56:23
+update=2017 March 09, Thursday 16:51:38
 version=1
 last_client=kicad
 [pcbnew]
@@ -75,3 +75,13 @@ LibName43=lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Sensor-2016
 LibName44=lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Switch-2016
 LibName45=lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Transistor-2016
 LibName46=lib/crystal_4pin
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
