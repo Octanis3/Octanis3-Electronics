@@ -16,7 +16,8 @@ RA = real(ZA);
 LA = imag(ZA)/(2*pi*fC);
 
 % CR95HF Output impedance
-Rout = 27;
+Rout = 27; % IMPORTANT: this is assuming a VPS_TX = 2.7 to 3.3V supply voltage. 
+			%If supplied with 4.5 to 5.5V, Rout = 16 (currently not the case)
 
 % CR95HF receive circuit
 Cinput = 22e-12;
