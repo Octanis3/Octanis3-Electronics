@@ -1,0 +1,2091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v1.sch</source>
+    <date>2017 March 24, Friday 15:14:57</date>
+    <tool>Eeschema 4.0.4-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Octanis 3 Nestbox</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Nestbox_v1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/nestbox_Reader_IC/" tstamps="/5873D2FB/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nestbox_Reader_IC.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/nestbox_power/" tstamps="/587910A2/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nestbox_power.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/nestbox_lora/" tstamps="/58B94629/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>nestbox_lora.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>MSP430FR5969</value>
+      <footprint>chips:S-PVQFN-N48</footprint>
+      <libsource lib="Nestbox_v1-cache" part="MSP430FR5969"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>586409D8</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>TST/RST</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58653CFC</tstamp>
+    </comp>
+    <comp ref="Y1">
+      <value>Crystal</value>
+      <footprint>SeeedOPL-Crystal Oscillator-2016:X2-SMD-L2.0X1.2X0.55MM</footprint>
+      <libsource lib="device" part="Crystal"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58726C13</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>SMD-FERRITE-BEAD-2500R-50MA_0603_</value>
+      <footprint>SeeedOPL-Inductor-2016:L0603</footprint>
+      <fields>
+        <field name="SKU">303030020</field>
+      </fields>
+      <libsource lib="SeeedOPL-Inductor-2016" part="SMD-FERRITE-BEAD-2500R-50MA_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58728721</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>SFH 4646</value>
+      <footprint>Octanis3:MIDLED</footprint>
+      <libsource lib="Nestbox_v1-rescue" part="LED-RESCUE-Nestbox_v1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587A720E</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>SMD-RES-100R-5%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-07100RL</field>
+        <field name="SKU">301010090</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-100R-5%-1_10W_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587A75A7</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R_OPTO</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B570D</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>SFH 3605</value>
+      <footprint>Octanis3:MIDLED_phototransistor</footprint>
+      <libsource lib="device" part="OPTO_NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B57EC</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B6209</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>POT</value>
+      <footprint>pot:3223G</footprint>
+      <libsource lib="Nestbox_v1-rescue" part="POT-RESCUE-Nestbox_v1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B63C8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B6600</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SMD-BUTTON_2P-3.0X2.5X1.2+0.4MM_</value>
+      <footprint>SeeedOPL-Switch-2016:SW2-2.6-3.0X2.5X1.2+0.4MM</footprint>
+      <fields>
+        <field name="MPN">B3U-1000P-2P-SMD</field>
+        <field name="SKU">311020047</field>
+      </fields>
+      <libsource lib="SeeedOPL-Switch-2016" part="SMD-BUTTON_2P-3.0X2.5X1.2+0.4MM_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B8F58</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>SMD-RES-1K-5%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-071KL</field>
+        <field name="SKU">301010291</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-1K-5%-1_10W_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B9294</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>SMD-RES-1K-5%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-071KL</field>
+        <field name="SKU">301010291</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-1K-5%-1_10W_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B92F0</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>SMD-RES-10K-1%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SKU">301010299</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-10K-1%-1_10W_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587B94DB</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>RX/TX</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587BB574</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>VDD/GND</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587BBB5F</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>CERAMIC-12PF-50V-5%-NPO_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN120</field>
+        <field name="SKU">302010067</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-12PF-50V-5%-NPO_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CB4AD</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>CERAMIC-12PF-50V-5%-NPO_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN120</field>
+        <field name="SKU">302010067</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-12PF-50V-5%-NPO_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CB591</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>CERAMIC-100NF-50V-10%-X7R_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SKU">302010138</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100NF-50V-10%-X7R_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CB67A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>CERAMIC-100NF-50V-10%-X7R_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SKU">302010138</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100NF-50V-10%-X7R_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CBA36</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>SMD-LED-CLEAR-GREEN_0603_</value>
+      <footprint>SeeedOPL-LED-2016:LED-0603</footprint>
+      <fields>
+        <field name="MPN">19-217-G7C-AN1P2-3T</field>
+        <field name="SKU">304090043</field>
+      </fields>
+      <libsource lib="SeeedOPL-LED-2016" part="SMD-LED-CLEAR-GREEN_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CED0E</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>SMD-LED-CLEAR-BLUE_0603_</value>
+      <footprint>SeeedOPL-LED-2016:LED-0603</footprint>
+      <fields>
+        <field name="MPN">19-217-BHC-ZL1M2RY-3T</field>
+        <field name="SKU">304090045</field>
+      </fields>
+      <libsource lib="SeeedOPL-LED-2016" part="SMD-LED-CLEAR-BLUE_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>587CEDB6</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>CERAMIC-10UF-25V-10%-X5R_0805_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0805</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+        <field name="SKU">302010178</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10UF-25V-10%-X5R_0805_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58B8E196</tstamp>
+    </comp>
+    <comp ref="PB2">
+      <value>LIGHT_BARRIER2</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BA717E</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>47K</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">FHCFR-1_4W-473J</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="DIP-RES-47K-5%-1_4W_PR-D2.3XL6.5MM_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC590C</tstamp>
+    </comp>
+    <comp ref="PB1">
+      <value>LIGHT_BARRIER1</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BC974F</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>SFH 3605</value>
+      <footprint>Octanis3:MIDLED_phototransistor</footprint>
+      <libsource lib="device" part="OPTO_NPN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BD10E6</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>R_OPTO</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BD118C</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>POT</value>
+      <footprint>pot:3223G</footprint>
+      <libsource lib="Nestbox_v1-rescue" part="POT-RESCUE-Nestbox_v1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BD120A</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BD1294</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>SMD-RES-10K-1%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SKU">301010299</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-10K-1%-1_10W_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BF0F5A</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>CERAMIC-100NF-50V-10%-X7R_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SKU">302010138</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100NF-50V-10%-X7R_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58BF15A3</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>CR95HF</value>
+      <footprint>Octanis3:VFQFPN32</footprint>
+      <libsource lib="Nestbox_v1-cache" part="CR95HF"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874929D</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>CERAMIC-1NF-50V-10%-X7R_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB102</field>
+        <field name="SKU">302010141</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-1NF-50V-10%-X7R_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874944F</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>SMD-RES-3.3K-1%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SKU">301010251</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-3.3K-1%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>587495B8</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>SMD-RES-3.3K-1%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SKU">301010251</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-3.3K-1%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874961D</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>SMD-RES-3.3K-1%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SKU">301010251</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-3.3K-1%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>58749667</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>SMD-RES-0R-5%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="SKU">301010292</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-0R-5%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>58749768</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>SMD-RES-0R-5%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="SKU">301010292</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-0R-5%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>587498F4</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>58749977</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>587499E2</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>58749A15</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>58749B94</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>SMD-RES-0R-5%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="SKU">301010292</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-0R-5%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>58749BE1</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>SMD-RES-0R-5%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="SKU">301010292</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-0R-5%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>58749C45</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>SMD-RES-3.3K-1%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SKU">301010251</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-3.3K-1%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874AA74</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>SMD-RES-3.3K-1%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SKU">301010251</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-3.3K-1%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874AB03</tstamp>
+    </comp>
+    <comp ref="Y2">
+      <value>ABM11-142-27.120MHz</value>
+      <footprint>Octanis3:Crystal_ABM11-142</footprint>
+      <libsource lib="Nestbox_v1-cache" part="Crystal_4pin"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874B85F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>CERAMIC-10PF-50V-5%-NPO_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN100</field>
+        <field name="SKU">302010097</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10PF-50V-5%-NPO_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874BB04</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>CERAMIC-10PF-50V-5%-NPO_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN100</field>
+        <field name="SKU">302010097</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10PF-50V-5%-NPO_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874BBAA</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>560nH</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874C1F0</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>560nH</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874C251</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>SMD-RES-330R-1%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="SKU">301010300</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-330R-1%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874C511</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>SMD-RES-330R-1%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="SKU">301010300</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-330R-1%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874C597</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>CERAMIC-100PF-50V-5%-NPO_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN101</field>
+        <field name="SKU">302010076</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100PF-50V-5%-NPO_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874C7E5</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>CERAMIC-100PF-50V-5%-NPO_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN101</field>
+        <field name="SKU">302010076</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100PF-50V-5%-NPO_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874C85F</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>CERAMIC-100PF-50V-5%-NPO_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN101</field>
+        <field name="SKU">302010076</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100PF-50V-5%-NPO_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874CA5E</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>CERAMIC-100PF-50V-5%-NPO_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN101</field>
+        <field name="SKU">302010076</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100PF-50V-5%-NPO_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874CAD9</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>CERAMIC-47PF-50V-5%-NP0_0402_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0402</footprint>
+      <fields>
+        <field name="MPN">CC0402JRNPO9BN470</field>
+        <field name="SKU">302010007</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-47PF-50V-5%-NP0_0402_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874D0E8</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>CERAMIC-47PF-50V-5%-NP0_0402_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0402</footprint>
+      <fields>
+        <field name="MPN">CC0402JRNPO9BN470</field>
+        <field name="SKU">302010007</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-47PF-50V-5%-NP0_0402_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874D198</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>DNP</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874D24B</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>DNP</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874D2BE</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>DNP</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874D762</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>DNP</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874D869</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>82pF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874DA47</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>DNP</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874E4B6</tstamp>
+    </comp>
+    <comp ref="ant1">
+      <value>NFC_antenna</value>
+      <footprint>Octanis3:NFC_ANTENNA_CIRC</footprint>
+      <libsource lib="Nestbox_v1-cache" part="NFC_antenna"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>587564A8</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>742792042</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5875690B</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>742792042</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>58756C1D</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>742792093</value>
+      <footprint>Resistors_SMD:R_0805</footprint>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>58756D26</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>CERAMIC-10NF-50V-10%-X7R_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB103</field>
+        <field name="SKU">302010140</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10NF-50V-10%-X7R_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>587571E8</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>CERAMIC-10NF-50V-10%-X7R_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB103</field>
+        <field name="SKU">302010140</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10NF-50V-10%-X7R_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>587572C9</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>CERAMIC-100NF-50V-10%-X7R_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SKU">302010138</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100NF-50V-10%-X7R_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>587574EC</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>CERAMIC-100NF-50V-10%-X7R_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SKU">302010138</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100NF-50V-10%-X7R_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>587575EB</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>CERAMIC-1UF-25V-10%-X7R_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-1UF-25V-10%-X7R_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>587576E2</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>CERAMIC-1UF-25V-10%-X7R_0603_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-1UF-25V-10%-X7R_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>587577A5</tstamp>
+    </comp>
+    <comp ref="FI1">
+      <value>NFM18PS105R0J3D</value>
+      <footprint>murata-filter:NFM18PS</footprint>
+      <libsource lib="device" part="EMI_FILTER"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5875833E</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>XFL4020-102ME</value>
+      <footprint>Octanis3:XFL4020</footprint>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
+      <tstamp>587913C2</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>CERAMIC-10UF-25V-10%-X5R_0805_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0805</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+        <field name="SKU">302010178</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10UF-25V-10%-X5R_0805_"/>
+      <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
+      <tstamp>5879142A</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>CERAMIC-22UF-6.3V-20%-X5R_0805_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0805</footprint>
+      <fields>
+        <field name="MPN">CC0805MKX5R5BB226</field>
+        <field name="SKU">302010171</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-22UF-6.3V-20%-X5R_0805_"/>
+      <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
+      <tstamp>58791489</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>CERAMIC-22UF-6.3V-20%-X5R_0805_</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0805</footprint>
+      <fields>
+        <field name="MPN">CC0805MKX5R5BB226</field>
+        <field name="SKU">302010171</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-22UF-6.3V-20%-X5R_0805_"/>
+      <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
+      <tstamp>587914F4</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>SMD-RES-560K-5%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-07560KL</field>
+        <field name="SKU">301010230</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-560K-5%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
+      <tstamp>58791607</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>180k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
+      <tstamp>5879F41C</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TPS630250RNC</value>
+      <footprint>Octanis3:RNC0014A</footprint>
+      <libsource lib="Nestbox_v1-cache" part="TPS630250RNC"/>
+      <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
+      <tstamp>58791155</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>NFC_PWR_SEL</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x03</footprint>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
+      <tstamp>587A29D9</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery</value>
+      <footprint>Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight</footprint>
+      <libsource lib="Nestbox_v1-rescue" part="Battery-RESCUE-Nestbox_v1"/>
+      <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
+      <tstamp>587BD6BC</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>JUMPER</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
+      <tstamp>58BC8F5E</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>JUMPER</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <libsource lib="device" part="JUMPER"/>
+      <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
+      <tstamp>58BC90EE</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>RN2483</value>
+      <footprint>Octanis3:RN2483</footprint>
+      <libsource lib="octanis3" part="RN2483"/>
+      <sheetpath names="/nestbox_lora/" tstamps="/58B94629/"/>
+      <tstamp>58B9467A</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>SMD-RES-10K-1%-1_10W_0603_</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SKU">301010299</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-10K-1%-1_10W_0603_"/>
+      <sheetpath names="/nestbox_lora/" tstamps="/58B94629/"/>
+      <tstamp>58B96CE5</tstamp>
+    </comp>
+    <comp ref="ANT_UHF1">
+      <value>ANTENNA-CONN-U-FL_3P_</value>
+      <footprint>SeeedOPL-Connector-2016:U-FL3P-SMD-2.6X2.6X1.0MM</footprint>
+      <fields>
+        <field name="SKU">320110048</field>
+      </fields>
+      <libsource lib="SeeedOPL-Connector-2016" part="ANTENNA-CONN-U-FL_3P_"/>
+      <sheetpath names="/nestbox_lora/" tstamps="/58B94629/"/>
+      <tstamp>58B96D5F</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="SeeedOPL-Connector-2016" part="ANTENNA-CONN-U-FL_3P_">
+      <footprints>
+        <fp>*U-FL3P-SMD-2.6X2.6X1.0MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">ANT</field>
+        <field name="Value">ANTENNA-CONN-U-FL_3P_</field>
+        <field name="SKU">320110048</field>
+      </fields>
+      <pins>
+        <pin num="D" name="D" type="BiDi"/>
+        <pin num="GND1" name="GND1" type="BiDi"/>
+        <pin num="GND2" name="GND2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nestbox_v1-rescue" part="Battery-RESCUE-Nestbox_v1">
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery-RESCUE-Nestbox_v1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100NF-50V-10%-X7R_0603_">
+      <footprints>
+        <fp>*C0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-100NF-50V-10%-X7R_0603_</field>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+        <field name="SKU">302010138</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100PF-50V-5%-NPO_0603_">
+      <footprints>
+        <fp>*C0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-100PF-50V-5%-NPO_0603_</field>
+        <field name="MPN">CC0603JRNPO9BN101</field>
+        <field name="SKU">302010076</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10NF-50V-10%-X7R_0603_">
+      <footprints>
+        <fp>*C0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-10NF-50V-10%-X7R_0603_</field>
+        <field name="MPN">CC0603KRX7R9BB103</field>
+        <field name="SKU">302010140</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10PF-50V-5%-NPO_0603_">
+      <footprints>
+        <fp>*C0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-10PF-50V-5%-NPO_0603_</field>
+        <field name="MPN">CC0603JRNPO9BN100</field>
+        <field name="SKU">302010097</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10UF-25V-10%-X5R_0805_">
+      <footprints>
+        <fp>*C0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-10UF-25V-10%-X5R_0805_</field>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+        <field name="SKU">302010178</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-12PF-50V-5%-NPO_0603_">
+      <footprints>
+        <fp>*C0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-12PF-50V-5%-NPO_0603_</field>
+        <field name="MPN">CC0603JRNPO9BN120</field>
+        <field name="SKU">302010067</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-1NF-50V-10%-X7R_0603_">
+      <footprints>
+        <fp>*C0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-1NF-50V-10%-X7R_0603_</field>
+        <field name="MPN">CC0603KRX7R9BB102</field>
+        <field name="SKU">302010141</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-1UF-25V-10%-X7R_0603_">
+      <footprints>
+        <fp>*C0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-1UF-25V-10%-X7R_0603_</field>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+        <field name="SKU">302010139</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-22UF-6.3V-20%-X5R_0805_">
+      <footprints>
+        <fp>*C0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-22UF-6.3V-20%-X5R_0805_</field>
+        <field name="MPN">CC0805MKX5R5BB226</field>
+        <field name="SKU">302010171</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-47PF-50V-5%-NP0_0402_">
+      <footprints>
+        <fp>*C0402*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-47PF-50V-5%-NP0_0402_</field>
+        <field name="MPN">CC0402JRNPO9BN470</field>
+        <field name="SKU">302010007</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <description>Connector, single row, 01x02</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <description>Connector, single row, 01x03</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nestbox_v1-cache" part="CR95HF">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CR95HF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX1" type="input"/>
+        <pin num="2" name="TX2" type="input"/>
+        <pin num="3" name="NC" type="input"/>
+        <pin num="4" name="NC" type="input"/>
+        <pin num="5" name="RX1" type="input"/>
+        <pin num="6" name="RX2" type="input"/>
+        <pin num="7" name="NC" type="input"/>
+        <pin num="8" name="GND_RX" type="input"/>
+        <pin num="9" name="ST_R0" type="input"/>
+        <pin num="10" name="NC" type="input"/>
+        <pin num="11" name="NC" type="input"/>
+        <pin num="12" name="UART_RX/IRQ_IN_N" type="input"/>
+        <pin num="13" name="VPS" type="input"/>
+        <pin num="14" name="UART_TX/IRQ_OUT_N" type="input"/>
+        <pin num="15" name="SPI_SS_N" type="input"/>
+        <pin num="16" name="SPI_MISO" type="input"/>
+        <pin num="17" name="SPI_MOSI" type="input"/>
+        <pin num="18" name="SPI_SCK" type="input"/>
+        <pin num="19" name="SSI_0" type="input"/>
+        <pin num="20" name="SSI_1" type="input"/>
+        <pin num="21" name="ST_R1" type="input"/>
+        <pin num="22" name="GND" type="input"/>
+        <pin num="23" name="NC" type="input"/>
+        <pin num="24" name="NC" type="input"/>
+        <pin num="25" name="NC" type="input"/>
+        <pin num="26" name="NC" type="input"/>
+        <pin num="27" name="NC" type="input"/>
+        <pin num="28" name="NC" type="input"/>
+        <pin num="29" name="XIN" type="input"/>
+        <pin num="30" name="XOUT" type="input"/>
+        <pin num="31" name="GND_TX" type="input"/>
+        <pin num="32" name="VPS_TX" type="input"/>
+        <pin num="EXP" name="BACKPLANE" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Crystal">
+      <description>Two pin crystal</description>
+      <footprints>
+        <fp>Crystal_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nestbox_v1-cache" part="Crystal_4pin">
+      <footprints>
+        <fp>Crystal_</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_4pin</field>
+      </fields>
+      <pins>
+        <pin num="1" name="XIN" type="passive"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="XOUT" type="passive"/>
+        <pin num="4" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="DIP-RES-47K-5%-1_4W_PR-D2.3XL6.5MM_">
+      <footprints>
+        <fp>*PR-D2.3XL6.5MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">DIP-RES-47K-5%-1_4W_PR-D2.3XL6.5MM_</field>
+        <field name="MPN">FHCFR-1_4W-473J</field>
+        <field name="SKU">301020022</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="EMI_FILTER">
+      <description>Filtre EMI</description>
+      <fields>
+        <field name="Reference">FI</field>
+        <field name="Value">EMI_FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VI" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="VO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR_SMALL">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="JUMPER">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nestbox_v1-rescue" part="LED-RESCUE-Nestbox_v1">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>LED_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-RESCUE-Nestbox_v1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nestbox_v1-cache" part="MSP430FR5969">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MSP430FR5969</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1.0/TA0.1/DMAE0/RTCCLK/A0/C0/VREF-/VeREF-_" type="input"/>
+        <pin num="2" name="P1.1/TA0.2/TA1CLK/COUT/A1/C1/VREF+/VeREF+" type="input"/>
+        <pin num="3" name="P1.2/TA1.1/TA0CLK/COUT/A2/C2" type="input"/>
+        <pin num="4" name="P3.0/A12/C12" type="input"/>
+        <pin num="5" name="P3.1/A13/C13" type="input"/>
+        <pin num="6" name="P3.2/A14/C14" type="input"/>
+        <pin num="7" name="P3.3/A15/C15" type="input"/>
+        <pin num="8" name="P4.7" type="input"/>
+        <pin num="9" name="P1.3/TA1.2/UCB0STE/A3/C3" type="input"/>
+        <pin num="10" name="P1.4/TB0.1/UCA0STE/A4/C4" type="input"/>
+        <pin num="11" name="P1.5/TB0.2/UCA0CLK/A5/C5" type="input"/>
+        <pin num="12" name="PJ.0/TDO/TB0OUTH/SMCLK/SRSCG1/C6" type="input"/>
+        <pin num="13" name="PJ.1/TDI/TCLK/MCLK/SRSCG0/C7" type="input"/>
+        <pin num="14" name="PJ.2/TMS/ACLK/SROSCOFF/C8" type="input"/>
+        <pin num="15" name="PJ.3/TCK/SRCPUOFF/C9" type="input"/>
+        <pin num="16" name="P4.0/A8" type="input"/>
+        <pin num="17" name="P4.1/A9" type="input"/>
+        <pin num="18" name="P4.2/A10" type="input"/>
+        <pin num="19" name="P4.3/A11" type="input"/>
+        <pin num="20" name="P2.5/TB0.0/UCA1TXD/UCA1SIMO" type="input"/>
+        <pin num="21" name="P2.6/TB0.1/UCA1RXD/UCA1SOMI" type="input"/>
+        <pin num="22" name="TEST/SBWTCK" type="input"/>
+        <pin num="23" name="RST/NMI/SBWTDIO" type="input"/>
+        <pin num="24" name="P2.0/TB0.6/UCA0TXD/UCA0SIMO/TB0CLK/ACLK" type="input"/>
+        <pin num="25" name="P2.1/TB0.0/UCA0RXD/UCA0SOMI/TB0.0" type="input"/>
+        <pin num="26" name="P2.2/TB0.2/UCB0CLK" type="input"/>
+        <pin num="27" name="P3.4/TB0.3/SMCLK" type="input"/>
+        <pin num="28" name="P3.5/TB0.4/COUT" type="input"/>
+        <pin num="29" name="P3.6/TB0.5" type="input"/>
+        <pin num="30" name="P3.7/TB0.6" type="input"/>
+        <pin num="31" name="P1.6/TB0.3/UCB0SIMO/UCB0SDA/TA0.0" type="input"/>
+        <pin num="32" name="P1.7/TB0.4/UCB0SOMI/UCB0SCL/TA1.0" type="input"/>
+        <pin num="33" name="P4.4/TB0.5" type="input"/>
+        <pin num="34" name="P4.5" type="input"/>
+        <pin num="35" name="P4.6" type="input"/>
+        <pin num="36" name="VSS" type="input"/>
+        <pin num="37" name="DVCC" type="input"/>
+        <pin num="38" name="P2.7" type="input"/>
+        <pin num="39" name="P2.3/TA0.0/UCA1STE/A6/C10" type="input"/>
+        <pin num="40" name="P2.4/TA1.0/UCA1CLK/A7/C11" type="input"/>
+        <pin num="41" name="AVSS" type="input"/>
+        <pin num="42" name="PJ.6/HFXIN" type="input"/>
+        <pin num="43" name="PJ.7/HFXOUT" type="input"/>
+        <pin num="44" name="AVSS" type="input"/>
+        <pin num="45" name="PJ.4/LFXIN" type="input"/>
+        <pin num="46" name="PJ.5/LFXOUT" type="input"/>
+        <pin num="47" name="AVSS" type="input"/>
+        <pin num="48" name="AVCC" type="input"/>
+        <pin num="VSS_" name="VSS_PLANE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nestbox_v1-cache" part="NFC_antenna">
+      <fields>
+        <field name="Reference">ant</field>
+        <field name="Value">NFC_antenna</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="OPTO_NPN">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">OPTO_NPN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nestbox_v1-rescue" part="POT-RESCUE-Nestbox_v1">
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT-RESCUE-Nestbox_v1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="octanis3" part="RN2483">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RN2483</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="6" name="UART_TX" type="input"/>
+        <pin num="7" name="UART_RX" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="11" name="GND" type="input"/>
+        <pin num="12" name="VDD" type="input"/>
+        <pin num="20" name="GND" type="input"/>
+        <pin num="21" name="GND" type="input"/>
+        <pin num="22" name="GND" type="input"/>
+        <pin num="23" name="RFH" type="input"/>
+        <pin num="24" name="GND" type="input"/>
+        <pin num="25" name="RFL" type="input"/>
+        <pin num="26" name="GND" type="input"/>
+        <pin num="27" name="GND" type="input"/>
+        <pin num="28" name="GND" type="input"/>
+        <pin num="32" name="RESET_N" type="input"/>
+        <pin num="33" name="GND" type="input"/>
+        <pin num="34" name="VDD" type="input"/>
+        <pin num="41" name="GND" type="input"/>
+        <pin num="47" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Switch-2016" part="SMD-BUTTON_2P-3.0X2.5X1.2+0.4MM_">
+      <footprints>
+        <fp>*SW2-2.6-3.0X2.5X1.2+0.4MM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SMD-BUTTON_2P-3.0X2.5X1.2+0.4MM_</field>
+        <field name="MPN">B3U-1000P-2P-SMD</field>
+        <field name="SKU">311020047</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Inductor-2016" part="SMD-FERRITE-BEAD-2500R-50MA_0603_">
+      <footprints>
+        <fp>*L0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">SMD-FERRITE-BEAD-2500R-50MA_0603_</field>
+        <field name="SKU">303030020</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-LED-2016" part="SMD-LED-CLEAR-BLUE_0603_">
+      <footprints>
+        <fp>*LED-0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMD-LED-CLEAR-BLUE_0603_</field>
+        <field name="MPN">19-217-BHC-ZL1M2RY-3T</field>
+        <field name="SKU">304090045</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-LED-2016" part="SMD-LED-CLEAR-GREEN_0603_">
+      <footprints>
+        <fp>*LED-0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMD-LED-CLEAR-GREEN_0603_</field>
+        <field name="MPN">19-217-G7C-AN1P2-3T</field>
+        <field name="SKU">304090043</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-0R-5%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-0R-5%-1_10W_0603_</field>
+        <field name="MPN">RC0603JR-070RL</field>
+        <field name="SKU">301010292</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-100R-5%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-100R-5%-1_10W_0603_</field>
+        <field name="MPN">RC0603JR-07100RL</field>
+        <field name="SKU">301010090</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-10K-1%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-10K-1%-1_10W_0603_</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SKU">301010299</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-1K-5%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-1K-5%-1_10W_0603_</field>
+        <field name="MPN">RC0603JR-071KL</field>
+        <field name="SKU">301010291</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-3.3K-1%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-3.3K-1%-1_10W_0603_</field>
+        <field name="MPN">RC0603FR-073K3L</field>
+        <field name="SKU">301010251</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-330R-1%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-330R-1%-1_10W_0603_</field>
+        <field name="MPN">RC0603FR-07330RL</field>
+        <field name="SKU">301010300</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-560K-5%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-560K-5%-1_10W_0603_</field>
+        <field name="MPN">RC0603JR-07560KL</field>
+        <field name="SKU">301010230</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Nestbox_v1-cache" part="TPS630250RNC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS630250RNC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="L2" type="passive"/>
+        <pin num="2" name="PGND" type="passive"/>
+        <pin num="3" name="L1" type="passive"/>
+        <pin num="4" name="VIN_2" type="passive"/>
+        <pin num="5" name="VIN_3" type="passive"/>
+        <pin num="6" name="VIN" type="passive"/>
+        <pin num="7" name="VINA" type="passive"/>
+        <pin num="8" name="EN" type="passive"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="PFM/PWM" type="passive"/>
+        <pin num="11" name="FB" type="passive"/>
+        <pin num="12" name="VOUT_2" type="passive"/>
+        <pin num="13" name="VOUT_3" type="passive"/>
+        <pin num="14" name="VOUT" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Inductor-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Inductor-2016.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Switch-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Switch-2016.lib</uri>
+    </library>
+    <library logical="Nestbox_v1-cache">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v1-cache.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Connector-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Connector-2016.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Resistor-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Resistor-2016.lib</uri>
+    </library>
+    <library logical="octanis3">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/octanis3.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Capacitor-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Capacitor-2016.lib</uri>
+    </library>
+    <library logical="SeeedOPL-LED-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-LED-2016.lib</uri>
+    </library>
+    <library logical="Nestbox_v1-rescue">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v1-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="LORA_TX">
+      <node ref="U4" pin="6"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="2" name="LORA_RX">
+      <node ref="U4" pin="7"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="3" name="Net-(P1-Pad1)">
+      <node ref="U1" pin="21"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(P1-Pad2)">
+      <node ref="P1" pin="2"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="5" name="Net-(R30-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="R30" pin="1"/>
+      <node ref="U1" pin="18"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="6" name="VDDA">
+      <node ref="P4" pin="2"/>
+      <node ref="L5" pin="1"/>
+    </net>
+    <net code="7" name="SPI_NFC_SEL_N">
+      <node ref="U1" pin="27"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="8" name="SPI_MOSI">
+      <node ref="U1" pin="31"/>
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="9" name="SPI_MISO">
+      <node ref="U1" pin="32"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="10" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="11" name="SPI_SCK">
+      <node ref="U2" pin="18"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="12" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="45"/>
+      <node ref="Y1" pin="2"/>
+    </net>
+    <net code="13" name="Net-(P2-Pad1)">
+      <node ref="R27" pin="1"/>
+      <node ref="P2" pin="1"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="14" name="Net-(D2-Pad+)">
+      <node ref="U1" pin="16"/>
+      <node ref="D2" pin="+"/>
+    </net>
+    <net code="15" name="Net-(D3-Pad+)">
+      <node ref="D3" pin="+"/>
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="16" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="RV1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="18" name="NFC_IRQ_N">
+      <node ref="R11" pin="1"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U1" pin="29"/>
+    </net>
+    <net code="19" name="NFC_WAKEUP_N">
+      <node ref="R19" pin="1"/>
+      <node ref="U2" pin="12"/>
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="20" name="Net-(R29-Pad1)">
+      <node ref="RV2" pin="1"/>
+      <node ref="R29" pin="1"/>
+    </net>
+    <net code="21" name="/light_barrier_out">
+      <node ref="PB1" pin="2"/>
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="22" name="/light_barrier1_in">
+      <node ref="PB1" pin="1"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="23" name="GND">
+      <node ref="U2" pin="22"/>
+      <node ref="U2" pin="23"/>
+      <node ref="U2" pin="31"/>
+      <node ref="U2" pin="11"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U2" pin="4"/>
+      <node ref="U2" pin="7"/>
+      <node ref="U2" pin="8"/>
+      <node ref="FI1" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C14" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U3" pin="9"/>
+      <node ref="U3" pin="10"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U4" pin="47"/>
+      <node ref="U4" pin="28"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U4" pin="8"/>
+      <node ref="U4" pin="20"/>
+      <node ref="U4" pin="11"/>
+      <node ref="U4" pin="21"/>
+      <node ref="U4" pin="41"/>
+      <node ref="U4" pin="22"/>
+      <node ref="U4" pin="33"/>
+      <node ref="U4" pin="24"/>
+      <node ref="U4" pin="26"/>
+      <node ref="U4" pin="27"/>
+      <node ref="ANT_UHF1" pin="GND1"/>
+      <node ref="ANT_UHF1" pin="GND2"/>
+      <node ref="U2" pin="24"/>
+      <node ref="U2" pin="25"/>
+      <node ref="U2" pin="26"/>
+      <node ref="U2" pin="27"/>
+      <node ref="U2" pin="28"/>
+      <node ref="U2" pin="EXP"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="Y2" pin="2"/>
+      <node ref="Y2" pin="4"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U1" pin="44"/>
+      <node ref="U1" pin="36"/>
+      <node ref="U1" pin="47"/>
+      <node ref="U1" pin="41"/>
+      <node ref="D1" pin="1"/>
+      <node ref="U1" pin="VSS_"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R29" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C29-Pad1)">
+      <node ref="R30" pin="2"/>
+      <node ref="C29" pin="1"/>
+    </net>
+    <net code="25" name="/light_barrier2_in">
+      <node ref="Q2" pin="3"/>
+      <node ref="U1" pin="9"/>
+      <node ref="RV2" pin="2"/>
+      <node ref="R28" pin="2"/>
+      <node ref="PB2" pin="1"/>
+    </net>
+    <net code="26" name="/AVCC">
+      <node ref="RV2" pin="3"/>
+      <node ref="L1" pin="1"/>
+      <node ref="R28" pin="1"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="48"/>
+    </net>
+    <net code="27" name="Net-(D2-Pad-)">
+      <node ref="D2" pin="-"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="28" name="Net-(D3-Pad-)">
+      <node ref="D3" pin="-"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="29" name="+3V3">
+      <node ref="R9" pin="1"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="JP2" pin="2"/>
+      <node ref="R20" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U1" pin="37"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R18" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="U4" pin="34"/>
+      <node ref="U4" pin="12"/>
+      <node ref="C5" pin="1"/>
+      <node ref="P3" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="30" name="Net-(P2-Pad2)">
+      <node ref="P2" pin="2"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="31" name="Net-(PB2-Pad2)">
+      <node ref="U1" pin="2"/>
+      <node ref="PB2" pin="2"/>
+    </net>
+    <net code="32" name="LORA_RST_N">
+      <node ref="U1" pin="35"/>
+      <node ref="U4" pin="32"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="33" name="Net-(U1-Pad39)">
+      <node ref="U1" pin="39"/>
+    </net>
+    <net code="34" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="35" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="36" name="Net-(U1-Pad28)">
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad42)">
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="39" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="40" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="41" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="43" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="44" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="45" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="46" name="Net-(C2-Pad1)">
+      <node ref="U1" pin="46"/>
+      <node ref="Y1" pin="1"/>
+      <node ref="C2" pin="1"/>
+    </net>
+    <net code="47" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad34)">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="49" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="50" name="Net-(U1-Pad43)">
+      <node ref="U1" pin="43"/>
+    </net>
+    <net code="51" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="52" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="53" name="+BATT">
+      <node ref="JP1" pin="1"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="54" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="ant1" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R23" pin="2"/>
+    </net>
+    <net code="55" name="Net-(C19-Pad2)">
+      <node ref="C20" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="ant1" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C25" pin="2"/>
+    </net>
+    <net code="56" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="57" name="Net-(R22-Pad1)">
+      <node ref="U2" pin="6"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="58" name="Net-(R21-Pad1)">
+      <node ref="U2" pin="5"/>
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="59" name="Net-(C8-Pad1)">
+      <node ref="U2" pin="30"/>
+      <node ref="C8" pin="1"/>
+      <node ref="Y2" pin="3"/>
+    </net>
+    <net code="60" name="Net-(C6-Pad1)">
+      <node ref="U2" pin="29"/>
+      <node ref="Y2" pin="1"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="61" name="Net-(L5-Pad2)">
+      <node ref="L5" pin="2"/>
+      <node ref="L6" pin="1"/>
+    </net>
+    <net code="62" name="Net-(L3-Pad1)">
+      <node ref="U2" pin="1"/>
+      <node ref="L3" pin="1"/>
+    </net>
+    <net code="63" name="Net-(L4-Pad1)">
+      <node ref="L4" pin="1"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="64" name="Net-(C10-Pad1)">
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="13"/>
+      <node ref="L2" pin="2"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="65" name="Net-(C14-Pad2)">
+      <node ref="C18" pin="2"/>
+      <node ref="FI1" pin="3"/>
+      <node ref="C17" pin="2"/>
+      <node ref="L6" pin="2"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="66" name="Net-(FI1-Pad1)">
+      <node ref="FI1" pin="1"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="67" name="Net-(R10-Pad2)">
+      <node ref="R8" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="68" name="Net-(R8-Pad1)">
+      <node ref="U2" pin="20"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="69" name="Net-(R14-Pad1)">
+      <node ref="R15" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="70" name="Net-(R20-Pad1)">
+      <node ref="R20" pin="1"/>
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="72" name="Net-(R11-Pad2)">
+      <node ref="R12" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="73" name="Net-(R17-Pad2)">
+      <node ref="R17" pin="2"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R18" pin="1"/>
+    </net>
+    <net code="74" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="75" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="76" name="Net-(C13-Pad2)">
+      <node ref="C13" pin="2"/>
+      <node ref="L4" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C21" pin="2"/>
+    </net>
+    <net code="77" name="Net-(R24-Pad1)">
+      <node ref="R25" pin="1"/>
+      <node ref="R24" pin="1"/>
+      <node ref="U3" pin="11"/>
+    </net>
+    <net code="78" name="Net-(C27-Pad1)">
+      <node ref="U3" pin="14"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="12"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="79" name="Net-(L7-Pad2)">
+      <node ref="L7" pin="2"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="80" name="Net-(L7-Pad1)">
+      <node ref="L7" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="81" name="Net-(C26-Pad1)">
+      <node ref="U3" pin="4"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="6"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="82" name="Net-(ANT_UHF1-PadD)">
+      <node ref="ANT_UHF1" pin="D"/>
+      <node ref="U4" pin="23"/>
+    </net>
+    <net code="83" name="Net-(U4-Pad25)">
+      <node ref="U4" pin="25"/>
+    </net>
+  </nets>
+</export>
