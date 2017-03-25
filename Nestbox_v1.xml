@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v1.sch</source>
-    <date>2017 March 24, Friday 15:14:57</date>
+    <date>2017 March 24, Friday 19:10:50</date>
     <tool>Eeschema 4.0.4-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -61,6 +61,9 @@
     <comp ref="U1">
       <value>MSP430FR5969</value>
       <footprint>chips:S-PVQFN-N48</footprint>
+      <fields>
+        <field name="MPN">MSP430FR5969IRGZR</field>
+      </fields>
       <libsource lib="Nestbox_v1-cache" part="MSP430FR5969"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>586409D8</tstamp>
@@ -68,6 +71,7 @@
     <comp ref="P2">
       <value>TST/RST</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields/>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58653CFC</tstamp>
@@ -75,6 +79,9 @@
     <comp ref="Y1">
       <value>Crystal</value>
       <footprint>SeeedOPL-Crystal Oscillator-2016:X2-SMD-L2.0X1.2X0.55MM</footprint>
+      <fields>
+        <field name="MPN">FC-12M 32.7680KA-A3</field>
+      </fields>
       <libsource lib="device" part="Crystal"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58726C13</tstamp>
@@ -92,6 +99,9 @@
     <comp ref="D1">
       <value>SFH 4646</value>
       <footprint>Octanis3:MIDLED</footprint>
+      <fields>
+        <field name="MPN">720-SFH4646Z</field>
+      </fields>
       <libsource lib="Nestbox_v1-rescue" part="LED-RESCUE-Nestbox_v1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>587A720E</tstamp>
@@ -110,6 +120,7 @@
     <comp ref="R2">
       <value>R_OPTO</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields/>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>587B570D</tstamp>
@@ -117,6 +128,9 @@
     <comp ref="Q1">
       <value>SFH 3605</value>
       <footprint>Octanis3:MIDLED_phototransistor</footprint>
+      <fields>
+        <field name="MPN">SFH 3605-Z</field>
+      </fields>
       <libsource lib="device" part="OPTO_NPN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>587B57EC</tstamp>
@@ -124,6 +138,7 @@
     <comp ref="R4">
       <value>DNP</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields/>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>587B6209</tstamp>
@@ -131,6 +146,9 @@
     <comp ref="RV1">
       <value>POT</value>
       <footprint>pot:3223G</footprint>
+      <fields>
+        <field name="MPN">3313J-1-201E</field>
+      </fields>
       <libsource lib="Nestbox_v1-rescue" part="POT-RESCUE-Nestbox_v1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>587B63C8</tstamp>
@@ -138,6 +156,7 @@
     <comp ref="R3">
       <value>DNP</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields/>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>587B6600</tstamp>
@@ -146,7 +165,7 @@
       <value>SMD-BUTTON_2P-3.0X2.5X1.2+0.4MM_</value>
       <footprint>SeeedOPL-Switch-2016:SW2-2.6-3.0X2.5X1.2+0.4MM</footprint>
       <fields>
-        <field name="MPN">B3U-1000P-2P-SMD</field>
+        <field name="MPN">B3U-1000P-B</field>
         <field name="SKU">311020047</field>
       </fields>
       <libsource lib="SeeedOPL-Switch-2016" part="SMD-BUTTON_2P-3.0X2.5X1.2+0.4MM_"/>
@@ -189,6 +208,7 @@
     <comp ref="P1">
       <value>RX/TX</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields/>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>587BB574</tstamp>
@@ -196,6 +216,7 @@
     <comp ref="P3">
       <value>VDD/GND</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields/>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>587BBB5F</tstamp>
@@ -280,6 +301,7 @@
     <comp ref="PB2">
       <value>LIGHT_BARRIER2</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields/>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58BA717E</tstamp>
@@ -297,6 +319,7 @@
     <comp ref="PB1">
       <value>LIGHT_BARRIER1</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields/>
       <libsource lib="conn" part="CONN_01X02"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58BC974F</tstamp>
@@ -304,6 +327,9 @@
     <comp ref="Q2">
       <value>SFH 3605</value>
       <footprint>Octanis3:MIDLED_phototransistor</footprint>
+      <fields>
+        <field name="MPN">SFH 3605-Z</field>
+      </fields>
       <libsource lib="device" part="OPTO_NPN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58BD10E6</tstamp>
@@ -311,6 +337,7 @@
     <comp ref="R28">
       <value>R_OPTO</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields/>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58BD118C</tstamp>
@@ -318,6 +345,9 @@
     <comp ref="RV2">
       <value>POT</value>
       <footprint>pot:3223G</footprint>
+      <fields>
+        <field name="MPN">3313J-1-201E</field>
+      </fields>
       <libsource lib="Nestbox_v1-rescue" part="POT-RESCUE-Nestbox_v1"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58BD120A</tstamp>
@@ -325,6 +355,7 @@
     <comp ref="R29">
       <value>DNP</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields/>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58BD1294</tstamp>
@@ -352,8 +383,11 @@
       <tstamp>58BF15A3</tstamp>
     </comp>
     <comp ref="U2">
-      <value>CR95HF</value>
+      <value>ST95HF</value>
       <footprint>Octanis3:VFQFPN32</footprint>
+      <fields>
+        <field name="MPN">ST95HF-VMD5T</field>
+      </fields>
       <libsource lib="Nestbox_v1-cache" part="CR95HF"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5874929D</tstamp>
@@ -427,6 +461,7 @@
     <comp ref="R15">
       <value>DNP</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields/>
       <libsource lib="device" part="R"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>58749977</tstamp>
@@ -434,6 +469,7 @@
     <comp ref="R9">
       <value>DNP</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields/>
       <libsource lib="device" part="R"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>587499E2</tstamp>
@@ -441,6 +477,7 @@
     <comp ref="R12">
       <value>DNP</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields/>
       <libsource lib="device" part="R"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>58749A15</tstamp>
@@ -448,6 +485,7 @@
     <comp ref="R17">
       <value>DNP</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields/>
       <libsource lib="device" part="R"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>58749B94</tstamp>
@@ -499,6 +537,9 @@
     <comp ref="Y2">
       <value>ABM11-142-27.120MHz</value>
       <footprint>Octanis3:Crystal_ABM11-142</footprint>
+      <fields>
+        <field name="MPN">ABM11-142-27.120MHz-T3</field>
+      </fields>
       <libsource lib="Nestbox_v1-cache" part="Crystal_4pin"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5874B85F</tstamp>
@@ -528,6 +569,9 @@
     <comp ref="L3">
       <value>560nH</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="MPN">CV201210-R56K</field>
+      </fields>
       <libsource lib="device" part="INDUCTOR_SMALL"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5874C1F0</tstamp>
@@ -535,6 +579,9 @@
     <comp ref="L4">
       <value>560nH</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="MPN">CV201210-R56K</field>
+      </fields>
       <libsource lib="device" part="INDUCTOR_SMALL"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5874C251</tstamp>
@@ -630,6 +677,7 @@
     <comp ref="C21">
       <value>DNP</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields/>
       <libsource lib="device" part="C"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5874D24B</tstamp>
@@ -637,6 +685,7 @@
     <comp ref="C20">
       <value>DNP</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields/>
       <libsource lib="device" part="C"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5874D2BE</tstamp>
@@ -644,6 +693,7 @@
     <comp ref="C24">
       <value>DNP</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields/>
       <libsource lib="device" part="C"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5874D762</tstamp>
@@ -651,6 +701,7 @@
     <comp ref="C25">
       <value>DNP</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields/>
       <libsource lib="device" part="C"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5874D869</tstamp>
@@ -658,6 +709,9 @@
     <comp ref="C23">
       <value>82pF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">GQM1875C2E820JB12D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5874DA47</tstamp>
@@ -665,6 +719,7 @@
     <comp ref="R23">
       <value>DNP</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields/>
       <libsource lib="device" part="R"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5874E4B6</tstamp>
@@ -679,6 +734,9 @@
     <comp ref="L2">
       <value>742792042</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="MPN">742792042</field>
+      </fields>
       <libsource lib="device" part="INDUCTOR_SMALL"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5875690B</tstamp>
@@ -686,6 +744,9 @@
     <comp ref="L5">
       <value>742792042</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="MPN">742792042</field>
+      </fields>
       <libsource lib="device" part="INDUCTOR_SMALL"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>58756C1D</tstamp>
@@ -693,6 +754,9 @@
     <comp ref="L6">
       <value>742792093</value>
       <footprint>Resistors_SMD:R_0805</footprint>
+      <fields>
+        <field name="MPN">742792093</field>
+      </fields>
       <libsource lib="device" part="INDUCTOR_SMALL"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>58756D26</tstamp>
@@ -766,6 +830,9 @@
     <comp ref="FI1">
       <value>NFM18PS105R0J3D</value>
       <footprint>murata-filter:NFM18PS</footprint>
+      <fields>
+        <field name="MPN">NFM18PS105R0J3D</field>
+      </fields>
       <libsource lib="device" part="EMI_FILTER"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5875833E</tstamp>
@@ -773,6 +840,9 @@
     <comp ref="L7">
       <value>XFL4020-102ME</value>
       <footprint>Octanis3:XFL4020</footprint>
+      <fields>
+        <field name="MPN">XFL4020-102MEC</field>
+      </fields>
       <libsource lib="device" part="INDUCTOR"/>
       <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
       <tstamp>587913C2</tstamp>
@@ -824,6 +894,9 @@
     <comp ref="R25">
       <value>180k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RR0816P-184-D</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
       <tstamp>5879F41C</tstamp>
@@ -831,6 +904,9 @@
     <comp ref="U3">
       <value>TPS630250RNC</value>
       <footprint>Octanis3:RNC0014A</footprint>
+      <fields>
+        <field name="MPN">TPS630250RNCT</field>
+      </fields>
       <libsource lib="Nestbox_v1-cache" part="TPS630250RNC"/>
       <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
       <tstamp>58791155</tstamp>
@@ -838,6 +914,7 @@
     <comp ref="P4">
       <value>NFC_PWR_SEL</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x03</footprint>
+      <fields/>
       <libsource lib="conn" part="CONN_01X03"/>
       <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
       <tstamp>587A29D9</tstamp>
@@ -845,6 +922,7 @@
     <comp ref="BT1">
       <value>Battery</value>
       <footprint>Connectors_Molex:Molex_KK-6410-02_02x2.54mm_Straight</footprint>
+      <fields/>
       <libsource lib="Nestbox_v1-rescue" part="Battery-RESCUE-Nestbox_v1"/>
       <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
       <tstamp>587BD6BC</tstamp>
@@ -852,6 +930,9 @@
     <comp ref="JP1">
       <value>JUMPER</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields>
+        <field name="MPN">969102-0000-DA</field>
+      </fields>
       <libsource lib="device" part="JUMPER"/>
       <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
       <tstamp>58BC8F5E</tstamp>
@@ -859,6 +940,9 @@
     <comp ref="JP2">
       <value>JUMPER</value>
       <footprint>Socket_Strips:Socket_Strip_Straight_1x02</footprint>
+      <fields>
+        <field name="MPN">969102-0000-DA</field>
+      </fields>
       <libsource lib="device" part="JUMPER"/>
       <sheetpath names="/nestbox_power/" tstamps="/587910A2/"/>
       <tstamp>58BC90EE</tstamp>
@@ -866,6 +950,9 @@
     <comp ref="U4">
       <value>RN2483</value>
       <footprint>Octanis3:RN2483</footprint>
+      <fields>
+        <field name="MPN">RN2483-I/RM101</field>
+      </fields>
       <libsource lib="octanis3" part="RN2483"/>
       <sheetpath names="/nestbox_lora/" tstamps="/58B94629/"/>
       <tstamp>58B9467A</tstamp>
@@ -1589,38 +1676,38 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    <library logical="SeeedOPL-Capacitor-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Capacitor-2016.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Connector-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Connector-2016.lib</uri>
     </library>
     <library logical="device">
       <uri>/Library/Application Support/kicad/library/device.lib</uri>
     </library>
+    <library logical="octanis3">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/octanis3.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="Nestbox_v1-rescue">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v1-rescue.lib</uri>
+    </library>
     <library logical="SeeedOPL-Inductor-2016">
       <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Inductor-2016.lib</uri>
+    </library>
+    <library logical="SeeedOPL-LED-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-LED-2016.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Resistor-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Resistor-2016.lib</uri>
     </library>
     <library logical="SeeedOPL-Switch-2016">
       <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Switch-2016.lib</uri>
     </library>
     <library logical="Nestbox_v1-cache">
       <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v1-cache.lib</uri>
-    </library>
-    <library logical="SeeedOPL-Connector-2016">
-      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Connector-2016.lib</uri>
-    </library>
-    <library logical="SeeedOPL-Resistor-2016">
-      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Resistor-2016.lib</uri>
-    </library>
-    <library logical="octanis3">
-      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/octanis3.lib</uri>
-    </library>
-    <library logical="SeeedOPL-Capacitor-2016">
-      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Capacitor-2016.lib</uri>
-    </library>
-    <library logical="SeeedOPL-LED-2016">
-      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-LED-2016.lib</uri>
-    </library>
-    <library logical="Nestbox_v1-rescue">
-      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v1-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
