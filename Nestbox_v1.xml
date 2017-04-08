@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v1.sch</source>
-    <date>2017 March 24, Friday 19:10:50</date>
+    <date>2017 April 07, Friday 22:40:08</date>
     <tool>Eeschema 4.0.4-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -106,19 +106,8 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>587A720E</tstamp>
     </comp>
-    <comp ref="R1">
-      <value>SMD-RES-100R-5%-1_10W_0603_</value>
-      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
-      <fields>
-        <field name="MPN">RC0603JR-07100RL</field>
-        <field name="SKU">301010090</field>
-      </fields>
-      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-100R-5%-1_10W_0603_"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>587A75A7</tstamp>
-    </comp>
     <comp ref="R2">
-      <value>R_OPTO</value>
+      <value>DNP</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields/>
       <libsource lib="device" part="R"/>
@@ -144,7 +133,7 @@
       <tstamp>587B6209</tstamp>
     </comp>
     <comp ref="RV1">
-      <value>POT</value>
+      <value>POT:2K</value>
       <footprint>pot:3223G</footprint>
       <fields>
         <field name="MPN">3313J-1-201E</field>
@@ -335,7 +324,7 @@
       <tstamp>58BD10E6</tstamp>
     </comp>
     <comp ref="R28">
-      <value>R_OPTO</value>
+      <value>DNP</value>
       <footprint>Resistors_SMD:R_0603</footprint>
       <fields/>
       <libsource lib="device" part="R"/>
@@ -343,7 +332,7 @@
       <tstamp>58BD118C</tstamp>
     </comp>
     <comp ref="RV2">
-      <value>POT</value>
+      <value>POT:2K</value>
       <footprint>pot:3223G</footprint>
       <fields>
         <field name="MPN">3313J-1-201E</field>
@@ -381,6 +370,16 @@
       <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100NF-50V-10%-X7R_0603_"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58BF15A3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>SMD-RES-220R-5%-1_10W_0603_</value>
+      <fields>
+        <field name="MPN">RC0603JR-07220RL</field>
+        <field name="SKU">301010163</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-220R-5%-1_10W_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E30C83</tstamp>
     </comp>
     <comp ref="U2">
       <value>ST95HF</value>
@@ -609,7 +608,7 @@
       <tstamp>5874C597</tstamp>
     </comp>
     <comp ref="C12">
-      <value>CERAMIC-100PF-50V-5%-NPO_0603_</value>
+      <value>180pF</value>
       <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
       <fields>
         <field name="MPN">CC0603JRNPO9BN101</field>
@@ -620,7 +619,7 @@
       <tstamp>5874C7E5</tstamp>
     </comp>
     <comp ref="C13">
-      <value>CERAMIC-100PF-50V-5%-NPO_0603_</value>
+      <value>180pF</value>
       <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
       <fields>
         <field name="MPN">CC0603JRNPO9BN101</field>
@@ -630,19 +629,8 @@
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5874C85F</tstamp>
     </comp>
-    <comp ref="C15">
-      <value>CERAMIC-100PF-50V-5%-NPO_0603_</value>
-      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
-      <fields>
-        <field name="MPN">CC0603JRNPO9BN101</field>
-        <field name="SKU">302010076</field>
-      </fields>
-      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100PF-50V-5%-NPO_0603_"/>
-      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
-      <tstamp>5874CA5E</tstamp>
-    </comp>
     <comp ref="C16">
-      <value>CERAMIC-100PF-50V-5%-NPO_0603_</value>
+      <value>DNP</value>
       <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
       <fields>
         <field name="MPN">CC0603JRNPO9BN101</field>
@@ -653,7 +641,7 @@
       <tstamp>5874CAD9</tstamp>
     </comp>
     <comp ref="C19">
-      <value>CERAMIC-47PF-50V-5%-NP0_0402_</value>
+      <value>82pF</value>
       <footprint>SeeedOPL-Capacitor-2016:C0402</footprint>
       <fields>
         <field name="MPN">CC0402JRNPO9BN470</field>
@@ -664,7 +652,7 @@
       <tstamp>5874D0E8</tstamp>
     </comp>
     <comp ref="C22">
-      <value>CERAMIC-47PF-50V-5%-NP0_0402_</value>
+      <value>82pF</value>
       <footprint>SeeedOPL-Capacitor-2016:C0402</footprint>
       <fields>
         <field name="MPN">CC0402JRNPO9BN470</field>
@@ -691,7 +679,7 @@
       <tstamp>5874D2BE</tstamp>
     </comp>
     <comp ref="C24">
-      <value>DNP</value>
+      <value>150 pF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields/>
       <libsource lib="device" part="C"/>
@@ -707,7 +695,7 @@
       <tstamp>5874D869</tstamp>
     </comp>
     <comp ref="C23">
-      <value>82pF</value>
+      <value>150 pF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
         <field name="MPN">GQM1875C2E820JB12D</field>
@@ -836,6 +824,17 @@
       <libsource lib="device" part="EMI_FILTER"/>
       <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
       <tstamp>5875833E</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>DNP</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN101</field>
+        <field name="SKU">302010076</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-100PF-50V-5%-NPO_0603_"/>
+      <sheetpath names="/nestbox_Reader_IC/" tstamps="/5873D2FB/"/>
+      <tstamp>5874CA5E</tstamp>
     </comp>
     <comp ref="L7">
       <value>XFL4020-102ME</value>
@@ -1562,21 +1561,6 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-100R-5%-1_10W_0603_">
-      <footprints>
-        <fp>*R0603*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">SMD-RES-100R-5%-1_10W_0603_</field>
-        <field name="MPN">RC0603JR-07100RL</field>
-        <field name="SKU">301010090</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-10K-1%-1_10W_0603_">
       <footprints>
         <fp>*R0603*</fp>
@@ -1601,6 +1585,21 @@
         <field name="Value">SMD-RES-1K-5%-1_10W_0603_</field>
         <field name="MPN">RC0603JR-071KL</field>
         <field name="SKU">301010291</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-220R-5%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-220R-5%-1_10W_0603_</field>
+        <field name="MPN">RC0603JR-07220RL</field>
+        <field name="SKU">301010163</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
@@ -1679,59 +1678,59 @@
     <library logical="SeeedOPL-Capacitor-2016">
       <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Capacitor-2016.lib</uri>
     </library>
-    <library logical="SeeedOPL-Connector-2016">
-      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Connector-2016.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    <library logical="SeeedOPL-Switch-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Switch-2016.lib</uri>
     </library>
     <library logical="octanis3">
       <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/octanis3.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="Nestbox_v1-rescue">
-      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v1-rescue.lib</uri>
-    </library>
     <library logical="SeeedOPL-Inductor-2016">
       <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Inductor-2016.lib</uri>
-    </library>
-    <library logical="SeeedOPL-LED-2016">
-      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-LED-2016.lib</uri>
     </library>
     <library logical="SeeedOPL-Resistor-2016">
       <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Resistor-2016.lib</uri>
     </library>
-    <library logical="SeeedOPL-Switch-2016">
-      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Switch-2016.lib</uri>
-    </library>
     <library logical="Nestbox_v1-cache">
       <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v1-cache.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Connector-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Connector-2016.lib</uri>
+    </library>
+    <library logical="SeeedOPL-LED-2016">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-LED-2016.lib</uri>
+    </library>
+    <library logical="Nestbox_v1-rescue">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v1-rescue.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Library/Application Support/kicad/library/conn.lib</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="LORA_TX">
-      <node ref="U4" pin="6"/>
       <node ref="U1" pin="25"/>
+      <node ref="U4" pin="6"/>
     </net>
     <net code="2" name="LORA_RX">
       <node ref="U4" pin="7"/>
       <node ref="U1" pin="24"/>
     </net>
     <net code="3" name="Net-(P1-Pad1)">
-      <node ref="U1" pin="21"/>
       <node ref="P1" pin="1"/>
+      <node ref="U1" pin="21"/>
     </net>
     <net code="4" name="Net-(P1-Pad2)">
       <node ref="P1" pin="2"/>
       <node ref="U1" pin="20"/>
     </net>
     <net code="5" name="Net-(R30-Pad1)">
-      <node ref="R7" pin="1"/>
-      <node ref="R30" pin="1"/>
       <node ref="U1" pin="18"/>
       <node ref="SW1" pin="2"/>
+      <node ref="R30" pin="1"/>
+      <node ref="R7" pin="1"/>
     </net>
     <net code="6" name="VDDA">
       <node ref="P4" pin="2"/>
@@ -1742,96 +1741,92 @@
       <node ref="U2" pin="15"/>
     </net>
     <net code="8" name="SPI_MOSI">
-      <node ref="U1" pin="31"/>
       <node ref="U2" pin="17"/>
+      <node ref="U1" pin="31"/>
     </net>
     <net code="9" name="SPI_MISO">
       <node ref="U1" pin="32"/>
       <node ref="U2" pin="16"/>
     </net>
-    <net code="10" name="Net-(R4-Pad1)">
+    <net code="10" name="NFC_IRQ_N">
+      <node ref="U1" pin="29"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="11" name="NFC_WAKEUP_N">
+      <node ref="U2" pin="12"/>
+      <node ref="U1" pin="30"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="12" name="Net-(R4-Pad1)">
       <node ref="R4" pin="1"/>
       <node ref="U1" pin="11"/>
     </net>
-    <net code="11" name="SPI_SCK">
-      <node ref="U2" pin="18"/>
+    <net code="13" name="SPI_SCK">
       <node ref="U1" pin="26"/>
+      <node ref="U2" pin="18"/>
     </net>
-    <net code="12" name="Net-(C3-Pad1)">
-      <node ref="C3" pin="1"/>
-      <node ref="U1" pin="45"/>
-      <node ref="Y1" pin="2"/>
-    </net>
-    <net code="13" name="Net-(P2-Pad1)">
+    <net code="14" name="Net-(P2-Pad1)">
       <node ref="R27" pin="1"/>
       <node ref="P2" pin="1"/>
       <node ref="U1" pin="23"/>
     </net>
-    <net code="14" name="Net-(D2-Pad+)">
+    <net code="15" name="Net-(D2-Pad+)">
       <node ref="U1" pin="16"/>
       <node ref="D2" pin="+"/>
     </net>
-    <net code="15" name="Net-(D3-Pad+)">
-      <node ref="D3" pin="+"/>
+    <net code="16" name="Net-(D3-Pad+)">
       <node ref="U1" pin="17"/>
+      <node ref="D3" pin="+"/>
     </net>
-    <net code="16" name="Net-(R3-Pad1)">
+    <net code="17" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1"/>
       <node ref="RV1" pin="1"/>
     </net>
-    <net code="17" name="Net-(D1-Pad2)">
+    <net code="18" name="Net-(D1-Pad2)">
       <node ref="R1" pin="2"/>
       <node ref="D1" pin="2"/>
     </net>
-    <net code="18" name="NFC_IRQ_N">
-      <node ref="R11" pin="1"/>
-      <node ref="U2" pin="14"/>
-      <node ref="U1" pin="29"/>
-    </net>
-    <net code="19" name="NFC_WAKEUP_N">
-      <node ref="R19" pin="1"/>
-      <node ref="U2" pin="12"/>
-      <node ref="U1" pin="30"/>
-    </net>
-    <net code="20" name="Net-(R29-Pad1)">
-      <node ref="RV2" pin="1"/>
+    <net code="19" name="Net-(R29-Pad1)">
       <node ref="R29" pin="1"/>
+      <node ref="RV2" pin="1"/>
     </net>
-    <net code="21" name="/light_barrier_out">
+    <net code="20" name="/light_barrier_out">
       <node ref="PB1" pin="2"/>
-      <node ref="R1" pin="1"/>
       <node ref="U1" pin="1"/>
+      <node ref="R1" pin="1"/>
     </net>
-    <net code="22" name="/light_barrier1_in">
+    <net code="21" name="/light_barrier1_in">
+      <node ref="Q1" pin="3"/>
+      <node ref="R2" pin="2"/>
       <node ref="PB1" pin="1"/>
       <node ref="RV1" pin="2"/>
-      <node ref="R2" pin="2"/>
       <node ref="R4" pin="2"/>
-      <node ref="Q1" pin="3"/>
       <node ref="U1" pin="10"/>
     </net>
-    <net code="23" name="GND">
-      <node ref="U2" pin="22"/>
+    <net code="22" name="GND">
       <node ref="U2" pin="23"/>
-      <node ref="U2" pin="31"/>
-      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="22"/>
       <node ref="C7" pin="2"/>
-      <node ref="U2" pin="10"/>
       <node ref="U2" pin="3"/>
       <node ref="U2" pin="4"/>
       <node ref="U2" pin="7"/>
       <node ref="U2" pin="8"/>
+      <node ref="U2" pin="10"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U2" pin="31"/>
       <node ref="FI1" pin="2"/>
-      <node ref="C17" pin="1"/>
-      <node ref="C11" pin="2"/>
-      <node ref="C18" pin="1"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C10" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C15" pin="2"/>
       <node ref="C14" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C17" pin="1"/>
       <node ref="R10" pin="1"/>
       <node ref="R15" pin="2"/>
       <node ref="R12" pin="1"/>
-      <node ref="R17" pin="1"/>
       <node ref="U3" pin="2"/>
       <node ref="U3" pin="9"/>
       <node ref="U3" pin="10"/>
@@ -1862,53 +1857,57 @@
       <node ref="U2" pin="EXP"/>
       <node ref="BT1" pin="2"/>
       <node ref="C16" pin="1"/>
-      <node ref="C15" pin="2"/>
       <node ref="Y2" pin="2"/>
       <node ref="Y2" pin="4"/>
       <node ref="C6" pin="2"/>
       <node ref="C8" pin="2"/>
       <node ref="C12" pin="2"/>
       <node ref="C13" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="P3" pin="2"/>
+      <node ref="C4" pin="2"/>
       <node ref="U1" pin="44"/>
       <node ref="U1" pin="36"/>
       <node ref="U1" pin="47"/>
       <node ref="U1" pin="41"/>
       <node ref="D1" pin="1"/>
-      <node ref="U1" pin="VSS_"/>
+      <node ref="SW1" pin="1"/>
       <node ref="Q1" pin="1"/>
-      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="VSS_"/>
+      <node ref="R6" pin="2"/>
       <node ref="R29" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C5" pin="2"/>
       <node ref="C3" pin="2"/>
       <node ref="C2" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C4" pin="2"/>
       <node ref="C29" pin="2"/>
       <node ref="Q2" pin="1"/>
-      <node ref="R6" pin="2"/>
-      <node ref="SW1" pin="1"/>
-      <node ref="R5" pin="2"/>
-      <node ref="P3" pin="2"/>
     </net>
-    <net code="24" name="Net-(C29-Pad1)">
+    <net code="23" name="Net-(C29-Pad1)">
       <node ref="R30" pin="2"/>
       <node ref="C29" pin="1"/>
     </net>
-    <net code="25" name="/light_barrier2_in">
-      <node ref="Q2" pin="3"/>
+    <net code="24" name="/light_barrier2_in">
       <node ref="U1" pin="9"/>
-      <node ref="RV2" pin="2"/>
+      <node ref="Q2" pin="3"/>
       <node ref="R28" pin="2"/>
+      <node ref="RV2" pin="2"/>
       <node ref="PB2" pin="1"/>
     </net>
-    <net code="26" name="/AVCC">
-      <node ref="RV2" pin="3"/>
-      <node ref="L1" pin="1"/>
-      <node ref="R28" pin="1"/>
-      <node ref="RV1" pin="3"/>
+    <net code="25" name="/AVCC">
       <node ref="C1" pin="1"/>
+      <node ref="L1" pin="1"/>
       <node ref="R2" pin="1"/>
       <node ref="U1" pin="48"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="R28" pin="1"/>
+      <node ref="RV1" pin="3"/>
+    </net>
+    <net code="26" name="LORA_RST_N">
+      <node ref="U1" pin="35"/>
+      <node ref="U4" pin="32"/>
+      <node ref="R26" pin="1"/>
     </net>
     <net code="27" name="Net-(D2-Pad-)">
       <node ref="D2" pin="-"/>
@@ -1919,81 +1918,81 @@
       <node ref="R6" pin="1"/>
     </net>
     <net code="29" name="+3V3">
-      <node ref="R9" pin="1"/>
       <node ref="R27" pin="2"/>
-      <node ref="R14" pin="2"/>
-      <node ref="JP2" pin="2"/>
-      <node ref="R20" pin="2"/>
-      <node ref="C4" pin="1"/>
+      <node ref="P4" pin="1"/>
       <node ref="L1" pin="2"/>
       <node ref="U1" pin="37"/>
       <node ref="R13" pin="2"/>
       <node ref="R18" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="L2" pin="1"/>
       <node ref="R26" pin="2"/>
       <node ref="U4" pin="34"/>
       <node ref="U4" pin="12"/>
       <node ref="C5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="JP2" pin="2"/>
       <node ref="P3" pin="1"/>
-      <node ref="P4" pin="1"/>
-      <node ref="L2" pin="1"/>
-      <node ref="R7" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R20" pin="2"/>
     </net>
     <net code="30" name="Net-(P2-Pad2)">
-      <node ref="P2" pin="2"/>
       <node ref="U1" pin="22"/>
+      <node ref="P2" pin="2"/>
     </net>
     <net code="31" name="Net-(PB2-Pad2)">
       <node ref="U1" pin="2"/>
       <node ref="PB2" pin="2"/>
     </net>
-    <net code="32" name="LORA_RST_N">
-      <node ref="U1" pin="35"/>
-      <node ref="U4" pin="32"/>
-      <node ref="R26" pin="1"/>
-    </net>
-    <net code="33" name="Net-(U1-Pad39)">
+    <net code="32" name="Net-(U1-Pad39)">
       <node ref="U1" pin="39"/>
     </net>
-    <net code="34" name="Net-(U1-Pad19)">
+    <net code="33" name="Net-(U1-Pad19)">
       <node ref="U1" pin="19"/>
     </net>
-    <net code="35" name="Net-(U1-Pad38)">
+    <net code="34" name="Net-(U1-Pad38)">
       <node ref="U1" pin="38"/>
     </net>
-    <net code="36" name="Net-(U1-Pad28)">
+    <net code="35" name="Net-(U1-Pad28)">
       <node ref="U1" pin="28"/>
     </net>
-    <net code="37" name="Net-(U1-Pad42)">
+    <net code="36" name="Net-(U1-Pad42)">
       <node ref="U1" pin="42"/>
     </net>
-    <net code="38" name="Net-(U1-Pad12)">
+    <net code="37" name="Net-(U1-Pad12)">
       <node ref="U1" pin="12"/>
     </net>
-    <net code="39" name="Net-(U1-Pad40)">
+    <net code="38" name="Net-(U1-Pad40)">
       <node ref="U1" pin="40"/>
     </net>
-    <net code="40" name="Net-(U1-Pad8)">
+    <net code="39" name="Net-(U1-Pad8)">
       <node ref="U1" pin="8"/>
     </net>
-    <net code="41" name="Net-(U1-Pad7)">
+    <net code="40" name="Net-(U1-Pad7)">
       <node ref="U1" pin="7"/>
     </net>
-    <net code="42" name="Net-(U1-Pad6)">
+    <net code="41" name="Net-(U1-Pad6)">
       <node ref="U1" pin="6"/>
     </net>
-    <net code="43" name="Net-(U1-Pad5)">
+    <net code="42" name="Net-(U1-Pad5)">
       <node ref="U1" pin="5"/>
     </net>
-    <net code="44" name="Net-(U1-Pad4)">
+    <net code="43" name="Net-(U1-Pad4)">
       <node ref="U1" pin="4"/>
     </net>
-    <net code="45" name="Net-(U1-Pad3)">
+    <net code="44" name="Net-(U1-Pad3)">
       <node ref="U1" pin="3"/>
     </net>
-    <net code="46" name="Net-(C2-Pad1)">
+    <net code="45" name="Net-(C2-Pad1)">
       <node ref="U1" pin="46"/>
-      <node ref="Y1" pin="1"/>
       <node ref="C2" pin="1"/>
+      <node ref="Y1" pin="1"/>
+    </net>
+    <net code="46" name="Net-(C3-Pad1)">
+      <node ref="Y1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U1" pin="45"/>
     </net>
     <net code="47" name="Net-(U1-Pad15)">
       <node ref="U1" pin="15"/>
@@ -2014,51 +2013,51 @@
       <node ref="U1" pin="13"/>
     </net>
     <net code="53" name="+BATT">
-      <node ref="JP1" pin="1"/>
       <node ref="BT1" pin="1"/>
+      <node ref="JP1" pin="1"/>
       <node ref="P4" pin="3"/>
     </net>
     <net code="54" name="Net-(C21-Pad1)">
-      <node ref="C21" pin="1"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C24" pin="1"/>
-      <node ref="C25" pin="1"/>
       <node ref="C23" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C24" pin="1"/>
       <node ref="ant1" pin="1"/>
       <node ref="R22" pin="2"/>
       <node ref="R23" pin="2"/>
     </net>
     <net code="55" name="Net-(C19-Pad2)">
-      <node ref="C20" pin="1"/>
-      <node ref="R23" pin="1"/>
-      <node ref="C19" pin="2"/>
       <node ref="C24" pin="2"/>
-      <node ref="R21" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C20" pin="1"/>
       <node ref="ant1" pin="2"/>
-      <node ref="C23" pin="2"/>
+      <node ref="R23" pin="1"/>
       <node ref="C25" pin="2"/>
+      <node ref="R21" pin="2"/>
+      <node ref="C23" pin="2"/>
     </net>
-    <net code="56" name="Net-(C7-Pad1)">
-      <node ref="C7" pin="1"/>
+    <net code="56" name="Net-(C6-Pad1)">
+      <node ref="Y2" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="57" name="Net-(C7-Pad1)">
       <node ref="U2" pin="9"/>
+      <node ref="C7" pin="1"/>
     </net>
-    <net code="57" name="Net-(R22-Pad1)">
+    <net code="58" name="Net-(R22-Pad1)">
       <node ref="U2" pin="6"/>
       <node ref="R22" pin="1"/>
     </net>
-    <net code="58" name="Net-(R21-Pad1)">
-      <node ref="U2" pin="5"/>
+    <net code="59" name="Net-(R21-Pad1)">
       <node ref="R21" pin="1"/>
+      <node ref="U2" pin="5"/>
     </net>
-    <net code="59" name="Net-(C8-Pad1)">
+    <net code="60" name="Net-(C8-Pad1)">
       <node ref="U2" pin="30"/>
-      <node ref="C8" pin="1"/>
       <node ref="Y2" pin="3"/>
-    </net>
-    <net code="60" name="Net-(C6-Pad1)">
-      <node ref="U2" pin="29"/>
-      <node ref="Y2" pin="1"/>
-      <node ref="C6" pin="1"/>
+      <node ref="C8" pin="1"/>
     </net>
     <net code="61" name="Net-(L5-Pad2)">
       <node ref="L5" pin="2"/>
@@ -2073,98 +2072,98 @@
       <node ref="U2" pin="2"/>
     </net>
     <net code="64" name="Net-(C10-Pad1)">
-      <node ref="C10" pin="1"/>
-      <node ref="C9" pin="1"/>
-      <node ref="U2" pin="13"/>
       <node ref="L2" pin="2"/>
       <node ref="C11" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="13"/>
+      <node ref="C10" pin="1"/>
     </net>
     <net code="65" name="Net-(C14-Pad2)">
-      <node ref="C18" pin="2"/>
-      <node ref="FI1" pin="3"/>
-      <node ref="C17" pin="2"/>
       <node ref="L6" pin="2"/>
+      <node ref="FI1" pin="3"/>
+      <node ref="C18" pin="2"/>
       <node ref="C14" pin="2"/>
+      <node ref="C17" pin="2"/>
     </net>
     <net code="66" name="Net-(FI1-Pad1)">
-      <node ref="FI1" pin="1"/>
       <node ref="U2" pin="32"/>
+      <node ref="FI1" pin="1"/>
     </net>
     <net code="67" name="Net-(R10-Pad2)">
       <node ref="R8" pin="2"/>
       <node ref="R10" pin="2"/>
       <node ref="R9" pin="2"/>
     </net>
-    <net code="68" name="Net-(R8-Pad1)">
-      <node ref="U2" pin="20"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="69" name="Net-(R14-Pad1)">
+    <net code="68" name="Net-(R14-Pad1)">
+      <node ref="R16" pin="2"/>
       <node ref="R15" pin="1"/>
       <node ref="R14" pin="1"/>
-      <node ref="R16" pin="2"/>
+    </net>
+    <net code="69" name="Net-(R16-Pad1)">
+      <node ref="U2" pin="19"/>
+      <node ref="R16" pin="1"/>
     </net>
     <net code="70" name="Net-(R20-Pad1)">
-      <node ref="R20" pin="1"/>
       <node ref="U2" pin="21"/>
+      <node ref="R20" pin="1"/>
     </net>
     <net code="72" name="Net-(R11-Pad2)">
-      <node ref="R12" pin="2"/>
-      <node ref="R11" pin="2"/>
       <node ref="R13" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="R12" pin="2"/>
     </net>
     <net code="73" name="Net-(R17-Pad2)">
-      <node ref="R17" pin="2"/>
       <node ref="R19" pin="2"/>
+      <node ref="R17" pin="2"/>
       <node ref="R18" pin="1"/>
     </net>
-    <net code="74" name="Net-(R16-Pad1)">
-      <node ref="R16" pin="1"/>
-      <node ref="U2" pin="19"/>
+    <net code="74" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="U2" pin="20"/>
     </net>
     <net code="75" name="Net-(C12-Pad1)">
-      <node ref="C12" pin="1"/>
-      <node ref="L3" pin="2"/>
-      <node ref="C20" pin="2"/>
-      <node ref="C15" pin="1"/>
       <node ref="C19" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="L3" pin="2"/>
     </net>
     <net code="76" name="Net-(C13-Pad2)">
-      <node ref="C13" pin="2"/>
-      <node ref="L4" pin="2"/>
-      <node ref="C16" pin="2"/>
       <node ref="C22" pin="1"/>
       <node ref="C21" pin="2"/>
+      <node ref="L4" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C16" pin="2"/>
     </net>
     <net code="77" name="Net-(R24-Pad1)">
+      <node ref="U3" pin="11"/>
       <node ref="R25" pin="1"/>
       <node ref="R24" pin="1"/>
-      <node ref="U3" pin="11"/>
     </net>
     <net code="78" name="Net-(C27-Pad1)">
-      <node ref="U3" pin="14"/>
-      <node ref="U3" pin="13"/>
       <node ref="U3" pin="12"/>
-      <node ref="C27" pin="1"/>
-      <node ref="C28" pin="1"/>
-      <node ref="R24" pin="2"/>
       <node ref="JP2" pin="1"/>
+      <node ref="U3" pin="13"/>
+      <node ref="U3" pin="14"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="C28" pin="1"/>
     </net>
     <net code="79" name="Net-(L7-Pad2)">
       <node ref="L7" pin="2"/>
       <node ref="U3" pin="1"/>
     </net>
     <net code="80" name="Net-(L7-Pad1)">
-      <node ref="L7" pin="1"/>
       <node ref="U3" pin="3"/>
+      <node ref="L7" pin="1"/>
     </net>
     <net code="81" name="Net-(C26-Pad1)">
+      <node ref="C26" pin="1"/>
       <node ref="U3" pin="4"/>
-      <node ref="JP1" pin="2"/>
       <node ref="U3" pin="5"/>
+      <node ref="JP1" pin="2"/>
       <node ref="U3" pin="6"/>
       <node ref="U3" pin="7"/>
-      <node ref="C26" pin="1"/>
       <node ref="U3" pin="8"/>
     </net>
     <net code="82" name="Net-(ANT_UHF1-PadD)">
