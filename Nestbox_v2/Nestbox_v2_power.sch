@@ -36,7 +36,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -46,28 +46,4 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Sheet
-S 1450 1750 1450 3150
-U 59EF7EEA
-F0 "Power" 60
-F1 "Nestbox_v2_power.sch" 60
-$EndSheet
-$Sheet
-S 3200 1750 1500 3150
-U 59EF7F04
-F0 "Control" 60
-F1 "Nestbox_v2_control.sch" 60
-$EndSheet
-$Sheet
-S 5100 1750 1400 3150
-U 59EF7F28
-F0 "RFID" 60
-F1 "Nestbox_v2_RFID.sch" 60
-$EndSheet
-$Sheet
-S 6900 1750 1300 3150
-U 59EF7F41
-F0 "Passage Detector" 60
-F1 "Nestbox_v2_detector.sch" 60
-$EndSheet
 $EndSCHEMATC
