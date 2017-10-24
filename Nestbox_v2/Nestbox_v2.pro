@@ -1,4 +1,4 @@
-update=10/24/17 19:35:35
+update=10/24/17 19:48:40
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../lib;../lib/SeeedOPL for Kicad-alpha-2017-01-02
@@ -59,5 +61,4 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
+LibName33=Octanis3
