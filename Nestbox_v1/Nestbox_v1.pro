@@ -1,4 +1,4 @@
-update=2017 March 09, Thursday 16:51:38
+update=10/24/17 19:20:04
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,11 +23,21 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [general]
 version=1
 [eeschema]
 version=1
-LibDir=/Library/Application Support/kicad/modules;/Library/Application Support/kicad/modules/RF_Modules.pretty;lib;/Users/raffael/Desktop/Octanis/Octanis1-Electronics/lib;lib/SeeedOPL for Kicad-alpha-2017-01-02
+LibDir=/Library/Application Support/kicad/modules;/Library/Application Support/kicad/modules/RF_Modules.pretty;lib;../lib;../;../lib/SeeedOPL for Kicad-alpha-2017-01-02
 [eeschema/libraries]
 LibName1=Nestbox_v1-rescue
 LibName2=power
@@ -75,13 +85,3 @@ LibName43=lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Sensor-2016
 LibName44=lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Switch-2016
 LibName45=lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Transistor-2016
 LibName46=lib/crystal_4pin
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
