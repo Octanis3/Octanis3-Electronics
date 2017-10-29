@@ -73,18 +73,12 @@ F 3 "" H 5250 3350 60  0001 C CNN
 $EndComp
 Wire Wire Line
 	5800 3500 6400 3500
-Text Label 6000 3500 0    60   ~ 0
-RFID_VDD
 Wire Wire Line
 	5800 3650 6400 3650
 Wire Wire Line
 	5800 3800 6400 3800
 Wire Wire Line
 	5800 3950 6400 3950
-Text Label 6000 3650 0    60   ~ 0
-RFID_DATA
-Text Label 6000 3800 0    60   ~ 0
-RFID_CLOCK
 $Comp
 L GNDREF #PWR401
 U 1 1 59EF8071
@@ -98,8 +92,6 @@ F 3 "" H 4200 3650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4200 3650 4800 3650
-Text Label 6000 3950 0    60   ~ 0
-RFID_MODE
 $Comp
 L R R402
 U 1 1 59EF80B5
@@ -144,8 +136,6 @@ Text Label 3250 3950 0    60   ~ 0
 RFID_VDD
 Wire Wire Line
 	4800 3800 4300 3800
-Text Label 4300 3800 0    60   ~ 0
-RFID_SPEED
 $Comp
 L C C401
 U 1 1 59EF8255
@@ -206,4 +196,14 @@ Connection ~ 3800 3950
 Wire Wire Line
 	4500 4200 4250 4200
 Connection ~ 4500 4200
+Text GLabel 6400 3500 2    60   Input ~ 0
+RFID_VDD
+Text GLabel 6400 3650 2    60   Input ~ 0
+RFID_DATA
+Text GLabel 6400 3800 2    60   Input ~ 0
+RFID_CLOCK
+Text GLabel 6400 3950 2    60   Input ~ 0
+RFID_MODE
+Text GLabel 4300 3800 0    60   Input ~ 0
+RFID_SPEED
 $EndSCHEMATC
