@@ -50,7 +50,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 5
+Sheet 1 6
 Title ""
 Date ""
 Rev ""
@@ -83,5 +83,11 @@ S 6900 1750 1300 3150
 U 59EF7F41
 F0 "Passage Detector" 60
 F1 "Nestbox_v2_detector.sch" 60
+$EndSheet
+$Sheet
+S 8600 1750 1300 3150
+U 59F63D06
+F0 "LORA" 60
+F1 "Nestbox_v2_LORA.sch" 60
 $EndSheet
 $EndSCHEMATC
