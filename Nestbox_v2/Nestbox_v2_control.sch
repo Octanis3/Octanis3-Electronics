@@ -374,15 +374,6 @@ F 3 "" H 6100 6300 50  0000 C CNN
 $EndComp
 Text GLabel 7200 5850 2    60   Input ~ 0
 LORA_RX
-NoConn ~ 4500 5800
-NoConn ~ 4100 5800
-NoConn ~ 4000 5800
-NoConn ~ 3900 5800
-NoConn ~ 4400 1800
-NoConn ~ 4500 1800
-NoConn ~ 4700 1800
-NoConn ~ 4800 1800
-NoConn ~ 4900 1800
 Text Label 3650 1800 0    60   ~ 0
 AVCC
 Wire Wire Line
@@ -683,4 +674,60 @@ F 3 "" H 5650 7050 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	5550 7050 5650 7050
+Wire Wire Line
+	6850 3500 7400 3500
+Wire Wire Line
+	6850 3600 7400 3600
+Text Label 7400 3500 2    60   ~ 0
+SD_MISO
+Text Label 7400 3600 2    60   ~ 0
+SD_MOSI
+Wire Wire Line
+	6850 4100 7400 4100
+Text Label 7400 4100 2    60   ~ 0
+SD_CLK
+Text GLabel 2000 3900 0    60   Input ~ 0
+RFID_MODU
+Text GLabel 2000 4100 0    60   Input ~ 0
+RFID_DATA
+Text GLabel 2000 4000 0    60   Input ~ 0
+RFID_CLOCK
+Wire Wire Line
+	2000 3900 2250 3900
+Wire Wire Line
+	2250 4000 2000 4000
+Wire Wire Line
+	2000 4100 2250 4100
+Text GLabel 2000 3500 0    60   Input ~ 0
+HK_3.3_V
+Text GLabel 2000 3600 0    60   Input ~ 0
+HK_BAT_V
+Text GLabel 2000 3700 0    60   Input ~ 0
+HK_SOLAR_V
+Wire Wire Line
+	2000 3500 2250 3500
+Wire Wire Line
+	2250 3600 2000 3600
+Wire Wire Line
+	2000 3700 2250 3700
+Wire Wire Line
+	6850 3400 7400 3400
+Text Label 7000 3400 0    60   ~ 0
+SD_CS_B
+Text GLabel 2000 3100 0    60   Input ~ 0
+LB2_DETECT
+Text GLabel 2000 3200 0    60   Input ~ 0
+LB1_LED
+Text GLabel 2000 3300 0    60   Input ~ 0
+LB1_DETECT
+Wire Wire Line
+	2000 3100 2250 3100
+Wire Wire Line
+	2250 3200 2000 3200
+Wire Wire Line
+	2000 3300 2250 3300
+Text GLabel 4800 1550 1    60   Input ~ 0
+LB2_LED
+Wire Wire Line
+	4800 1550 4800 1800
 $EndSCHEMATC
