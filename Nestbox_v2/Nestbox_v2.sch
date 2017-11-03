@@ -87,7 +87,7 @@ $EndSheet
 $Sheet
 S 8600 1750 1300 3150
 U 59F63D06
-F0 "LORA" 60
-F1 "Nestbox_v2_LORA.sch" 60
+F0 "Communication" 60
+F1 "Nestbox_v2_Comm.sch" 60
 $EndSheet
 $EndSCHEMATC
