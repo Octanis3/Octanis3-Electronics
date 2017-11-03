@@ -97,7 +97,7 @@ L R R402
 U 1 1 59EF80B5
 P 4500 4550
 F 0 "R402" V 4580 4550 50  0000 C CNN
-F 1 "19k" V 4500 4550 50  0000 C CNN
+F 1 "36k" V 4500 4550 50  0000 C CNN
 F 2 "" V 4430 4550 50  0001 C CNN
 F 3 "" H 4500 4550 50  0001 C CNN
 	1    4500 4550
@@ -131,7 +131,7 @@ F 3 "" H 4500 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3950 3950 3250 3950
+	3250 3950 3950 3950
 Text Label 3250 3950 0    60   ~ 0
 RFID_VDD
 Wire Wire Line
@@ -202,8 +202,22 @@ Text GLabel 6400 3650 2    60   Input ~ 0
 RFID_DATA
 Text GLabel 6400 3800 2    60   Input ~ 0
 RFID_CLOCK
-Text GLabel 6400 3950 2    60   Input ~ 0
-RFID_MODE
-Text GLabel 4300 3800 0    60   Input ~ 0
-RFID_SPEED
+Wire Wire Line
+	4300 3800 4300 3650
+Connection ~ 4300 3650
+Text Notes 4700 3800 2    60   ~ 0
+4k Baud
+Wire Wire Line
+	4700 3950 4700 4450
+Wire Wire Line
+	4700 4450 5900 4450
+Connection ~ 4700 3950
+Text GLabel 5900 4450 2    60   Input ~ 0
+RFID_MODU
+Text Notes 4750 4450 0    60   ~ 0
+Floating for Operation\nPull to VDD for Standby\n
+Text Notes 6400 3950 0    60   ~ 0
+TODO Decide on encoding (Biphase, None or Manchester)
+Text Notes 4600 3950 2    60   ~ 0
+0.87 V
 $EndSCHEMATC
