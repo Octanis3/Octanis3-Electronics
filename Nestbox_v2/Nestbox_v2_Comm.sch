@@ -433,4 +433,6 @@ Wire Wire Line
 	2900 2800 2900 3250
 Text Label 2900 3250 1    60   ~ 0
 VCC_XBee
+Text GLabel 2600 2600 0    60   Input ~ 0
+XBee_Enable_N
 $EndSCHEMATC

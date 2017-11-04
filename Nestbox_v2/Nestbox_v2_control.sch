@@ -321,17 +321,17 @@ Debugging interface
 $Comp
 L Conn_01x02 P1
 U 1 1 587BB574
-P 4000 7050
+P 4000 7600
 AR Path="/587BB574" Ref="P1"  Part="1" 
 AR Path="/59EF7F04/587BB574" Ref="P1"  Part="1" 
-F 0 "P1" H 4000 7200 50  0000 C CNN
-F 1 "RX/TX" V 4100 7050 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 4000 7050 50  0001 C CNN
-F 3 "" H 4000 7050 50  0000 C CNN
-F 4 "" H 4000 7050 50  0001 C CNN "MPN"
-F 5 "" H 4000 7050 50  0001 C CNN "SKU"
-F 6 "" H 4000 7050 50  0001 C CNN "MouserLink"
-	1    4000 7050
+F 0 "P1" H 4000 7750 50  0000 C CNN
+F 1 "RX/TX" V 4100 7600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 4000 7600 50  0001 C CNN
+F 3 "" H 4000 7600 50  0000 C CNN
+F 4 "" H 4000 7600 50  0001 C CNN "MPN"
+F 5 "" H 4000 7600 50  0001 C CNN "SKU"
+F 6 "" H 4000 7600 50  0001 C CNN "MouserLink"
+	1    4000 7600
 	0    1    1    0   
 $EndComp
 Text GLabel 6400 6500 2    60   Input ~ 0
@@ -339,11 +339,7 @@ LORA_RX
 Text Label 2950 2450 0    60   ~ 0
 AVCC
 Wire Wire Line
-	4300 2100 4300 2200
-Wire Wire Line
-	4300 2200 4300 2400
-Wire Wire Line
-	4300 2400 4300 2450
+	4300 2100 4300 2450
 Connection ~ 4300 2400
 Connection ~ 4300 2200
 Wire Wire Line
@@ -355,9 +351,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 2450 3200 2450
 Wire Wire Line
-	2850 2200 2850 2250
-Wire Wire Line
-	2850 2250 2850 2450
+	2850 2200 2850 2450
 Wire Wire Line
 	2800 2250 2850 2250
 Connection ~ 2850 2250
@@ -372,9 +366,7 @@ Wire Wire Line
 Wire Wire Line
 	3400 1600 3400 1650
 Wire Wire Line
-	3200 1650 3400 1650
-Wire Wire Line
-	3400 1650 3650 1650
+	3200 1650 3650 1650
 Connection ~ 3400 1650
 Wire Wire Line
 	3200 1950 3300 1950
@@ -389,15 +381,11 @@ Wire Wire Line
 Wire Wire Line
 	4200 6450 4200 6600
 Wire Wire Line
-	4200 6600 4450 6600
-Wire Wire Line
-	4450 6600 4500 6600
+	4200 6600 4500 6600
 Wire Wire Line
 	4450 6600 4450 6850
 Wire Wire Line
-	10000 4600 10000 4550
-Wire Wire Line
-	10000 4550 10000 4500
+	10000 4500 10000 4600
 Wire Wire Line
 	3700 6450 3700 7000
 Wire Wire Line
@@ -405,13 +393,9 @@ Wire Wire Line
 Wire Wire Line
 	10000 4100 10000 4200
 Wire Wire Line
-	3900 6450 3900 6800
+	3900 6450 3900 7400
 Wire Wire Line
-	3900 6750 3900 6850
-Wire Wire Line
-	4000 6450 4000 6750
-Wire Wire Line
-	4000 6700 4000 6850
+	4000 6450 4000 7400
 Wire Wire Line
 	4300 6500 6400 6500
 Wire Wire Line
@@ -489,9 +473,7 @@ $EndComp
 Wire Wire Line
 	4300 2200 4350 2200
 Wire Wire Line
-	4650 2200 4650 2400
-Wire Wire Line
-	4650 2400 4650 2450
+	4650 2200 4650 2450
 Wire Wire Line
 	4600 2400 4650 2400
 Connection ~ 4650 2400
@@ -769,4 +751,16 @@ F 6 "" H 10230 4850 20  0001 C CNN "Field6"
 	1    10200 4700
 	0    1    1    0   
 $EndComp
+Text GLabel 3800 6450 3    60   Input ~ 0
+XBee_Enable_N
+Text GLabel 3800 7300 0    60   Input ~ 0
+XBee_TX
+Wire Wire Line
+	3800 7300 3900 7300
+Connection ~ 3900 7300
+Text GLabel 4100 7300 2    60   Input ~ 0
+XBee_RX
+Wire Wire Line
+	4100 7300 4000 7300
+Connection ~ 4000 7300
 $EndSCHEMATC
