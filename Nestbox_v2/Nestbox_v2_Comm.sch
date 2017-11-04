@@ -228,7 +228,9 @@ $EndComp
 Wire Wire Line
 	7450 4150 7050 4150
 Wire Wire Line
-	6750 3900 7450 3900
+	6750 3900 6900 3900
+Wire Wire Line
+	6900 3900 7450 3900
 Text GLabel 6750 3900 0    60   Input ~ 0
 LORA_RST_N
 Wire Wire Line
@@ -320,4 +322,115 @@ F 3 "" H 9450 3950 50  0000 C CNN
 	1    9450 3950
 	1    0    0    -1  
 $EndComp
+NoConn ~ 4100 4200
+NoConn ~ 4100 4300
+NoConn ~ 4100 4400
+NoConn ~ 4100 4500
+NoConn ~ 4100 4600
+NoConn ~ 4100 4700
+NoConn ~ 4100 4800
+NoConn ~ 4100 4900
+NoConn ~ 4100 5000
+NoConn ~ 4100 5400
+NoConn ~ 4100 5500
+NoConn ~ 4100 5650
+NoConn ~ 4100 5750
+NoConn ~ 4100 5850
+NoConn ~ 4100 5950
+NoConn ~ 4100 6050
+NoConn ~ 4100 6250
+NoConn ~ 2250 5450
+NoConn ~ 2250 5550
+NoConn ~ 2250 5650
+NoConn ~ 2250 5750
+NoConn ~ 2250 5850
+NoConn ~ 2250 5950
+NoConn ~ 2250 6050
+NoConn ~ 2250 6150
+NoConn ~ 2250 6250
+NoConn ~ 2250 5350
+NoConn ~ 2250 5050
+NoConn ~ 2250 4950
+Wire Wire Line
+	2250 4300 2050 4300
+Wire Wire Line
+	2050 4300 2050 4400
+Wire Wire Line
+	2050 4400 2050 4500
+Wire Wire Line
+	2050 4500 2050 4600
+Wire Wire Line
+	2050 4600 2050 4700
+Wire Wire Line
+	2050 4700 2050 4800
+Wire Wire Line
+	2050 4400 2250 4400
+Wire Wire Line
+	2050 4500 2250 4500
+Connection ~ 2050 4400
+Wire Wire Line
+	2050 4600 2250 4600
+Connection ~ 2050 4500
+Wire Wire Line
+	2050 4700 2250 4700
+Connection ~ 2050 4600
+$Comp
+L GND #PWR?
+U 1 1 59FDFCD3
+P 2050 4800
+F 0 "#PWR?" H 2050 4550 50  0001 C CNN
+F 1 "GND" H 2055 4627 50  0000 C CNN
+F 2 "" H 2050 4800 50  0000 C CNN
+F 3 "" H 2050 4800 50  0000 C CNN
+	1    2050 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 2050 4700
+Wire Wire Line
+	2250 4200 1800 4200
+Text Label 1800 4200 0    60   ~ 0
+VCC_XBee
+Text GLabel 4100 5150 2    60   Input ~ 0
+XBee_RX
+Text GLabel 4100 5250 2    60   Input ~ 0
+XBee_TX
+$Comp
+L XBee-S2C-802.15.4_SMT U?
+U 1 1 59FE0508
+P 2800 4100
+F 0 "U?" H 3175 4247 60  0000 C CNN
+F 1 "XBee-S2C-802.15.4_SMT" H 3175 4141 60  0000 C CNN
+F 2 "" H 2800 4100 60  0001 C CNN
+F 3 "" H 2800 4100 60  0001 C CNN
+	1    2800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Q_PMOS_DGS Q?
+U 1 1 59FE0AF1
+P 2800 2600
+F 0 "Q?" H 3006 2646 50  0000 L CNN
+F 1 "Q_PMOS_DGS" H 3006 2555 50  0000 L CNN
+F 2 "" H 3000 2700 50  0000 C CNN
+F 3 "" H 2800 2600 50  0000 C CNN
+	1    2800 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR?
+U 1 1 59FE0C6C
+P 2900 2350
+F 0 "#PWR?" H 2900 2200 50  0001 C CNN
+F 1 "+3.3V" H 2915 2523 50  0000 C CNN
+F 2 "" H 2900 2350 50  0000 C CNN
+F 3 "" H 2900 2350 50  0000 C CNN
+	1    2900 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 2150 2900 2400
+Wire Wire Line
+	2900 2800 2900 3250
+Text Label 2900 3250 1    60   ~ 0
+VCC_XBee
 $EndSCHEMATC
