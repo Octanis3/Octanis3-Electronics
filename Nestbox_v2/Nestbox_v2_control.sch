@@ -750,12 +750,12 @@ $EndComp
 Text GLabel 3800 6450 3    60   Input ~ 0
 XBee_Enable_N
 Text GLabel 3800 7300 0    60   Input ~ 0
-XBee_TX
+DATA_TX
 Wire Wire Line
 	3800 7300 3900 7300
 Connection ~ 3900 7300
 Text GLabel 4100 7300 2    60   Input ~ 0
-XBee_RX
+DATA_RX
 Wire Wire Line
 	4100 7300 4000 7300
 Connection ~ 4000 7300
