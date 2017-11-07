@@ -8,6 +8,7 @@ LIBS:relays
 LIBS:motors
 LIBS:transistors
 LIBS:conn
+LIBS:linear
 LIBS:regul
 LIBS:74xx
 LIBS:cmos4000
@@ -32,6 +33,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:SeeedOPL-Capacitor-2016
 LIBS:SeeedOPL-Connector-2016
 LIBS:SeeedOPL-Crystal Oscillator-2016
 LIBS:SeeedOPL-Diode-2016
