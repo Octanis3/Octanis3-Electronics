@@ -412,7 +412,7 @@ Wire Wire Line
 Text Label 1850 2100 1    60   ~ 0
 VCC_XBee
 Text GLabel 1550 1450 0    60   Input ~ 0
-XBee_Enable_N
+DATA_Enable_N
 $Comp
 L R R?
 U 1 1 59FF56E8
@@ -436,7 +436,7 @@ F 3 "" H 2800 5050 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 2700 5700 0    60   Input ~ 0
-XBee_Enable_N
+DATA_Enable_N
 NoConn ~ 2700 5600
 NoConn ~ 2700 5800
 NoConn ~ 2700 5900

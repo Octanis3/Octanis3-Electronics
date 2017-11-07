@@ -633,7 +633,7 @@ Connection ~ 10000 4550
 Text Label 10850 4550 2    60   ~ 0
 DBG_Switch
 Text GLabel 3800 6450 3    60   Input ~ 0
-XBee_Enable_N
+DATA_Enable_N
 Text GLabel 3800 7300 0    60   Input ~ 0
 DATA_TX
 Wire Wire Line
