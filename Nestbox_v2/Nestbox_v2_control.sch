@@ -529,7 +529,7 @@ Wire Wire Line
 Wire Wire Line
 	1300 4750 1550 4750
 Text GLabel 1300 4150 0    60   Input ~ 0
-HK_3.3_V
+HK_BUS_V
 Text GLabel 1300 4250 0    60   Input ~ 0
 HK_BAT_V
 Text GLabel 1300 4350 0    60   Input ~ 0
@@ -797,4 +797,8 @@ F 3 "" H 2650 2250 50  0000 C CNN
 	1    2650 2250
 	0    1    1    0   
 $EndComp
+Text GLabel 1300 4050 0    60   Input ~ 0
+HK_SOLAR_I
+Wire Wire Line
+	1550 4050 1300 4050
 $EndSCHEMATC
