@@ -145,17 +145,17 @@ $EndComp
 $Comp
 L Conn_01x02 P2
 U 1 1 58653CFC
-P 4450 7050
+P 4450 6900
 AR Path="/58653CFC" Ref="P2"  Part="1" 
 AR Path="/59EF7F04/58653CFC" Ref="P2"  Part="1" 
-F 0 "P2" H 4450 7200 50  0000 C CNN
-F 1 "TST/RST" V 4550 7050 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 4450 7050 50  0001 C CNN
-F 3 "" H 4450 7050 50  0000 C CNN
-F 4 "" H 4450 7050 50  0001 C CNN "MPN"
-F 5 "" H 4450 7050 50  0001 C CNN "SKU"
-F 6 "" H 4450 7050 50  0001 C CNN "MouserLink"
-	1    4450 7050
+F 0 "P2" H 4450 7050 50  0000 C CNN
+F 1 "TST/RST" V 4550 6900 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 4450 6900 50  0001 C CNN
+F 3 "" H 4450 6900 50  0000 C CNN
+F 4 "" H 4450 6900 50  0001 C CNN "MPN"
+F 5 "" H 4450 6900 50  0001 C CNN "SKU"
+F 6 "" H 4450 6900 50  0001 C CNN "MouserLink"
+	1    4450 6900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -343,7 +343,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 6600 4500 6600
 Wire Wire Line
-	4450 6600 4450 6850
+	4450 6600 4450 6700
 Wire Wire Line
 	10000 4500 10000 4600
 Wire Wire Line
@@ -352,10 +352,6 @@ Wire Wire Line
 	10000 5200 10000 5300
 Wire Wire Line
 	10000 4100 10000 4200
-Wire Wire Line
-	3900 6450 3900 7400
-Wire Wire Line
-	4000 6450 4000 7400
 Wire Wire Line
 	4300 6500 6400 6500
 Wire Wire Line
@@ -458,7 +454,7 @@ LORA_TX
 Wire Wire Line
 	4100 6650 4350 6650
 Wire Wire Line
-	4350 6650 4350 6850
+	4350 6650 4350 6700
 $Comp
 L +3.3V #PWR031
 U 1 1 58BC4BB7
@@ -634,16 +630,6 @@ Text Label 10850 4550 2    60   ~ 0
 DBG_Switch
 Text GLabel 3800 6450 3    60   Input ~ 0
 DATA_Enable_N
-Text GLabel 3800 7300 0    60   Input ~ 0
-DATA_TX
-Wire Wire Line
-	3800 7300 3900 7300
-Connection ~ 3900 7300
-Text GLabel 4100 7300 2    60   Input ~ 0
-DATA_RX
-Wire Wire Line
-	4100 7300 4000 7300
-Connection ~ 4000 7300
 $Comp
 L CP C?
 U 1 1 59FF0B56
@@ -678,9 +664,9 @@ Connection ~ 8100 1600
 Wire Wire Line
 	8900 1850 8350 1850
 Wire Wire Line
-	8350 1850 8350 1900
+	8350 1900 8350 1850
 Wire Wire Line
-	8350 1900 7600 1900
+	7600 1900 8350 1900
 Connection ~ 8100 1900
 Connection ~ 7700 1900
 $Comp
@@ -801,4 +787,31 @@ Text GLabel 1300 4050 0    60   Input ~ 0
 HK_SOLAR_I
 Wire Wire Line
 	1550 4050 1300 4050
+Wire Wire Line
+	4800 7350 4700 7350
+$Comp
+L Jumper JP?
+U 1 1 5A03190F
+P 4400 7350
+F 0 "JP?" H 4400 7614 50  0000 C CNN
+F 1 "Jumper" H 4400 7523 50  0000 C CNN
+F 2 "" H 4400 7350 50  0001 C CNN
+F 3 "" H 4400 7350 50  0001 C CNN
+	1    4400 7350
+	1    0    0    -1  
+$EndComp
+Connection ~ 4000 7350
+Wire Wire Line
+	4100 7350 4000 7350
+Text GLabel 4800 7350 2    60   Input ~ 0
+DATA_RX
+Connection ~ 3900 7350
+Wire Wire Line
+	3800 7350 3900 7350
+Text GLabel 3800 7350 0    60   Input ~ 0
+DATA_TX
+Wire Wire Line
+	4000 6450 4000 7400
+Wire Wire Line
+	3900 6450 3900 7400
 $EndSCHEMATC
