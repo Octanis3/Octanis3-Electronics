@@ -1,4 +1,4 @@
-update=10/24/17 19:20:04
+update=2017 November 11, Saturday 21:31:19
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,8 +33,6 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=/Library/Application Support/kicad/modules;/Library/Application Support/kicad/modules/RF_Modules.pretty;lib;../lib;../;../lib/SeeedOPL for Kicad-alpha-2017-01-02
@@ -85,3 +83,5 @@ LibName43=lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Sensor-2016
 LibName44=lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Switch-2016
 LibName45=lib/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Transistor-2016
 LibName46=lib/crystal_4pin
+[general]
+version=1

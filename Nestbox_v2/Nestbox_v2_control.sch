@@ -664,9 +664,9 @@ Connection ~ 8100 1600
 Wire Wire Line
 	8900 1850 8350 1850
 Wire Wire Line
-	8350 1900 8350 1850
+	8350 1850 8350 1900
 Wire Wire Line
-	7600 1900 8350 1900
+	8350 1900 7600 1900
 Connection ~ 8100 1900
 Connection ~ 7700 1900
 $Comp
