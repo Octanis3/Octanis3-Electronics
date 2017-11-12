@@ -307,4 +307,6 @@ Text Notes 1650 3650 0    60   Italic 0
 —> baud rate \ndepends on the tags we use. therefore keep option open \n(i.e. add pull-up & -down resistor footprints)
 Text Notes 4000 1400 0    60   Italic 0
 TODO: add possibility to place up to 3 antenna coils in series
+Text Notes 6950 3700 0    60   Italic 0
+!! TODO: add pull-ups for clk and data\n
 $EndSCHEMATC
