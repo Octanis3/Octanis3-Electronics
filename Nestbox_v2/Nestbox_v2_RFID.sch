@@ -80,8 +80,6 @@ Wire Wire Line
 Wire Wire Line
 	5800 3800 6400 3800
 Wire Wire Line
-	5800 3950 6400 3950
-Wire Wire Line
 	4200 3650 4800 3650
 $Comp
 L R R402
@@ -113,7 +111,7 @@ Wire Wire Line
 Text Label 3250 3950 0    60   ~ 0
 RFID_VDD
 Wire Wire Line
-	4800 3800 4300 3800
+	3700 3800 4800 3800
 $Comp
 L C C404
 U 1 1 59EF8255
@@ -176,11 +174,7 @@ Text GLabel 6400 3650 2    60   Input ~ 0
 RFID_DATA
 Text GLabel 6400 3800 2    60   Input ~ 0
 RFID_CLOCK
-Wire Wire Line
-	4300 3800 4300 3650
 Connection ~ 4300 3650
-Text Notes 4700 3800 2    60   ~ 0
-4k Baud
 Wire Wire Line
 	4500 4800 6400 4800
 Connection ~ 4700 3950
@@ -188,8 +182,6 @@ Text GLabel 6400 4800 2    60   Input ~ 0
 RFID_MODU
 Text Notes 5250 4800 0    60   ~ 0
 Pull to GND for Operation\nPull to VDD for Standby\n
-Text Notes 6400 3950 0    60   ~ 0
-TODO Decide on encoding (Biphase, None or Manchester)
 Text Notes 4600 3950 2    60   ~ 0
 0.87 V
 Wire Wire Line
@@ -301,12 +293,92 @@ F 3 "" H 4200 3650 50  0001 C CNN
 $EndComp
 Text Notes 5150 5050 0    60   Italic 0
 consider adding MOSFET for MODU pin\n
-Text Notes 6400 4250 0    60   Italic 0
-—> depends on the tags we use. therefore keep option open \n(i.e. add pull-up & -down resistor footprints)
-Text Notes 1650 3650 0    60   Italic 0
-—> baud rate \ndepends on the tags we use. therefore keep option open \n(i.e. add pull-up & -down resistor footprints)
 Text Notes 4000 1400 0    60   Italic 0
 TODO: add possibility to place up to 3 antenna coils in series
 Text Notes 6950 3700 0    60   Italic 0
 !! TODO: add pull-ups for clk and data\n
+$Comp
+L R R404
+U 1 1 5A0B4046
+P 3550 3800
+F 0 "R404" V 3343 3800 50  0000 C CNN
+F 1 "R" V 3434 3800 50  0000 C CNN
+F 2 "" V 3480 3800 50  0001 C CNN
+F 3 "" H 3550 3800 50  0001 C CNN
+	1    3550 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R403
+U 1 1 5A0B40C6
+P 3800 3550
+F 0 "R403" H 3730 3504 50  0000 R CNN
+F 1 "R" H 3730 3595 50  0000 R CNN
+F 2 "" V 3730 3550 50  0001 C CNN
+F 3 "" H 3800 3550 50  0001 C CNN
+	1    3800 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3800 3400 3800 3000
+Text Label 3800 3000 3    60   ~ 0
+RFID_VDD
+Wire Wire Line
+	3800 3700 3800 3800
+Connection ~ 3800 3800
+$Comp
+L GND #PWR0404
+U 1 1 5A0B428A
+P 3350 3800
+F 0 "#PWR0404" H 3350 3550 50  0001 C CNN
+F 1 "GND" V 3355 3672 50  0000 R CNN
+F 2 "" H 3350 3800 50  0001 C CNN
+F 3 "" H 3350 3800 50  0001 C CNN
+	1    3350 3800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3400 3800 3350 3800
+$Comp
+L R R406
+U 1 1 5A0B4313
+P 6000 4200
+F 0 "R406" H 5930 4154 50  0000 R CNN
+F 1 "R" H 5930 4245 50  0000 R CNN
+F 2 "" V 5930 4200 50  0001 C CNN
+F 3 "" H 6000 4200 50  0001 C CNN
+	1    6000 4200
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R405
+U 1 1 5A0B439E
+P 6250 3950
+F 0 "R405" V 6457 3950 50  0000 C CNN
+F 1 "R" V 6366 3950 50  0000 C CNN
+F 2 "" V 6180 3950 50  0001 C CNN
+F 3 "" H 6250 3950 50  0001 C CNN
+	1    6250 3950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3950 6100 3950
+Wire Wire Line
+	6000 4050 6000 3950
+Connection ~ 6000 3950
+$Comp
+L GND #PWR0405
+U 1 1 5A0B45F2
+P 6000 4350
+F 0 "#PWR0405" H 6000 4100 50  0001 C CNN
+F 1 "GND" H 6005 4177 50  0000 C CNN
+F 2 "" H 6000 4350 50  0001 C CNN
+F 3 "" H 6000 4350 50  0001 C CNN
+	1    6000 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3950 6900 3950
+Text Label 6900 3950 2    60   ~ 0
+RFID_VDD
 $EndSCHEMATC
