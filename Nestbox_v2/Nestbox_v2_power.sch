@@ -1153,4 +1153,8 @@ Wire Wire Line
 Connection ~ 9850 3200
 Text Label 9850 2550 3    60   ~ 0
 VSolar
+Text Notes -1050 2700 0    60   Italic 0
+is this for solar current measurement?\nmay be useful to use low-ohmic 4-terminal\n current sense resistor and a pre-amp
+Text Notes 3250 7550 0    60   Italic 0
+TODO: add LEDs for 5V and 3.3V outputs for power-on indicators\n\n
 $EndSCHEMATC

@@ -299,4 +299,14 @@ F 3 "" H 4200 3650 50  0001 C CNN
 	1    4200 3650
 	0    1    1    0   
 $EndComp
+Text Notes 5150 5050 0    60   Italic 0
+consider adding MOSFET for MODU pin\n
+Text Notes 6400 4250 0    60   Italic 0
+—> depends on the tags we use. therefore keep option open \n(i.e. add pull-up & -down resistor footprints)
+Text Notes 1650 3650 0    60   Italic 0
+—> baud rate \ndepends on the tags we use. therefore keep option open \n(i.e. add pull-up & -down resistor footprints)
+Text Notes 4000 1400 0    60   Italic 0
+TODO: add possibility to place up to 3 antenna coils in series
+Text Notes 6950 3700 0    60   Italic 0
+!! TODO: add pull-ups for clk and data\n
 $EndSCHEMATC

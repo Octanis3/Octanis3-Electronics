@@ -328,4 +328,10 @@ F 3 "" H 2800 2750 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	2950 2750 3200 2750
+Text Notes 6050 2200 0    60   Italic 0
+currently testing SFH4941 as alternative…
+Text Notes 6100 3100 0    60   Italic 0
+one emitting led probably enough\n
+Text Notes 3200 4100 0    60   Italic 0
+TODO: add PIR motion sensor (results to be confirmed by Jiacheng
 $EndSCHEMATC

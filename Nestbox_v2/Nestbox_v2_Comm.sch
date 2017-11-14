@@ -505,4 +505,6 @@ Text GLabel 3700 5500 2    60   Input ~ 0
 DATA_RX
 Text GLabel 3700 5600 2    60   Input ~ 0
 DATA_TX
+Text Notes 1900 6850 0    60   Italic 0
+TODO: break out all necessary pins for flashing the ESP on the PCB. \nInclude a debugger header compatible with standard FTDI boards:\nhttps://www.sparkfun.com/products/9873 for example\n\n
 $EndSCHEMATC
