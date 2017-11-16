@@ -509,7 +509,7 @@ Wire Wire Line
 Text Label 6700 4750 2    60   ~ 0
 SD_CLK
 Text GLabel 1300 4550 0    60   Input ~ 0
-RFID_MODU
+RFID_MODU_N
 Text GLabel 1300 4750 0    60   Input ~ 0
 RFID_DATA
 Text GLabel 1300 4650 0    60   Input ~ 0

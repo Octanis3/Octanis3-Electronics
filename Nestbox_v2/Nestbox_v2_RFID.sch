@@ -175,12 +175,8 @@ RFID_DATA
 Text GLabel 6400 3800 2    60   Input ~ 0
 RFID_CLOCK
 Connection ~ 4300 3650
-Wire Wire Line
-	4500 4800 6400 4800
 Connection ~ 4700 3950
-Text GLabel 6400 4800 2    60   Input ~ 0
-RFID_MODU
-Text Notes 5250 4800 0    60   ~ 0
+Text Notes 4500 4800 0    60   ~ 0
 Pull to GND for Operation\nPull to VDD for Standby\n
 Text Notes 4600 3950 2    60   ~ 0
 0.87 V
@@ -278,8 +274,6 @@ F 3 "" H 8700 2450 50  0001 C CNN
 	1    8700 2450
 	0    -1   -1   0   
 $EndComp
-Text Notes 3850 4650 2    60   ~ 0
-TODO: Check Modu voltage levels\nFor 3.3V VDD and 5V VDD
 $Comp
 L GND #PWR0403
 U 1 1 5A0312F4
@@ -291,8 +285,6 @@ F 3 "" H 4200 3650 50  0001 C CNN
 	1    4200 3650
 	0    1    1    0   
 $EndComp
-Text Notes 5150 5050 0    60   Italic 0
-consider adding MOSFET for MODU pin\n
 Text Notes 4000 1400 0    60   Italic 0
 TODO: add possibility to place up to 3 antenna coils in series
 Text Notes 6950 3700 0    60   Italic 0
@@ -381,4 +373,32 @@ Wire Wire Line
 	6400 3950 6900 3950
 Text Label 6900 3950 2    60   ~ 0
 RFID_VDD
+$Comp
+L Q_NMOS_DGS Q?
+U 1 1 5A0DB463
+P 4400 5000
+F 0 "Q?" H 4605 5046 50  0000 L CNN
+F 1 "Q_NMOS_DGS" H 4605 4955 50  0000 L CNN
+F 2 "" H 4600 5100 50  0001 C CNN
+F 3 "" H 4400 5000 50  0001 C CNN
+	1    4400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5A0DB4D4
+P 4500 5300
+F 0 "#PWR?" H 4500 5050 50  0001 C CNN
+F 1 "GND" H 4505 5127 50  0000 C CNN
+F 2 "" H 4500 5300 50  0001 C CNN
+F 3 "" H 4500 5300 50  0001 C CNN
+	1    4500 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 5200 4500 5300
+Text GLabel 4100 5000 0    60   Input ~ 0
+RFID_MODU_N
+Wire Wire Line
+	4100 5000 4200 5000
 $EndSCHEMATC
