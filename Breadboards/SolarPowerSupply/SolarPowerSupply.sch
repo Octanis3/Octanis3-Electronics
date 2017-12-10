@@ -139,6 +139,7 @@ F 1 "1.69M" H 2120 1755 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1980 1800 50  0001 C CNN
 F 3 "" H 2050 1800 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW06031M69FKEA" H 2050 1800 60  0001 C CNN "MPN"
 	1    2050 1800
 	1    0    0    -1  
 $EndComp
@@ -151,6 +152,7 @@ F 1 "9.09M" H 2120 2205 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 1980 2250 50  0001 C CNN
 F 3 "" H 2050 2250 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW06039M09FKEA" H 0   0   60  0001 C CNN "MPN"
 	1    2050 2250
 	1    0    0    -1  
 $EndComp
@@ -256,6 +258,7 @@ F 1 "0.576M" H 5320 2055 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5180 2100 50  0001 C CNN
 F 3 "" H 5250 2100 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW0603-576K-E3" H 0   0   60  0001 C CNN "MPN"
 	1    5250 2100
 	1    0    0    -1  
 $EndComp
@@ -268,6 +271,7 @@ F 1 "5.9M" H 5320 2455 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5180 2500 50  0001 C CNN
 F 3 "" H 5250 2500 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW06035M90FKEA" H 0   0   60  0001 C CNN "MPN"
 	1    5250 2500
 	1    0    0    -1  
 $EndComp
@@ -280,6 +284,7 @@ F 1 "3.65M" H 5320 2855 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5180 2900 50  0001 C CNN
 F 3 "" H 5250 2900 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW0603-3.65M-E3" H 0   0   60  0001 C CNN "MPN"
 	1    5250 2900
 	1    0    0    -1  
 $EndComp
@@ -325,6 +330,7 @@ F 1 "5.36M" H 4970 2455 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4830 2500 50  0001 C CNN
 F 3 "" H 4900 2500 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW06035M36FKEA" H 0   0   60  0001 C CNN "MPN"
 	1    4900 2500
 	1    0    0    -1  
 $EndComp
@@ -337,6 +343,7 @@ F 1 "4.42M" H 4970 2855 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4830 2900 50  0001 C CNN
 F 3 "" H 4900 2900 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW06034M42FKEA" H 0   0   60  0001 C CNN "MPN"
 	1    4900 2900
 	1    0    0    -1  
 $EndComp
@@ -359,6 +366,7 @@ F 1 "6.04M" H 4670 2455 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4530 2500 50  0001 C CNN
 F 3 "" H 4600 2500 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW06036M04FKEA" H 0   0   60  0001 C CNN "MPN"
 	1    4600 2500
 	1    0    0    -1  
 $EndComp
@@ -371,6 +379,7 @@ F 1 "4.12M" H 4670 2855 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4530 2900 50  0001 C CNN
 F 3 "" H 4600 2900 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW06034M12FKEA" H 0   0   60  0001 C CNN "MPN"
 	1    4600 2900
 	1    0    0    -1  
 $EndComp
@@ -771,6 +780,7 @@ F 1 "1.1M" V 4134 6400 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 4180 6400 50  0001 C CNN
 F 3 "" H 4250 6400 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW06031M10JNEA" H 0   0   60  0001 C CNN "MPN"
 	1    4250 6400
 	0    1    1    0   
 $EndComp
@@ -783,6 +793,7 @@ F 1 "205k" H 3730 6695 50  0000 R CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 3730 6650 50  0001 C CNN
 F 3 "" H 3800 6650 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW0603-205K-E3" H 0   0   60  0001 C CNN "MPN"
 	1    3800 6650
 	-1   0    0    1   
 $EndComp
@@ -1026,6 +1037,7 @@ F 1 "4.53M" H 6120 3055 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5980 3100 50  0001 C CNN
 F 3 "" H 6050 3100 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW06034M53FKEA" H 0   0   60  0001 C CNN "MPN"
 	1    6050 3100
 	1    0    0    -1  
 $EndComp
@@ -1038,6 +1050,7 @@ F 1 "5.36M" H 6120 3455 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 5980 3500 50  0001 C CNN
 F 3 "" H 6050 3500 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW06035M36FKEA" H 0   0   60  0001 C CNN "MPN"
 	1    6050 3500
 	1    0    0    -1  
 $EndComp
@@ -1074,6 +1087,7 @@ F 1 "4.53M" H 7320 3055 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7180 3100 50  0001 C CNN
 F 3 "" H 7250 3100 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW06034M53FKEA" H 0   0   60  0001 C CNN "MPN"
 	1    7250 3100
 	1    0    0    -1  
 $EndComp
@@ -1086,6 +1100,7 @@ F 1 "5.36M" H 7320 3455 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 7180 3500 50  0001 C CNN
 F 3 "" H 7250 3500 50  0001 C CNN
 F 4 "1%" H 0   0   60  0001 C CNN "Tolerance"
+F 5 "71-CRCW06035M36FKEA" H 0   0   60  0001 C CNN "MPN"
 	1    7250 3500
 	1    0    0    -1  
 $EndComp
