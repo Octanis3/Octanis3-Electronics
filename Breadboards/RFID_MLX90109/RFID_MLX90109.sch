@@ -4,6 +4,7 @@ LIBS:power
 LIBS:device
 LIBS:transistors
 LIBS:conn
+LIBS:linear
 LIBS:regul
 LIBS:74xx
 LIBS:cmos4000
@@ -284,7 +285,7 @@ L R R102
 U 1 1 5A0F0B50
 P 6650 3450
 F 0 "R102" H 6720 3496 50  0000 L CNN
-F 1 "R" H 6720 3405 50  0000 L CNN
+F 1 "100k" H 6720 3405 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6580 3450 50  0001 C CNN
 F 3 "" H 6650 3450 50  0001 C CNN
 	1    6650 3450
@@ -295,7 +296,7 @@ L R R103
 U 1 1 5A0F0BA4
 P 6950 3450
 F 0 "R103" H 7020 3496 50  0000 L CNN
-F 1 "R" H 7020 3405 50  0000 L CNN
+F 1 "100k" H 7020 3405 50  0000 L CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 6880 3450 50  0001 C CNN
 F 3 "" H 6950 3450 50  0001 C CNN
 	1    6950 3450
@@ -680,4 +681,6 @@ Text Label 4050 2050 0    60   ~ 0
 RFID_ANT
 Text Label 2300 2000 2    60   ~ 0
 RFID_ANT
+Text Notes 6300 3050 0    60   ~ 0
+recommended: 100k values for power savings,\nMSP430 internal pull-ups are 35k (20-50k)
 $EndSCHEMATC
