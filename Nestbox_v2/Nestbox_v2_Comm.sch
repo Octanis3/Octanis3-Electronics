@@ -507,4 +507,6 @@ Text GLabel 3700 5600 2    60   Input ~ 0
 DATA_TX
 Text Notes 1900 6850 0    60   Italic 0
 TODO: break out all necessary pins for flashing the ESP on the PCB. \nInclude a debugger header compatible with standard FTDI boards:\nhttps://www.sparkfun.com/products/9873 for example\n\n
+Text Notes 1900 4850 0    60   ~ 0
+UART0 will output some printed information when the device is \npowered on and is booting up. If this issue exerts influence on some \nspecific applications, users can exchange the inner pins of UART when \ninitializing, that is to say, exchange U0TXD, U0RXD with U0RTS, \nU0CTS (IO15 & IO13)\n. 
 $EndSCHEMATC

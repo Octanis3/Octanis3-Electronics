@@ -536,15 +536,13 @@ Text Label 6300 4050 0    60   ~ 0
 SD_CS_B
 Text GLabel 1300 4550 0    60   Input ~ 0
 LB2_DETECT
-Text GLabel 1150 3850 0    60   Input ~ 0
+Text GLabel 950  3850 0    60   Input ~ 0
 LB1_LED
 Text GLabel 1300 4450 0    60   Input ~ 0
 LB1_DETECT
 Wire Wire Line
-	1150 3850 1550 3850
-Wire Wire Line
 	1300 3950 1550 3950
-Text GLabel 1150 3750 0    60   Input ~ 0
+Text GLabel 950  3750 0    60   Input ~ 0
 LB2_LED
 Text GLabel 6700 4650 2    60   Input ~ 0
 LORA_RST_N
@@ -654,9 +652,9 @@ Connection ~ 8100 1600
 Wire Wire Line
 	8900 1850 8350 1850
 Wire Wire Line
-	8350 1900 8350 1850
+	8350 1850 8350 1900
 Wire Wire Line
-	7600 1900 8350 1900
+	8350 1900 7600 1900
 Connection ~ 8100 1900
 Connection ~ 7700 1900
 $Comp
@@ -811,7 +809,7 @@ Wire Wire Line
 Text GLabel 6500 4550 2    60   Input ~ 0
 RFID_FREQ_SEL
 Wire Wire Line
-	1150 3750 1550 3750
+	1250 3750 1550 3750
 Text Label 1350 2950 1    60   ~ 0
 RTC_CAL
 $Comp
@@ -840,4 +838,68 @@ Text GLabel 1300 4650 0    60   Input ~ 0
 LOAD_CELL_IN+
 Text GLabel 1300 4750 0    60   Input ~ 0
 LOAD_CELL_IN-
+$Comp
+L DIP-RES-47K-5%-1_4W_PR-D2.3XL6.5MM_ R?
+U 1 1 5A772C1E
+P 1100 3750
+F 0 "R?" H 950 3800 45  0000 L BNN
+F 1 "0R" H 1100 3800 45  0000 L BNN
+F 2 "SeeedOPL-Resistor-2016:R0603" H 1100 3750 40  0001 C CNN
+F 3 "" H 1100 3750 40  0001 C CNN
+F 4 "FHCFR-1_4W-473J" H 1130 3900 20  0001 C CNN "MPN"
+	1    1100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIP-RES-47K-5%-1_4W_PR-D2.3XL6.5MM_ R?
+U 1 1 5A773434
+P 1100 3850
+F 0 "R?" H 950 3900 45  0000 L BNN
+F 1 "0R" H 1100 3900 45  0000 L BNN
+F 2 "SeeedOPL-Resistor-2016:R0603" H 1100 3850 40  0001 C CNN
+F 3 "" H 1100 3850 40  0001 C CNN
+F 4 "FHCFR-1_4W-473J" H 1130 4000 20  0001 C CNN "MPN"
+	1    1100 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1550 3850 1250 3850
+$Comp
+L DIP-RES-47K-5%-1_4W_PR-D2.3XL6.5MM_ R?
+U 1 1 5A773875
+P 6550 4350
+F 0 "R?" H 6400 4400 45  0000 L BNN
+F 1 "DNP" H 6550 4400 45  0000 L BNN
+F 2 "SeeedOPL-Resistor-2016:R0603" H 6550 4350 40  0001 C CNN
+F 3 "" H 6550 4350 40  0001 C CNN
+F 4 "FHCFR-1_4W-473J" H 6580 4500 20  0001 C CNN "MPN"
+	1    6550 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIP-RES-47K-5%-1_4W_PR-D2.3XL6.5MM_ R?
+U 1 1 5A773D27
+P 6550 4450
+F 0 "R?" H 6400 4500 45  0000 L BNN
+F 1 "DNP" H 6550 4500 45  0000 L BNN
+F 2 "SeeedOPL-Resistor-2016:R0603" H 6550 4450 40  0001 C CNN
+F 3 "" H 6550 4450 40  0001 C CNN
+F 4 "FHCFR-1_4W-473J" H 6580 4600 20  0001 C CNN "MPN"
+	1    6550 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4350 6150 4350
+Wire Wire Line
+	6150 4450 6400 4450
+Text GLabel 6850 4350 2    60   Input ~ 0
+LB2_LED
+Wire Wire Line
+	6850 4350 6700 4350
+Text GLabel 6850 4450 2    60   Input ~ 0
+LB1_LED
+Wire Wire Line
+	6850 4450 6700 4450
+Text Notes 7300 4450 0    60   ~ 0
+Alternative LED driver, in case the PWM \ndisturbes the analog inputs too much.\n
 $EndSCHEMATC
