@@ -658,9 +658,9 @@ Connection ~ 8100 1600
 Wire Wire Line
 	8900 1850 8350 1850
 Wire Wire Line
-	8350 1900 8350 1850
+	8350 1850 8350 1900
 Wire Wire Line
-	7600 1900 8350 1900
+	8350 1900 7600 1900
 Connection ~ 8100 1900
 Connection ~ 7700 1900
 $Comp
@@ -810,4 +810,8 @@ Wire Wire Line
 	3900 6450 3900 7400
 Text GLabel 6700 4050 2    60   Input ~ 0
 LORA_RST_N
+Wire Wire Line
+	6150 4650 6700 4650
+Text Label 6300 4650 0    60   ~ 0
+LOADCELL_DATA_READY
 $EndSCHEMATC
