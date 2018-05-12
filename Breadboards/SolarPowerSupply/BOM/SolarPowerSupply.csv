@@ -1,0 +1,34 @@
+Reference, Quantity, Value, Footprint, Datasheet, MPN, Tolerance
+BT101 ,1,Battery,Octanis3:TE_282834-2,,571-282834-2,
+C101 ,1,4.7u,Octanis3:C_SMD_2012_Hand,,81-GRM21R61A475KE34D,10%
+C102 ,1,100n,Capacitors_SMD:C_0603_HandSoldering,
+C103 ,1,10n,Capacitors_SMD:C_0603_HandSoldering,,,10%
+C104 C105 C106 C107 C108 C109 ,6,10u,Octanis3:C_SMD_2012_Hand,,81-GRM21BR61C106KE5K,
+C110 ,1,10p,Capacitors_SMD:C_0603_HandSoldering,
+D101 D102 ,2,LED,LEDs:LED_0603_HandSoldering,
+JP101 JP102 JP103 JP104 JP105 ,5,Jumper,Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm,
+L101 ,1,22u,Inductors_SMD:L_Wuerth_WE-TPC-3816,,710-744031220,20%
+L102 L103 ,2,1.5u,Octanis3:L_2520_HandSoldering,,81-1269AS-H-1R5MP2,
+P101 ,1,CONN_01X04,Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm,
+P102 ,1,CONN_01X07,Pin_Headers:Pin_Header_Straight_1x07_Pitch2.54mm,
+R101 ,1,1.69M,Resistors_SMD:R_0603_HandSoldering,,71-CRCW06031M69FKEA,1%
+R102 ,1,0.576M,Resistors_SMD:R_0603_HandSoldering,,71-CRCW0603-576K-E3,1%
+R103 ,1,9.09M,Resistors_SMD:R_0603_HandSoldering,,71-CRCW06039M09FKEA,1%
+R104 ,1,6.04M,Resistors_SMD:R_0603_HandSoldering,,71-CRCW06036M04FKEA,1%
+R105 R114 R115 ,3,5.36M,Resistors_SMD:R_0603_HandSoldering,,71-CRCW06035M36FKEA,1%
+R106 ,1,5.9M,Resistors_SMD:R_0603_HandSoldering,,71-CRCW06035M90FKEA,1%
+R107 ,1,0E,Resistors_SMD:R_1206_HandSoldering,
+R108 ,1,4.12M,Resistors_SMD:R_0603_HandSoldering,,71-CRCW06034M12FKEA,1%
+R109 ,1,4.42M,Resistors_SMD:R_0603_HandSoldering,,71-CRCW06034M42FKEA,1%
+R110 ,1,3.65M,Resistors_SMD:R_0603_HandSoldering,,71-CRCW0603-3.65M-E3,1%
+R111 R112 ,2,4.53M,Resistors_SMD:R_0603_HandSoldering,,71-CRCW06034M53FKEA,1%
+R113 ,1,0E,Resistors_SMD:R_0603_HandSoldering,
+R116 ,1,DNP,Resistors_SMD:R_0603_HandSoldering,
+R117 R118 ,2,R,Resistors_SMD:R_0603_HandSoldering,
+R119 R120 ,2,1M,Resistors_SMD:R_0603_HandSoldering,,71-CRCW06031M10JNEA,
+R121 ,1,1.1M,Resistors_SMD:R_0603_HandSoldering,,71-CRCW06031M10JNEA,1%
+R122 ,1,205k,Resistors_SMD:R_0603_HandSoldering,,71-CRCW0603-205K-E3,1%
+SC101 ,1,Solar_Cells,Octanis3:TE_282834-2,,571-282834-2,
+U101 ,1,bq25504,Housings_DFN_QFN:QFN-16-1EP_3x3mm_Pitch0.5mm,,595-BQ25504RGTT,
+U102 ,1,TPS63051,Octanis3:VQFN_12_2.5x2.5mm,,595-TPS63051RMWT,
+U103 ,1,TPS63050,Octanis3:VQFN_12_2.5x2.5mm,,595-TPS63050RMWR,

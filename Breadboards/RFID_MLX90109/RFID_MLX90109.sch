@@ -1,0 +1,686 @@
+EESchema Schematic File Version 2
+LIBS:Octanis3
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:RFID_MLX90109-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MLX90109 U101
+U 1 1 5A0F095A
+P 5250 3350
+F 0 "U101" H 5500 2600 60  0000 C CNN
+F 1 "MLX90109" H 5250 3350 60  0000 C CNN
+F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 5250 3350 60  0001 C CNN
+F 3 "" H 5250 3350 60  0001 C CNN
+	1    5250 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R108
+U 1 1 5A0F095B
+P 4500 4550
+F 0 "R108" V 4580 4550 50  0000 C CNN
+F 1 "36k" V 4500 4550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4430 4550 50  0001 C CNN
+F 3 "" H 4500 4550 50  0001 C CNN
+	1    4500 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R105
+U 1 1 5A0F095C
+P 4100 3950
+F 0 "R105" V 4180 3950 50  0000 C CNN
+F 1 "100k" V 4100 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 4030 3950 50  0001 C CNN
+F 3 "" H 4100 3950 50  0001 C CNN
+	1    4100 3950
+	0    1    1    0   
+$EndComp
+Text Label 3250 3950 0    60   ~ 0
+RFID_VDD
+$Comp
+L C C104
+U 1 1 5A0F095D
+P 5250 3050
+F 0 "C104" H 5275 3150 50  0000 L CNN
+F 1 "C" H 5275 2950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5288 2900 50  0001 C CNN
+F 3 "" H 5250 3050 50  0001 C CNN
+	1    5250 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Antenna_Loop AE101
+U 1 1 5A0F095E
+P 5200 900
+F 0 "AE101" H 5250 1150 50  0000 C CNN
+F 1 "Antenna_Loop" H 5250 1100 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P25.40mm_Horizontal" H 5200 900 50  0001 C CNN
+F 3 "" H 5200 900 50  0001 C CNN
+	1    5200 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C105
+U 1 1 5A0F095F
+P 4100 4200
+F 0 "C105" H 4125 4300 50  0000 L CNN
+F 1 "C" H 4125 4100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4138 4050 50  0001 C CNN
+F 3 "" H 4100 4200 50  0001 C CNN
+	1    4100 4200
+	0    1    1    0   
+$EndComp
+Text Notes 4500 4800 0    60   ~ 0
+Pull to GND for Operation\nPull to VDD for Standby\n
+Text Notes 4600 3950 2    60   ~ 0
+0.87 V
+$Comp
+L C C103
+U 1 1 5A0F0960
+P 5250 2800
+F 0 "C103" H 5275 2900 50  0000 L CNN
+F 1 "C" H 5275 2700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5288 2650 50  0001 C CNN
+F 3 "" H 5250 2800 50  0001 C CNN
+	1    5250 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L C C102
+U 1 1 5A0F0961
+P 5250 2550
+F 0 "C102" H 5275 2650 50  0000 L CNN
+F 1 "C" H 5275 2450 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5288 2400 50  0001 C CNN
+F 3 "" H 5250 2550 50  0001 C CNN
+	1    5250 2550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C101
+U 1 1 5A0F0962
+P 5250 2300
+F 0 "C101" H 5275 2400 50  0000 L CNN
+F 1 "C" H 5275 2200 50  0000 L CNN
+F 2 "Capacitors_THT:C_Rect_L7.0mm_W3.5mm_P5.00mm" H 5288 2150 50  0001 C CNN
+F 3 "" H 5250 2300 50  0001 C CNN
+	1    5250 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L +3.3V #PWR01
+U 1 1 5A0F0963
+P 9200 2450
+F 0 "#PWR01" H 9200 2300 50  0001 C CNN
+F 1 "+3.3V" V 9215 2578 50  0000 L CNN
+F 2 "" H 9200 2450 50  0000 C CNN
+F 3 "" H 9200 2450 50  0000 C CNN
+	1    9200 2450
+	0    1    1    0   
+$EndComp
+Text Label 6500 3200 2    60   ~ 0
+RFID_VDD
+$Comp
+L Jumper_SELECT_Dual JP101
+U 1 1 5A0F0964
+P 8950 2450
+F 0 "JP101" H 8950 2689 50  0000 C CNN
+F 1 "Jumper_SELECT_Dual" H 8950 2598 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8950 2450 50  0001 C CNN
+F 3 "" H 8950 2450 50  0001 C CNN
+	1    8950 2450
+	1    0    0    -1  
+$EndComp
+Text Label 8950 3050 1    60   ~ 0
+RFID_VDD
+$Comp
+L +5V #PWR02
+U 1 1 5A0F0965
+P 8700 2450
+F 0 "#PWR02" H 8700 2300 50  0001 C CNN
+F 1 "+5V" V 8715 2578 50  0000 L CNN
+F 2 "" H 8700 2450 50  0001 C CNN
+F 3 "" H 8700 2450 50  0001 C CNN
+	1    8700 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR03
+U 1 1 5A0F0966
+P 4200 3650
+F 0 "#PWR03" H 4200 3400 50  0001 C CNN
+F 1 "GND" V 4205 3522 50  0000 R CNN
+F 2 "" H 4200 3650 50  0001 C CNN
+F 3 "" H 4200 3650 50  0001 C CNN
+	1    4200 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R104
+U 1 1 5A0F0967
+P 3550 3800
+F 0 "R104" V 3343 3800 50  0000 C CNN
+F 1 "R" V 3434 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3480 3800 50  0001 C CNN
+F 3 "" H 3550 3800 50  0001 C CNN
+	1    3550 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R101
+U 1 1 5A0F0968
+P 3800 3250
+F 0 "R101" H 3730 3204 50  0000 R CNN
+F 1 "R" H 3730 3295 50  0000 R CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3730 3250 50  0001 C CNN
+F 3 "" H 3800 3250 50  0001 C CNN
+	1    3800 3250
+	-1   0    0    1   
+$EndComp
+Text Label 3800 2700 3    60   ~ 0
+RFID_VDD
+$Comp
+L GND #PWR04
+U 1 1 5A0F0969
+P 3350 3800
+F 0 "#PWR04" H 3350 3550 50  0001 C CNN
+F 1 "GND" V 3355 3672 50  0000 R CNN
+F 2 "" H 3350 3800 50  0001 C CNN
+F 3 "" H 3350 3800 50  0001 C CNN
+	1    3350 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R107
+U 1 1 5A0F096A
+P 6000 4400
+F 0 "R107" H 5930 4354 50  0000 R CNN
+F 1 "R" H 5930 4445 50  0000 R CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5930 4400 50  0001 C CNN
+F 3 "" H 6000 4400 50  0001 C CNN
+	1    6000 4400
+	-1   0    0    1   
+$EndComp
+$Comp
+L R R106
+U 1 1 5A0F096B
+P 6250 3950
+F 0 "R106" V 6457 3950 50  0000 C CNN
+F 1 "R" V 6366 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6180 3950 50  0001 C CNN
+F 3 "" H 6250 3950 50  0001 C CNN
+	1    6250 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5A0F096C
+P 6000 4550
+F 0 "#PWR05" H 6000 4300 50  0001 C CNN
+F 1 "GND" H 6005 4377 50  0000 C CNN
+F 2 "" H 6000 4550 50  0001 C CNN
+F 3 "" H 6000 4550 50  0001 C CNN
+	1    6000 4550
+	1    0    0    -1  
+$EndComp
+Text Label 6900 3950 2    60   ~ 0
+RFID_VDD
+$Comp
+L GND #PWR06
+U 1 1 5A0F096E
+P 4500 5300
+F 0 "#PWR06" H 4500 5050 50  0001 C CNN
+F 1 "GND" H 4505 5127 50  0000 C CNN
+F 2 "" H 4500 5300 50  0001 C CNN
+F 3 "" H 4500 5300 50  0001 C CNN
+	1    4500 5300
+	1    0    0    -1  
+$EndComp
+Text GLabel 4100 5000 0    60   Input ~ 0
+RFID_MODU_N
+$Comp
+L R R102
+U 1 1 5A0F0B50
+P 6650 3450
+F 0 "R102" H 6720 3496 50  0000 L CNN
+F 1 "100k" H 6720 3405 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6580 3450 50  0001 C CNN
+F 3 "" H 6650 3450 50  0001 C CNN
+	1    6650 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R103
+U 1 1 5A0F0BA4
+P 6950 3450
+F 0 "R103" H 7020 3496 50  0000 L CNN
+F 1 "100k" H 7020 3405 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 6880 3450 50  0001 C CNN
+F 3 "" H 6950 3450 50  0001 C CNN
+	1    6950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Antenna_Dipole AE102
+U 1 1 5A0F13FF
+P 4400 1350
+F 0 "AE102" H 4630 1266 50  0000 L CNN
+F 1 "Antenna_Dipole" H 4630 1175 50  0000 L CNN
+F 2 "Octanis3:TDK_B82450A" H 4400 1350 50  0001 C CNN
+F 3 "" H 4400 1350 50  0001 C CNN
+	1    4400 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Antenna_Dipole AE103
+U 1 1 5A0F14EF
+P 5200 1350
+F 0 "AE103" H 5430 1266 50  0000 L CNN
+F 1 "Antenna_Dipole" H 5430 1175 50  0000 L CNN
+F 2 "Octanis3:TDK_B82450A" H 5200 1350 50  0001 C CNN
+F 3 "" H 5200 1350 50  0001 C CNN
+	1    5200 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Antenna_Dipole AE104
+U 1 1 5A0F1533
+P 6000 1350
+F 0 "AE104" H 6230 1266 50  0000 L CNN
+F 1 "Antenna_Dipole" H 6230 1175 50  0000 L CNN
+F 2 "Octanis3:TDK_B82450A" H 6000 1350 50  0001 C CNN
+F 3 "" H 6000 1350 50  0001 C CNN
+	1    6000 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Antenna_Dipole AE105
+U 1 1 5A0F162D
+P 4400 1650
+F 0 "AE105" H 4630 1566 50  0000 L CNN
+F 1 "Antenna_Dipole" H 4630 1475 50  0000 L CNN
+F 2 "Octanis3:TDK_B82450A" H 4400 1650 50  0001 C CNN
+F 3 "" H 4400 1650 50  0001 C CNN
+	1    4400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Antenna_Dipole AE106
+U 1 1 5A0F1633
+P 5200 1650
+F 0 "AE106" H 5430 1566 50  0000 L CNN
+F 1 "Antenna_Dipole" H 5430 1475 50  0000 L CNN
+F 2 "Octanis3:TDK_B82450A" H 5200 1650 50  0001 C CNN
+F 3 "" H 5200 1650 50  0001 C CNN
+	1    5200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Antenna_Dipole AE107
+U 1 1 5A0F1639
+P 6000 1650
+F 0 "AE107" H 6230 1566 50  0000 L CNN
+F 1 "Antenna_Dipole" H 6230 1475 50  0000 L CNN
+F 2 "Octanis3:TDK_B82450A" H 6000 1650 50  0001 C CNN
+F 3 "" H 6000 1650 50  0001 C CNN
+	1    6000 1650
+	1    0    0    -1  
+$EndComp
+Text Label 3250 3500 0    60   ~ 0
+RFID_SPEED
+Text Label 7100 3650 0    60   ~ 0
+RFID_DATA
+Text Label 7100 3800 0    60   ~ 0
+RFID_CLOCK
+Text Label 6450 4150 0    60   ~ 0
+RFID_MODE
+Text Label 9700 3800 0    60   ~ 0
+RFID_CLOCK
+Text Label 9700 3900 0    60   ~ 0
+RFID_DATA
+Text Label 9700 4000 0    60   ~ 0
+RFID_MODU_N
+$Comp
+L +5V #PWR07
+U 1 1 5A12CC37
+P 9700 3500
+F 0 "#PWR07" H 9700 3350 50  0001 C CNN
+F 1 "+5V" V 9715 3628 50  0000 L CNN
+F 2 "" H 9700 3500 50  0001 C CNN
+F 3 "" H 9700 3500 50  0001 C CNN
+	1    9700 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +3.3V #PWR08
+U 1 1 5A12CC72
+P 9700 3600
+F 0 "#PWR08" H 9700 3450 50  0001 C CNN
+F 1 "+3.3V" V 9715 3728 50  0000 L CNN
+F 2 "" H 9700 3600 50  0000 C CNN
+F 3 "" H 9700 3600 50  0000 C CNN
+	1    9700 3600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR09
+U 1 1 5A12CCDD
+P 9700 3700
+F 0 "#PWR09" H 9700 3450 50  0001 C CNN
+F 1 "GND" H 9705 3527 50  0000 C CNN
+F 2 "" H 9700 3700 50  0001 C CNN
+F 3 "" H 9700 3700 50  0001 C CNN
+	1    9700 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X08 P101
+U 1 1 5A12CF83
+P 10550 3850
+F 0 "P101" H 10628 3891 50  0000 L CNN
+F 1 "CONN_01X08" H 10628 3800 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x08_Pitch2.54mm" H 10550 3850 50  0001 C CNN
+F 3 "" H 10550 3850 50  0000 C CNN
+	1    10550 3850
+	1    0    0    -1  
+$EndComp
+Text Label 9700 4100 0    60   ~ 0
+RFID_SPEED
+Text Label 9700 4200 0    60   ~ 0
+RFID_MODE
+$Comp
+L Q_NMOS_GSD Q101
+U 1 1 5A12C975
+P 4400 5000
+F 0 "Q101" H 4605 5046 50  0000 L CNN
+F 1 "Q_NMOS_GSD" H 4605 4955 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 4600 5100 50  0001 C CNN
+F 3 "" H 4400 5000 50  0000 C CNN
+F 4 "726-BSS127H6327" H 4400 5000 60  0001 C CNN "Mouser-Part"
+	1    4400 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Antenna_Loop AE108
+U 1 1 5A1309D1
+P 1450 1900
+F 0 "AE108" H 1500 2150 50  0000 C CNN
+F 1 "Antenna_Loop" H 1500 2100 50  0000 C CNN
+F 2 "Octanis3:125kHz_PCB_Antenna" H 1450 1900 50  0001 C CNN
+F 3 "" H 1450 1900 50  0001 C CNN
+	1    1450 1900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Antenna_Loop AE109
+U 1 1 5A130BD8
+P 1450 1300
+F 0 "AE109" H 1500 1550 50  0000 C CNN
+F 1 "Antenna_Loop" H 1500 1500 50  0000 C CNN
+F 2 "Octanis3:125kHz_PCB_Antenna" H 1450 1300 50  0001 C CNN
+F 3 "" H 1450 1300 50  0001 C CNN
+	1    1450 1300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Jumper_NO_Small JP102
+U 1 1 5A130D13
+P 1850 1200
+F 0 "JP102" H 1850 1385 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1850 1294 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1850 1200 50  0001 C CNN
+F 3 "" H 1850 1200 50  0000 C CNN
+	1    1850 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper_NO_Small JP103
+U 1 1 5A131038
+P 1850 2000
+F 0 "JP103" H 1850 2185 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 1850 2094 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1850 2000 50  0001 C CNN
+F 3 "" H 1850 2000 50  0000 C CNN
+	1    1850 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 3200 6950 3200
+Wire Wire Line
+	5800 3650 7550 3650
+Wire Wire Line
+	5800 3800 7550 3800
+Wire Wire Line
+	4200 3650 4800 3650
+Wire Wire Line
+	4250 3950 4800 3950
+Connection ~ 4500 3950
+Wire Wire Line
+	3250 3950 3950 3950
+Wire Wire Line
+	3700 3800 4800 3800
+Wire Wire Line
+	4600 3500 4800 3500
+Wire Wire Line
+	4600 3050 5100 3050
+Wire Wire Line
+	5850 3050 5400 3050
+Wire Wire Line
+	5850 2050 5850 3500
+Connection ~ 5850 3200
+Connection ~ 4600 3050
+Connection ~ 5850 3050
+Wire Wire Line
+	4500 3950 4500 4400
+Wire Wire Line
+	3950 4200 3800 4200
+Wire Wire Line
+	3800 4200 3800 3950
+Connection ~ 3800 3950
+Wire Wire Line
+	4500 4200 4250 4200
+Connection ~ 4500 4200
+Connection ~ 4300 3650
+Connection ~ 4700 3950
+Wire Wire Line
+	4500 4700 4500 4800
+Wire Wire Line
+	4600 2800 5100 2800
+Connection ~ 4600 2800
+Connection ~ 4600 2550
+Wire Wire Line
+	4600 2050 4600 3500
+Wire Wire Line
+	4600 2550 5100 2550
+Wire Wire Line
+	5400 2550 5850 2550
+Connection ~ 5850 2550
+Wire Wire Line
+	5400 2800 5850 2800
+Connection ~ 5850 2800
+Wire Wire Line
+	4600 2300 5100 2300
+Connection ~ 4600 2300
+Wire Wire Line
+	5400 2300 5850 2300
+Connection ~ 5850 2300
+Wire Wire Line
+	8950 2550 8950 3050
+Wire Wire Line
+	3800 3100 3800 2700
+Wire Wire Line
+	3800 3400 3800 3800
+Connection ~ 3800 3800
+Wire Wire Line
+	3400 3800 3350 3800
+Wire Wire Line
+	5800 3950 6100 3950
+Wire Wire Line
+	6000 3950 6000 4250
+Connection ~ 6000 3950
+Wire Wire Line
+	6400 3950 6900 3950
+Wire Wire Line
+	4500 5200 4500 5300
+Wire Wire Line
+	4100 5000 4200 5000
+Wire Wire Line
+	5850 3500 5800 3500
+Wire Wire Line
+	6650 3600 6650 3800
+Connection ~ 6650 3800
+Wire Wire Line
+	6650 3200 6650 3300
+Connection ~ 6650 3200
+Wire Wire Line
+	6950 3600 6950 3650
+Connection ~ 6950 3650
+Wire Wire Line
+	6950 3200 6950 3300
+Wire Wire Line
+	5300 1550 5300 1600
+Wire Wire Line
+	5300 1600 6000 1600
+Wire Wire Line
+	6000 1600 6000 1550
+Wire Wire Line
+	4500 1850 4500 1900
+Wire Wire Line
+	4500 1900 5200 1900
+Wire Wire Line
+	5200 1900 5200 1850
+Wire Wire Line
+	5300 1850 5300 1900
+Wire Wire Line
+	5300 1900 6000 1900
+Wire Wire Line
+	6000 1900 6000 1850
+Wire Wire Line
+	4500 1550 4500 1600
+Wire Wire Line
+	4500 1600 5200 1600
+Wire Wire Line
+	5200 1600 5200 1550
+Wire Wire Line
+	3900 1200 3900 2050
+Wire Wire Line
+	3900 2050 4600 2050
+Wire Wire Line
+	5200 1100 5200 1200
+Wire Wire Line
+	5200 1200 3900 1200
+Wire Wire Line
+	5300 1100 5300 1200
+Wire Wire Line
+	5300 1200 6850 1200
+Wire Wire Line
+	6850 1200 6850 2050
+Wire Wire Line
+	6850 2050 5850 2050
+Wire Wire Line
+	6100 1550 6100 1600
+Wire Wire Line
+	6100 1600 6850 1600
+Connection ~ 6850 1600
+Wire Wire Line
+	6100 1850 6100 1900
+Wire Wire Line
+	6100 1900 6850 1900
+Connection ~ 6850 1900
+Wire Wire Line
+	4400 1550 4400 1600
+Wire Wire Line
+	4400 1600 3900 1600
+Connection ~ 3900 1600
+Wire Wire Line
+	4400 1850 4400 1900
+Wire Wire Line
+	4400 1900 3900 1900
+Connection ~ 3900 1900
+Wire Wire Line
+	3800 3500 3250 3500
+Connection ~ 3800 3500
+Wire Wire Line
+	6000 4150 6900 4150
+Connection ~ 6000 4150
+Wire Wire Line
+	10350 3500 9700 3500
+Wire Wire Line
+	10350 3600 9700 3600
+Wire Wire Line
+	10350 3700 9700 3700
+Wire Wire Line
+	10350 3800 9700 3800
+Wire Wire Line
+	10350 3900 9700 3900
+Wire Wire Line
+	10350 4000 9700 4000
+Wire Wire Line
+	10350 4100 9700 4100
+Wire Wire Line
+	10350 4200 9700 4200
+Wire Wire Line
+	1650 1900 1650 2000
+Wire Wire Line
+	1650 2000 1750 2000
+Wire Wire Line
+	1650 1800 1650 1400
+Wire Wire Line
+	1650 1300 1650 1200
+Wire Wire Line
+	1650 1200 1750 1200
+Wire Wire Line
+	1950 1200 2300 1200
+Wire Wire Line
+	1950 2000 2300 2000
+Text Label 2300 1200 2    60   ~ 0
+RFID_VDD
+Text Label 4050 2050 0    60   ~ 0
+RFID_ANT
+Text Label 2300 2000 2    60   ~ 0
+RFID_ANT
+Text Notes 6300 3050 0    60   ~ 0
+recommended: 100k values for power savings,\nMSP430 internal pull-ups are 35k (20-50k)
+$EndSCHEMATC

@@ -1,0 +1,24 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-06-12 revision 19d5cc754)-master*
+G04 #@! TF.CreationDate,2017-12-21T18:22:36+01:00*
+G04 #@! TF.ProjectId,LF_antenna_denser,4C465F616E74656E6E615F64656E7365,rev?*
+G04 #@! TF.FileFunction,Soldermask,Top*
+G04 #@! TF.FilePolarity,Negative*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-06-12 revision 19d5cc754)-master) date 2017 December 21, Thursday 18:22:36*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,0.050000*%
+%ADD11C,3.900000*%
+%ADD12C,2.701240*%
+G04 APERTURE END LIST*
+D10*
+D11*
+X168000000Y-105000000D03*
+X128000000Y-105000000D03*
+D12*
+X135500000Y-97500000D03*
+X160498680Y-97500000D03*
+M02*
