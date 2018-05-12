@@ -52,7 +52,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 7
 Title ""
 Date ""
 Rev ""
@@ -91,5 +91,11 @@ S 8600 1750 1300 3150
 U 59F63D06
 F0 "Communication" 60
 F1 "Nestbox_v2_Comm.sch" 60
+$EndSheet
+$Sheet
+S 10050 1750 1000 3150
+U 5AF72069
+F0 "Load_Cell" 60
+F1 "Load_Cell.sch" 60
 $EndSheet
 $EndSCHEMATC
