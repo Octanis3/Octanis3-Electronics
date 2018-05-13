@@ -231,7 +231,7 @@ L C C?
 U 1 1 5AF75164
 P 4250 4400
 F 0 "C?" H 4365 4446 50  0000 L CNN
-F 1 "10n 1%" H 4365 4355 50  0000 L CNN
+F 1 "100n 1%" H 4365 4355 50  0000 L CNN
 F 2 "" H 4288 4250 50  0001 C CNN
 F 3 "" H 4250 4400 50  0001 C CNN
 	1    4250 4400
@@ -242,7 +242,7 @@ L C C?
 U 1 1 5AF751C5
 P 4250 3600
 F 0 "C?" H 4365 3646 50  0000 L CNN
-F 1 "10n 1%" H 4365 3555 50  0000 L CNN
+F 1 "109n 1%" H 4365 3555 50  0000 L CNN
 F 2 "" H 4288 3450 50  0001 C CNN
 F 3 "" H 4250 3600 50  0001 C CNN
 	1    4250 3600
@@ -253,7 +253,7 @@ L R R?
 U 1 1 5AF7525C
 P 3950 3800
 F 0 "R?" V 3900 4000 50  0000 C CNN
-F 1 "100k" V 3950 3800 50  0000 C CNN
+F 1 "47R 1%" V 3950 3800 50  0000 C CNN
 F 2 "" V 3880 3800 50  0001 C CNN
 F 3 "" H 3950 3800 50  0001 C CNN
 	1    3950 3800
@@ -264,7 +264,7 @@ L R R?
 U 1 1 5AF752AD
 P 3950 4200
 F 0 "R?" V 3900 4400 50  0000 C CNN
-F 1 "100k" V 3950 4200 50  0000 C CNN
+F 1 "47R 1%" V 3950 4200 50  0000 C CNN
 F 2 "" V 3880 4200 50  0001 C CNN
 F 3 "" H 3950 4200 50  0001 C CNN
 	1    3950 4200
@@ -509,4 +509,10 @@ NoConn ~ 4850 4300
 NoConn ~ 4850 3700
 Text Notes 2850 5450 0    60   ~ 0
 using a first-order RC filter with a cutoff \nfrequency set at the output data rate or \n10x higher is generally a good start\n\n—> ca 20 - 200 Hz when in exact mode\n
+Text Notes 2700 2250 0    60   ~ 0
+X2YTM capacitors were used for the RC low-pass filters. \nA single X2YTM capacitor can replace multiple capacitors \nrequired for common-mode and differential filtering. In \naddition to saving board space, these capacitors have \nlow equivalent series inductance (ESL) and excellent \ncommon-mode capacitor matching, required to \nprevent the conversion of common-mode signals \nto differential signals. \n
+Text Notes 2700 3500 0    60   ~ 0
+!! high RC resistors result \nin high input offset from \ndifferential bias currents !!
+Text Notes 1550 6300 0    60   ~ 0
+Typically common-mode filters become mismatched because of high \ncapacitor tolerances. Higher common-mode signal frequencies are then\n filtered differently and result in a differential signal seen by the ADC \ninputs. This effect can also be reduced by ensuring that the differential\n filter has a lower cutoff frequency (~1/10 ) than the common-mode \nfilter’s cutoff frequency. \n
 $EndSCHEMATC

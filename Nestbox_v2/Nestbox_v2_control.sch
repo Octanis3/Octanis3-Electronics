@@ -52,7 +52,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 6
+Sheet 3 7
 Title "Octanis 3 Nestbox"
 Date ""
 Rev ""
@@ -658,9 +658,9 @@ Connection ~ 8100 1600
 Wire Wire Line
 	8900 1850 8350 1850
 Wire Wire Line
-	8350 1900 8350 1850
+	8350 1850 8350 1900
 Wire Wire Line
-	7600 1900 8350 1900
+	8350 1900 7600 1900
 Connection ~ 8100 1900
 Connection ~ 7700 1900
 $Comp
