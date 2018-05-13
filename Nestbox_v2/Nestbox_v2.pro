@@ -1,4 +1,4 @@
-update=2018 May 13, Sunday 08:57:40
+update=2018 May 13, Sunday 17:50:53
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=../lib;../lib/SeeedOPL for Kicad-alpha-2017-01-02
@@ -75,5 +77,3 @@ LibName45=SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Resistor-2016
 LibName46=SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Sensor-2016
 LibName47=SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Switch-2016
 LibName48=SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Transistor-2016
-[general]
-version=1

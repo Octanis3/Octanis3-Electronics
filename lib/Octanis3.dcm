@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C_X2Y
+D feedthrough capacitor
+K EMI filter feedthrough capacitor
+$ENDCMP
+#
 $CMP Jumper_SELECT_Dual
 D Dual Jumper, normally closed
 K jumper bridge link nc
