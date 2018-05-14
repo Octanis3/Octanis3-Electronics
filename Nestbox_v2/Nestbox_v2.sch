@@ -63,37 +63,37 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 1450 1750 1450 3150
+S 800  1750 1450 3150
 U 59EF7EEA
 F0 "Power" 60
 F1 "Nestbox_v2_power.sch" 60
 $EndSheet
 $Sheet
-S 3200 1750 1500 3150
+S 2550 1750 1500 3150
 U 59EF7F04
 F0 "Control" 60
 F1 "Nestbox_v2_control.sch" 60
 $EndSheet
 $Sheet
-S 5100 1750 1400 3150
+S 4450 1750 1400 3150
 U 59EF7F28
 F0 "RFID" 60
 F1 "Nestbox_v2_RFID.sch" 60
 $EndSheet
 $Sheet
-S 6900 1750 1300 3150
+S 6250 1750 1300 3150
 U 59EF7F41
 F0 "Passage Detector" 60
 F1 "Nestbox_v2_detector.sch" 60
 $EndSheet
 $Sheet
-S 8600 1750 1300 3150
+S 7950 1750 1300 3150
 U 59F63D06
 F0 "Communication" 60
 F1 "Nestbox_v2_Comm.sch" 60
 $EndSheet
 $Sheet
-S 10050 1750 1000 3150
+S 9600 1750 1000 3150
 U 5AF72069
 F0 "Load_Cell" 60
 F1 "Load_Cell.sch" 60
