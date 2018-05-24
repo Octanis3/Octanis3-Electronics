@@ -48,7 +48,7 @@ LIBS:SeeedOPL-Sensor-2016
 LIBS:SeeedOPL-Switch-2016
 LIBS:SeeedOPL-Transistor-2016
 LIBS:Nestbox_v2-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8

@@ -48,7 +48,7 @@ LIBS:SeeedOPL-Sensor-2016
 LIBS:SeeedOPL-Switch-2016
 LIBS:SeeedOPL-Transistor-2016
 LIBS:Nestbox_v2-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -145,17 +145,17 @@ $EndComp
 $Comp
 L CONN_01X02 P301
 U 1 1 58653CFC
-P 4450 6900
+P 4400 6900
 AR Path="/58653CFC" Ref="P301"  Part="1" 
 AR Path="/59EF7F04/58653CFC" Ref="P301"  Part="1" 
-F 0 "P301" H 4450 7050 50  0000 C CNN
-F 1 "TST/RST" V 4550 6900 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 4450 6900 50  0001 C CNN
-F 3 "" H 4450 6900 50  0000 C CNN
-F 4 "" H 4450 6900 50  0001 C CNN "MPN"
-F 5 "" H 4450 6900 50  0001 C CNN "SKU"
-F 6 "" H 4450 6900 50  0001 C CNN "MouserLink"
-	1    4450 6900
+F 0 "P301" H 4400 7050 50  0000 C CNN
+F 1 "TST/RST" V 4500 6900 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 4400 6900 50  0001 C CNN
+F 3 "" H 4400 6900 50  0000 C CNN
+F 4 "" H 4400 6900 50  0001 C CNN "MPN"
+F 5 "" H 4400 6900 50  0001 C CNN "SKU"
+F 6 "" H 4400 6900 50  0001 C CNN "MouserLink"
+	1    4400 6900
 	0    1    1    0   
 $EndComp
 $Comp
@@ -281,21 +281,19 @@ Debugging interface
 $Comp
 L CONN_01X02 P302
 U 1 1 587BB574
-P 4000 7600
+P 3950 7600
 AR Path="/587BB574" Ref="P302"  Part="1" 
 AR Path="/59EF7F04/587BB574" Ref="P302"  Part="1" 
-F 0 "P302" H 4000 7750 50  0000 C CNN
-F 1 "RX/TX" V 4100 7600 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 4000 7600 50  0001 C CNN
-F 3 "" H 4000 7600 50  0000 C CNN
-F 4 "" H 4000 7600 50  0001 C CNN "MPN"
-F 5 "" H 4000 7600 50  0001 C CNN "SKU"
-F 6 "" H 4000 7600 50  0001 C CNN "MouserLink"
-	1    4000 7600
+F 0 "P302" H 3950 7750 50  0000 C CNN
+F 1 "RX/TX" V 4050 7600 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_1x02" H 3950 7600 50  0001 C CNN
+F 3 "" H 3950 7600 50  0000 C CNN
+F 4 "" H 3950 7600 50  0001 C CNN "MPN"
+F 5 "" H 3950 7600 50  0001 C CNN "SKU"
+F 6 "" H 3950 7600 50  0001 C CNN "MouserLink"
+	1    3950 7600
 	0    1    1    0   
 $EndComp
-Text GLabel 6400 6500 2    60   Input ~ 0
-LORA_RX
 Text Label 2950 2450 0    60   ~ 0
 AVCC
 Wire Wire Line
@@ -449,8 +447,6 @@ Wire Wire Line
 	2600 2400 2450 2400
 Wire Wire Line
 	2450 2400 2450 2450
-Text GLabel 6400 6400 2    60   Input ~ 0
-LORA_TX
 Wire Wire Line
 	4100 6650 4350 6650
 Wire Wire Line
@@ -510,24 +506,14 @@ Text Label 6700 4250 2    60   ~ 0
 SPI_MOSI
 Wire Wire Line
 	6150 4750 6700 4750
-Text Label 6700 4750 0    60   ~ 0
+Text Label 6350 4750 0    60   ~ 0
 SPI_CLK
-Text GLabel 1300 4550 0    60   Input ~ 0
-RFID_MODU_N
-Text GLabel 1300 4750 0    60   Input ~ 0
-RFID_DATA
-Text GLabel 1300 4650 0    60   Input ~ 0
-RFID_CLOCK
 Wire Wire Line
 	1300 4550 1550 4550
 Wire Wire Line
 	1550 4650 1300 4650
 Wire Wire Line
 	1300 4750 1550 4750
-Text GLabel 1300 4150 0    60   Input ~ 0
-HK_BUS_V
-Text GLabel 1300 4250 0    60   Input ~ 0
-HK_BAT_V
 Text GLabel 1300 4350 0    60   Input ~ 0
 HK_SOLAR_V
 Wire Wire Line
@@ -538,13 +524,11 @@ Wire Wire Line
 	1300 4350 1550 4350
 Wire Wire Line
 	6150 4050 6700 4050
-Text Label 6300 4550 0    60   ~ 0
-LOADCELL_SPI_CS_N
 Text GLabel 1300 3750 0    60   Input ~ 0
 LB2_DETECT
 Text GLabel 1300 3850 0    60   Input ~ 0
 LB1_LED
-Text GLabel 1300 3950 0    60   Input ~ 0
+Text GLabel 1250 3350 0    60   Input ~ 0
 LB1_DETECT
 Wire Wire Line
 	1300 3750 1550 3750
@@ -624,8 +608,6 @@ Wire Wire Line
 Connection ~ 10000 4550
 Text Label 10850 4550 2    60   ~ 0
 DBG_Switch
-Text GLabel 3800 6450 3    60   Input ~ 0
-DATA_Enable_N
 $Comp
 L CP C301
 U 1 1 59FF0B56
@@ -660,9 +642,9 @@ Connection ~ 7500 1600
 Wire Wire Line
 	7750 1850 8900 1850
 Wire Wire Line
-	7750 1850 7750 1900
+	7750 1900 7750 1850
 Wire Wire Line
-	7750 1900 7000 1900
+	7000 1900 7750 1900
 Connection ~ 7500 1900
 Connection ~ 7100 1900
 $Comp
@@ -799,19 +781,13 @@ $EndComp
 Connection ~ 4000 7350
 Wire Wire Line
 	4100 7350 4000 7350
-Text GLabel 4800 7350 2    60   Input ~ 0
-DATA_RX
 Connection ~ 3900 7350
 Wire Wire Line
 	3800 7350 3900 7350
-Text GLabel 3800 7350 0    60   Input ~ 0
-DATA_TX
 Wire Wire Line
 	4000 6450 4000 7400
 Wire Wire Line
 	3900 6450 3900 7400
-Text GLabel 6700 4050 2    60   Input ~ 0
-LORA_RST_N
 $Comp
 L R R?
 U 1 1 5AF9C4CE
@@ -853,4 +829,54 @@ F 3 "" H 8600 1950 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	8750 1950 8900 1950
+Text HLabel 6700 4150 2    60   Input ~ 0
+SPI_MISO
+Text HLabel 6700 4250 2    60   Input ~ 0
+SPI_MOSI
+Text HLabel 6700 4550 2    60   Input ~ 0
+LOADCELL_SPI_CS
+Text HLabel 6700 4750 2    60   Input ~ 0
+SPI_CLK
+Wire Wire Line
+	6150 4650 6700 4650
+Text HLabel 6700 4650 2    60   Input ~ 0
+LOADCELL_DRDY
+Text HLabel 3800 6600 3    60   Input ~ 0
+RFID_DATA
+Wire Wire Line
+	3800 6600 3800 6450
+Text HLabel 1300 3950 0    60   Input ~ 0
+RFID_MODU
+Text HLabel 4000 2200 1    60   Input ~ 0
+RFID_CLK
+Wire Wire Line
+	4000 2200 4000 2450
+Text HLabel 1300 4150 0    60   Input ~ 0
+HK_5V_V
+Text HLabel 1300 4250 0    60   Input ~ 0
+HK_BAT_V
+Text HLabel 1300 4850 0    60   Input ~ 0
+5V_ENABLE
+Wire Wire Line
+	1300 4450 1550 4450
+Text HLabel 3200 6550 3    60   Input ~ 0
+LDO_ENABLE
+Text HLabel 3800 7350 0    60   Input ~ 0
+LORA_UART_TX
+Text HLabel 4800 7350 2    60   Input ~ 0
+LORA_UART_RX
+Text HLabel 6400 6400 2    60   Input ~ 0
+WIFI_UART_RX
+Text HLabel 6400 6500 2    60   Input ~ 0
+WIFI_UART_TX
+Text HLabel 6700 4050 2    60   Input ~ 0
+LORA_RESET_N
+Text HLabel 3400 6550 3    60   Input ~ 0
+WIFI_EN
+Wire Wire Line
+	3400 6550 3400 6450
+Wire Wire Line
+	1300 4850 1550 4850
+Wire Wire Line
+	3200 6550 3200 6450
 $EndSCHEMATC

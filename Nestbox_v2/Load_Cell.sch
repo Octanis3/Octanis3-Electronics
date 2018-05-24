@@ -48,7 +48,7 @@ LIBS:SeeedOPL-Sensor-2016
 LIBS:SeeedOPL-Switch-2016
 LIBS:SeeedOPL-Transistor-2016
 LIBS:Nestbox_v2-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -196,14 +196,6 @@ F 3 "" H 7450 3100 50  0001 C CNN
 $EndComp
 Text Notes 8200 2700 0    60   ~ 0
 cut-off frequency not too low to allow 1 kHz PWM sampling\n
-Text GLabel 9750 3700 2    60   Input ~ 0
-SPI_SCK
-Text GLabel 9750 3800 2    60   Input ~ 0
-SPI_MOSI
-Text GLabel 9750 3900 2    60   Input ~ 0
-SPI_MISO
-Text GLabel 9750 4000 2    60   Input ~ 0
-SPI_ADS_CS_N
 $Comp
 L C C?
 U 1 1 5AF750AA
@@ -281,8 +273,6 @@ F 3 "" H 2800 4000 50  0001 C CNN
 	1    2800 4000
 	-1   0    0    1   
 $EndComp
-Text GLabel 9750 4200 2    60   Input ~ 0
-ADS_DRDY_N
 $Comp
 L R R?
 U 1 1 5AF767DC
@@ -384,42 +374,6 @@ F 3 "" H 1550 2900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LD3985M U?
-U 1 1 5AF89C2B
-P 2500 7000
-F 0 "U?" H 2500 7315 50  0000 C CNN
-F 1 "LP5907" H 2500 7224 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 2400 6750 50  0001 C CNN
-F 3 "" H 2500 7000 50  0001 C CNN
-	1    2500 7000
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3V3 #PWR?
-U 1 1 5AF8A704
-P 1800 6950
-F 0 "#PWR?" H 1800 6800 50  0001 C CNN
-F 1 "+3V3" H 1815 7123 50  0000 C CNN
-F 2 "" H 1800 6950 50  0001 C CNN
-F 3 "" H 1800 6950 50  0001 C CNN
-	1    1800 6950
-	1    0    0    -1  
-$EndComp
-Text GLabel 1800 7050 0    60   Input ~ 0
-LDO_EN
-$Comp
-L GND #PWR?
-U 1 1 5AF8A996
-P 2500 7400
-F 0 "#PWR?" H 2500 7150 50  0001 C CNN
-F 1 "GND" H 2505 7227 50  0000 C CNN
-F 2 "" H 2500 7400 50  0001 C CNN
-F 3 "" H 2500 7400 50  0001 C CNN
-	1    2500 7400
-	1    0    0    -1  
-$EndComp
-NoConn ~ 3000 7050
-$Comp
 L GND #PWR?
 U 1 1 5AF8B9E6
 P 1650 3750
@@ -439,17 +393,6 @@ F 1 "GND" H 1655 5277 50  0000 C CNN
 F 2 "" H 1650 5450 50  0001 C CNN
 F 3 "" H 1650 5450 50  0001 C CNN
 	1    1650 5450
-	1    0    0    -1  
-$EndComp
-$Comp
-L VAA #PWR?
-U 1 1 5AF8BE4C
-P 3250 6950
-F 0 "#PWR?" H 3250 6800 50  0001 C CNN
-F 1 "VAA" H 3267 7123 50  0000 C CNN
-F 2 "" H 3250 6950 50  0001 C CNN
-F 3 "" H 3250 6950 50  0001 C CNN
-	1    3250 6950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -803,12 +746,6 @@ Wire Wire Line
 Wire Wire Line
 	8050 2550 8050 2750
 Wire Wire Line
-	1800 6950 2000 6950
-Wire Wire Line
-	2000 7050 1800 7050
-Wire Wire Line
-	3000 6950 3250 6950
-Wire Wire Line
 	1650 2600 1650 2700
 Wire Wire Line
 	1650 3100 1650 3150
@@ -903,4 +840,14 @@ Wire Wire Line
 	1250 4600 1350 4600
 Wire Wire Line
 	1250 5150 1350 5150
+Text HLabel 9750 3700 2    60   Input ~ 0
+SPI_SCK
+Text HLabel 9750 3800 2    60   Input ~ 0
+SPI_MOSI
+Text HLabel 9750 3900 2    60   Input ~ 0
+SPI_MISO
+Text HLabel 9750 4000 2    60   Input ~ 0
+SPI_CS_N
+Text HLabel 9750 4200 2    60   Input ~ 0
+DRDY_N
 $EndSCHEMATC

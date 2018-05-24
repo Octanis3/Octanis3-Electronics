@@ -48,7 +48,7 @@ LIBS:SeeedOPL-Sensor-2016
 LIBS:SeeedOPL-Switch-2016
 LIBS:SeeedOPL-Transistor-2016
 LIBS:Nestbox_v2-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -80,10 +80,6 @@ Wire Wire Line
 	9150 4500 9600 4500
 Wire Wire Line
 	9150 4400 9600 4400
-Text GLabel 9600 4400 2    60   Input ~ 0
-LORA_RX
-Text GLabel 9600 4500 2    60   Input ~ 0
-LORA_TX
 $Comp
 L GND #PWR060
 U 1 1 59F64207
@@ -231,8 +227,6 @@ Wire Wire Line
 	7450 4150 7050 4150
 Wire Wire Line
 	6750 3900 7450 3900
-Text GLabel 6750 3900 0    60   Input ~ 0
-LORA_RST_N
 Wire Wire Line
 	6900 3900 6900 3700
 Connection ~ 6900 3900
@@ -308,111 +302,6 @@ F 3 "" H 9450 3950 50  0000 C CNN
 	1    9450 3950
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5250 1150
-NoConn ~ 5250 1250
-NoConn ~ 5250 1350
-NoConn ~ 5250 1450
-NoConn ~ 5250 1550
-NoConn ~ 5250 1650
-NoConn ~ 5250 1750
-NoConn ~ 5250 1850
-NoConn ~ 5250 1950
-NoConn ~ 5250 2350
-NoConn ~ 5250 2450
-NoConn ~ 5250 2600
-NoConn ~ 5250 2700
-NoConn ~ 5250 2800
-NoConn ~ 5250 2900
-NoConn ~ 5250 3000
-NoConn ~ 5250 3200
-NoConn ~ 3400 2400
-NoConn ~ 3400 2500
-NoConn ~ 3400 2600
-NoConn ~ 3400 2700
-NoConn ~ 3400 2800
-NoConn ~ 3400 2900
-NoConn ~ 3400 3000
-NoConn ~ 3400 3100
-NoConn ~ 3400 3200
-NoConn ~ 3400 2300
-NoConn ~ 3400 2000
-NoConn ~ 3400 1900
-Wire Wire Line
-	3400 1250 3200 1250
-Wire Wire Line
-	3200 1250 3200 1750
-Wire Wire Line
-	3200 1350 3400 1350
-Wire Wire Line
-	3200 1450 3400 1450
-Connection ~ 3200 1350
-Wire Wire Line
-	3200 1550 3400 1550
-Connection ~ 3200 1450
-Wire Wire Line
-	3200 1650 3400 1650
-Connection ~ 3200 1550
-$Comp
-L GND #PWR078
-U 1 1 59FDFCD3
-P 3200 1750
-F 0 "#PWR078" H 3200 1500 50  0001 C CNN
-F 1 "GND" H 3205 1577 50  0000 C CNN
-F 2 "" H 3200 1750 50  0000 C CNN
-F 3 "" H 3200 1750 50  0000 C CNN
-	1    3200 1750
-	1    0    0    -1  
-$EndComp
-Connection ~ 3200 1650
-Wire Wire Line
-	3400 1150 2950 1150
-Text Label 2950 1150 0    60   ~ 0
-VCC_XBee
-Text GLabel 5250 2100 2    60   Input ~ 0
-DATA_RX
-Text GLabel 5250 2200 2    60   Input ~ 0
-DATA_TX
-$Comp
-L XBee-S2C-802.15.4_SMT U601
-U 1 1 59FE0508
-P 3950 1050
-F 0 "U601" H 4325 1197 60  0000 C CNN
-F 1 "XBee-S2C-802.15.4_SMT" H 4325 1091 60  0000 C CNN
-F 2 "" H 3950 1050 60  0001 C CNN
-F 3 "" H 3950 1050 60  0001 C CNN
-	1    3950 1050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Q_PMOS_DGS Q601
-U 1 1 59FE0AF1
-P 1750 1450
-F 0 "Q601" H 1956 1496 50  0000 L CNN
-F 1 "Q_PMOS_DGS" H 1956 1405 50  0000 L CNN
-F 2 "" H 1950 1550 50  0000 C CNN
-F 3 "" H 1750 1450 50  0000 C CNN
-	1    1750 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR079
-U 1 1 59FE0C6C
-P 1850 1200
-F 0 "#PWR079" H 1850 1050 50  0001 C CNN
-F 1 "+3.3V" H 1865 1373 50  0000 C CNN
-F 2 "" H 1850 1200 50  0000 C CNN
-F 3 "" H 1850 1200 50  0000 C CNN
-	1    1850 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1850 1000 1850 1250
-Wire Wire Line
-	1850 1650 1850 2100
-Text Label 1850 2100 1    60   ~ 0
-VCC_XBee
-Text GLabel 1550 1450 0    60   Input ~ 0
-DATA_Enable_N
 $Comp
 L R R601
 U 1 1 59FF56E8
@@ -435,8 +324,6 @@ F 3 "" H 2800 5050 60  0001 C CNN
 	1    2800 5050
 	1    0    0    -1  
 $EndComp
-Text GLabel 2700 5700 0    60   Input ~ 0
-DATA_Enable_N
 NoConn ~ 2700 5600
 NoConn ~ 2700 5800
 NoConn ~ 2700 5900
@@ -501,12 +388,26 @@ F 3 "" H 3900 6200 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	3900 6200 3700 6200
-Text GLabel 3700 5500 2    60   Input ~ 0
-DATA_RX
-Text GLabel 3700 5600 2    60   Input ~ 0
-DATA_TX
 Text Notes 1900 6850 0    60   Italic 0
 TODO: break out all necessary pins for flashing the ESP on the PCB. \nInclude a debugger header compatible with standard FTDI boards:\nhttps://www.sparkfun.com/products/9873 for example\n\n
 Text Notes 1900 4850 0    60   ~ 0
 UART0 will output some printed information when the device is \npowered on and is booting up. If this issue exerts influence on some \nspecific applications, users can exchange the inner pins of UART when \ninitializing, that is to say, exchange U0TXD, U0RXD with U0RTS, \nU0CTS (IO15 & IO13)\n. 
+Text HLabel 3800 5500 2    60   Input ~ 0
+ESP12_TX
+Wire Wire Line
+	3800 5500 3700 5500
+Text HLabel 3800 5600 2    60   Input ~ 0
+ESP12_RX
+Wire Wire Line
+	3800 5600 3700 5600
+Text HLabel 2550 5700 0    60   Input ~ 0
+ESP12_ENABLE
+Wire Wire Line
+	2550 5700 2700 5700
+Text HLabel 9600 4400 2    60   Input ~ 0
+LORA_RX
+Text HLabel 9600 4500 2    60   Input ~ 0
+LORA_TX
+Text HLabel 6750 3900 0    60   Input ~ 0
+LORA_RST_N
 $EndSCHEMATC
