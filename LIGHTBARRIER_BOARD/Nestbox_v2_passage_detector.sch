@@ -1,0 +1,337 @@
+EESchema Schematic File Version 2
+LIBS:Nestbox_v2-rescue
+LIBS:Octanis3
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:SeeedOPL-Capacitor-2016
+LIBS:SeeedOPL-Connector-2016
+LIBS:SeeedOPL-Crystal Oscillator-2016
+LIBS:SeeedOPL-Diode-2016
+LIBS:SeeedOPL-Display-2016
+LIBS:SeeedOPL-Fuse-2016
+LIBS:SeeedOPL-IC-2016
+LIBS:SeeedOPL-Inductor-2016
+LIBS:SeeedOPL-LED-2016
+LIBS:SeeedOPL-Relay-2016
+LIBS:SeeedOPL-Resistor-2016
+LIBS:SeeedOPL-Sensor-2016
+LIBS:SeeedOPL-Switch-2016
+LIBS:SeeedOPL-Transistor-2016
+LIBS:Nestbox_v2-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TSOP38 U501
+U 1 1 59FCFE81
+P 3500 1600
+F 0 "U501" H 3677 1358 60  0000 L CNN
+F 1 "TSOP38" H 3677 1252 60  0000 L CNN
+F 2 "" H 3500 1600 60  0001 C CNN
+F 3 "" H 3500 1600 60  0001 C CNN
+	1    3500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L TSOP38 U502
+U 1 1 59FCFEFD
+P 3500 2600
+F 0 "U502" H 3677 2358 60  0000 L CNN
+F 1 "TSOP38" H 3677 2252 60  0000 L CNN
+F 2 "" H 3500 2600 60  0001 C CNN
+F 3 "" H 3500 2600 60  0001 C CNN
+	1    3500 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR054
+U 1 1 59FD02D9
+P 2100 1750
+F 0 "#PWR054" H 2100 1600 50  0001 C CNN
+F 1 "+3.3V" V 2115 1878 50  0000 L CNN
+F 2 "" H 2100 1750 50  0000 C CNN
+F 3 "" H 2100 1750 50  0000 C CNN
+	1    2100 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR055
+U 1 1 59FD0355
+P 2100 2050
+F 0 "#PWR055" H 2100 1800 50  0001 C CNN
+F 1 "GND" V 2105 1922 50  0000 R CNN
+F 2 "" H 2100 2050 50  0000 C CNN
+F 3 "" H 2100 2050 50  0000 C CNN
+	1    2100 2050
+	0    1    1    0   
+$EndComp
+Text GLabel 3200 2050 0    60   Input ~ 0
+LB1_DETECT
+Text GLabel 3200 3050 0    60   Input ~ 0
+LB2_DETECT
+$Comp
+L OSRAM_SFH4656 D501
+U 1 1 59FDE056
+P 5050 1850
+F 0 "D501" V 5088 1732 50  0000 R CNN
+F 1 "OSRAM_SFH4656" V 4997 1732 50  0000 R CNN
+F 2 "" H 5050 1850 50  0000 C CNN
+F 3 "" H 5050 1850 50  0000 C CNN
+	1    5050 1850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OSRAM_SFH4656 D502
+U 1 1 59FDE0CE
+P 5050 2900
+F 0 "D502" V 5088 2782 50  0000 R CNN
+F 1 "OSRAM_SFH4656" V 4997 2782 50  0000 R CNN
+F 2 "" H 5050 2900 50  0000 C CNN
+F 3 "" H 5050 2900 50  0000 C CNN
+	1    5050 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R502
+U 1 1 59FDE229
+P 5050 2250
+F 0 "R502" H 5120 2296 50  0000 L CNN
+F 1 "R" H 5120 2205 50  0000 L CNN
+F 2 "" V 4980 2250 50  0000 C CNN
+F 3 "" H 5050 2250 50  0000 C CNN
+	1    5050 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R504
+U 1 1 59FDE287
+P 5050 3300
+F 0 "R504" H 5120 3346 50  0000 L CNN
+F 1 "R" H 5120 3255 50  0000 L CNN
+F 2 "" V 4980 3300 50  0000 C CNN
+F 3 "" H 5050 3300 50  0000 C CNN
+	1    5050 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3050 5050 3150
+Wire Wire Line
+	5050 3450 5050 3550
+Wire Wire Line
+	5050 3550 5500 3550
+Wire Wire Line
+	5050 2750 5050 2650
+Wire Wire Line
+	4800 2650 5500 2650
+Wire Wire Line
+	5050 1700 5050 1600
+Wire Wire Line
+	4800 1600 5500 1600
+Wire Wire Line
+	5050 2000 5050 2100
+$Comp
+L CONN_01X02 P501
+U 1 1 59FDE676
+P 4600 1850
+F 0 "P501" H 4519 1575 50  0000 C CNN
+F 1 "CONN_01X02" H 4519 1666 50  0000 C CNN
+F 2 "" H 4600 1850 50  0000 C CNN
+F 3 "" H 4600 1850 50  0000 C CNN
+	1    4600 1850
+	-1   0    0    1   
+$EndComp
+Connection ~ 5050 2050
+Wire Wire Line
+	4800 1800 4800 1600
+Connection ~ 5050 1600
+Wire Wire Line
+	4800 1900 4800 2050
+Wire Wire Line
+	4800 2050 5050 2050
+$Comp
+L CONN_01X02 P502
+U 1 1 59FDE836
+P 4600 2900
+F 0 "P502" H 4519 2625 50  0000 C CNN
+F 1 "CONN_01X02" H 4519 2716 50  0000 C CNN
+F 2 "" H 4600 2900 50  0000 C CNN
+F 3 "" H 4600 2900 50  0000 C CNN
+	1    4600 2900
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 2850 4800 2650
+Connection ~ 5050 2650
+Wire Wire Line
+	4800 2950 4800 3100
+Wire Wire Line
+	4800 3100 5050 3100
+Connection ~ 5050 3100
+Wire Wire Line
+	5050 2400 5050 2500
+Wire Wire Line
+	5050 2500 5500 2500
+$Comp
+L GND #PWR056
+U 1 1 59FDEA04
+P 5500 2500
+F 0 "#PWR056" H 5500 2250 50  0001 C CNN
+F 1 "GND" V 5505 2372 50  0000 R CNN
+F 2 "" H 5500 2500 50  0000 C CNN
+F 3 "" H 5500 2500 50  0000 C CNN
+	1    5500 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR057
+U 1 1 59FDEA3E
+P 5500 3550
+F 0 "#PWR057" H 5500 3300 50  0001 C CNN
+F 1 "GND" V 5505 3422 50  0000 R CNN
+F 2 "" H 5500 3550 50  0000 C CNN
+F 3 "" H 5500 3550 50  0000 C CNN
+	1    5500 3550
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5500 1600 2    60   Input ~ 0
+LB1_LED
+Text GLabel 5500 2650 2    60   Input ~ 0
+LB2_LED
+$Comp
+L C C501
+U 1 1 59FF4C3B
+P 2200 1900
+F 0 "C501" H 2315 1946 50  0000 L CNN
+F 1 "1u" H 2315 1855 50  0000 L CNN
+F 2 "" H 2238 1750 50  0000 C CNN
+F 3 "" H 2200 1900 50  0000 C CNN
+	1    2200 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R501
+U 1 1 59FF4CB3
+P 2800 1750
+F 0 "R501" V 2593 1750 50  0000 C CNN
+F 1 "100E" V 2684 1750 50  0000 C CNN
+F 2 "" V 2730 1750 50  0000 C CNN
+F 3 "" H 2800 1750 50  0000 C CNN
+	1    2800 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2100 1750 2650 1750
+Connection ~ 2200 1750
+Wire Wire Line
+	2950 1750 3200 1750
+Wire Wire Line
+	2100 2050 2500 2050
+Wire Wire Line
+	2500 2050 2500 1900
+Wire Wire Line
+	2500 1900 3200 1900
+Connection ~ 2200 2050
+$Comp
+L +3.3V #PWR058
+U 1 1 59FF4F0F
+P 2100 2750
+F 0 "#PWR058" H 2100 2600 50  0001 C CNN
+F 1 "+3.3V" V 2115 2878 50  0000 L CNN
+F 2 "" H 2100 2750 50  0000 C CNN
+F 3 "" H 2100 2750 50  0000 C CNN
+	1    2100 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR059
+U 1 1 59FF4F15
+P 2100 3050
+F 0 "#PWR059" H 2100 2800 50  0001 C CNN
+F 1 "GND" V 2105 2922 50  0000 R CNN
+F 2 "" H 2100 3050 50  0000 C CNN
+F 3 "" H 2100 3050 50  0000 C CNN
+	1    2100 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C502
+U 1 1 59FF4F1B
+P 2200 2900
+F 0 "C502" H 2315 2946 50  0000 L CNN
+F 1 "1u" H 2315 2855 50  0000 L CNN
+F 2 "" H 2238 2750 50  0000 C CNN
+F 3 "" H 2200 2900 50  0000 C CNN
+	1    2200 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 2750 2650 2750
+Connection ~ 2200 2750
+Wire Wire Line
+	2100 3050 2500 3050
+Wire Wire Line
+	2500 3050 2500 2900
+Wire Wire Line
+	2500 2900 3200 2900
+Connection ~ 2200 3050
+$Comp
+L R R503
+U 1 1 59FF4F3F
+P 2800 2750
+F 0 "R503" V 2593 2750 50  0000 C CNN
+F 1 "100E" V 2684 2750 50  0000 C CNN
+F 2 "" V 2730 2750 50  0000 C CNN
+F 3 "" H 2800 2750 50  0000 C CNN
+	1    2800 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 2750 3200 2750
+Text Notes 6050 2200 0    60   Italic 0
+currently testing SFH4941 as alternative…
+Text Notes 6100 3100 0    60   Italic 0
+one emitting led probably enough\n
+Text Notes 3200 4100 0    60   Italic 0
+TODO: add PIR motion sensor (results to be confirmed by Jiacheng
+$EndSCHEMATC
