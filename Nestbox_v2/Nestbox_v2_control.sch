@@ -846,7 +846,7 @@ RFID_DATA
 Wire Wire Line
 	3800 6600 3800 6450
 Text HLabel 1300 3950 0    60   Input ~ 0
-RFID_MODU
+RFID_SLEEP_N
 Text HLabel 4000 2200 1    60   Input ~ 0
 RFID_CLK
 Wire Wire Line
@@ -879,4 +879,24 @@ Wire Wire Line
 	1300 4850 1550 4850
 Wire Wire Line
 	3200 6550 3200 6450
+Wire Wire Line
+	6150 4350 6700 4350
+Wire Wire Line
+	6150 4450 6700 4450
+Wire Wire Line
+	6150 3850 6700 3850
+Wire Wire Line
+	6150 3950 6700 3950
+Text HLabel 6700 4450 2    60   Input ~ 0
+LOADCELL_EXC_A_P
+Text HLabel 6700 4350 2    60   Input ~ 0
+LOADCELL_EXC_A_N
+Text HLabel 6700 3950 2    60   Input ~ 0
+LOADCELL_EXC_B_P
+Text HLabel 6700 3850 2    60   Input ~ 0
+LOADCELL_EXC_B_N
+Text HLabel 3300 6550 3    60   Input ~ 0
+BAT_TEST_ENABLE
+Wire Wire Line
+	3300 6550 3300 6450
 $EndSCHEMATC

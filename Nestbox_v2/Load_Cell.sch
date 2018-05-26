@@ -612,14 +612,6 @@ Text Label 4900 4200 0    60   ~ 0
 AIN2
 Text Label 4900 3800 0    60   ~ 0
 AIN1
-Text GLabel 1250 2900 0    60   Input ~ 0
-EXC_A_P
-Text GLabel 1250 3400 0    60   Input ~ 0
-EXC_A_N
-Text GLabel 1250 4600 0    60   Input ~ 0
-EXC_B_P
-Text GLabel 1250 5150 0    60   Input ~ 0
-EXC_B_N
 Wire Wire Line
 	8050 3050 8050 3100
 Wire Wire Line
@@ -850,4 +842,12 @@ Text HLabel 9750 4000 2    60   Input ~ 0
 SPI_CS_N
 Text HLabel 9750 4200 2    60   Input ~ 0
 DRDY_N
+Text HLabel 1250 2900 0    60   Input ~ 0
+EXC_A_P
+Text HLabel 1250 3400 0    60   Input ~ 0
+EXC_A_N
+Text HLabel 1250 5150 0    60   Input ~ 0
+EXC_B_N
+Text HLabel 1250 4600 0    60   Input ~ 0
+EXC_B_P
 $EndSCHEMATC
