@@ -1,4 +1,4 @@
-update=22/05/2015 07:44:53
+update=2018 June 01, Friday 17:51:37
 version=1
 last_client=kicad
 [general]
@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=../lib
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -60,3 +60,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
+LibName30=/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/Octanis3
