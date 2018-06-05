@@ -74,21 +74,10 @@ F 3 "" H 2550 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR046
-U 1 1 59FF5FCD
-P 2550 6200
-F 0 "#PWR046" H 2550 6050 50  0001 C CNN
-F 1 "+3.3V" V 2565 6328 50  0000 L CNN
-F 2 "" H 2550 6200 50  0000 C CNN
-F 3 "" H 2550 6200 50  0000 C CNN
-	1    2550 6200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GND #PWR047
+L GND #PWR046
 U 1 1 59FF60B0
 P 4300 6250
-F 0 "#PWR047" H 4300 6000 50  0001 C CNN
+F 0 "#PWR046" H 4300 6000 50  0001 C CNN
 F 1 "GND" V 4305 6122 50  0000 R CNN
 F 2 "" H 4300 6250 50  0000 C CNN
 F 3 "" H 4300 6250 50  0000 C CNN
@@ -101,7 +90,7 @@ Text Notes 1950 4600 0    60   ~ 0
 UART0 will output some printed information when the device is \npowered on and is booting up. If this issue exerts influence on some \nspecific applications, users can exchange the inner pins of UART when \ninitializing, that is to say, exchange U0TXD, U0RXD with U0RTS, \nU0CTS (IO15 & IO13)\n. 
 Text HLabel 3800 5500 2    60   Input ~ 0
 ESP12_TX
-Text HLabel 3800 5600 2    60   Input ~ 0
+Text HLabel 4050 5000 1    60   Input ~ 0
 ESP12_RX
 Text HLabel 2850 2950 0    60   Input ~ 0
 ESP12_ENABLE
@@ -119,10 +108,10 @@ F 3 "" H 6900 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR048
+L +3.3V #PWR047
 U 1 1 59F64218
 P 6900 3400
-F 0 "#PWR048" H 6900 3250 50  0001 C CNN
+F 0 "#PWR047" H 6900 3250 50  0001 C CNN
 F 1 "+3.3V" H 6900 3540 50  0000 C CNN
 F 2 "" H 6900 3400 50  0000 C CNN
 F 3 "" H 6900 3400 50  0000 C CNN
@@ -152,10 +141,10 @@ F 3 "" H 4400 5750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR049
+L +3.3V #PWR048
 U 1 1 5B158F7F
 P 3300 2650
-F 0 "#PWR049" H 3300 2500 50  0001 C CNN
+F 0 "#PWR048" H 3300 2500 50  0001 C CNN
 F 1 "+3.3V" H 3315 2823 50  0000 C CNN
 F 2 "" H 3300 2650 50  0000 C CNN
 F 3 "" H 3300 2650 50  0000 C CNN
@@ -189,7 +178,7 @@ DTR
 Text Label 5200 5400 0    60   ~ 0
 ESP12_TX
 Text Label 5200 5500 0    60   ~ 0
-ESP12_RX
+RX
 Text Label 5200 5600 0    60   ~ 0
 ESP12_VCC
 Text Label 5200 5700 0    60   ~ 0
@@ -243,7 +232,7 @@ Wire Wire Line
 Wire Wire Line
 	3800 5500 3700 5500
 Wire Wire Line
-	3800 5600 3700 5600
+	3700 5600 4050 5600
 Connection ~ 6900 3900
 Wire Wire Line
 	6900 3900 6900 3700
@@ -303,4 +292,19 @@ F 3 "" H 4000 6100 50  0000 C CNN
 	1    4000 6100
 	0    1    1    0   
 $EndComp
+$Comp
+L Jumper JP501
+U 1 1 5B166E39
+P 4050 5300
+F 0 "JP501" H 4050 5450 50  0000 C CNN
+F 1 "Jumper" H 4050 5220 50  0000 C CNN
+F 2 "Connect:GS2" H 4050 5300 50  0001 C CNN
+F 3 "" H 4050 5300 50  0001 C CNN
+	1    4050 5300
+	0    1    1    0   
+$EndComp
+Text Label 3800 5600 0    60   ~ 0
+RX
+Text Label 2550 6200 2    60   ~ 0
+ESP12_VCC
 $EndSCHEMATC

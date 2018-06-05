@@ -897,4 +897,5 @@ F 3 "" H 5800 7400 50  0000 C CNN
 $EndComp
 Text HLabel 4100 2200 1    60   Output ~ 0
 PIR_IN2
+Connection ~ 10200 4550
 $EndSCHEMATC
