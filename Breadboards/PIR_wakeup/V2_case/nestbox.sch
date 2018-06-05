@@ -56,7 +56,7 @@ U 1 1 5AF42494
 P 6250 3800
 F 0 "A1" H 6250 3550 60  0000 C CNN
 F 1 "LTC2063" H 6250 4050 60  0000 C CNN
-F 2 "LTC:LTC2063" H 6250 4050 60  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-363_SC-70-6_Handsoldering" H 6250 4050 60  0001 C CNN
 F 3 "" H 6250 4050 60  0001 C CNN
 	1    6250 3800
 	1    0    0    -1  
@@ -249,7 +249,7 @@ Wire Wire Line
 	5100 4200 5100 4100
 Connection ~ 5100 4100
 Wire Wire Line
-	6650 2400 6650 3700
+	6650 2400 6650 3800
 Wire Wire Line
 	6650 3050 4400 3050
 Wire Wire Line
@@ -260,23 +260,13 @@ U 1 1 5AF45097
 P 8100 3850
 F 0 "P1" H 8150 3600 60  0000 C CNN
 F 1 "PINOUT" H 8150 4100 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 8100 3650 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 8100 3650 60  0001 C CNN
 F 3 "" H 8100 3650 60  0001 C CNN
 	1    8100 3850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	7850 3900 7300 3900
-Wire Wire Line
-	7500 3800 7850 3800
-Wire Wire Line
-	7500 2450 7500 3800
-Wire Wire Line
-	7500 2450 6750 2450
-Wire Wire Line
-	6750 2450 6750 3800
-Wire Wire Line
-	6750 3800 6650 3800
 Wire Wire Line
 	7850 3700 7850 2400
 Wire Wire Line
@@ -288,7 +278,7 @@ U 1 1 5AF4565E
 P 7100 2800
 F 0 "RV1" V 6925 2800 50  0000 C CNN
 F 1 "POT" V 7000 2800 50  0000 C CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Bourns_3296Y" H 7100 2800 50  0001 C CNN
+F 2 "LTC:Pot" H 7100 2800 50  0001 C CNN
 F 3 "" H 7100 2800 50  0001 C CNN
 	1    7100 2800
 	1    0    0    -1  
@@ -347,4 +337,22 @@ F 3 "" H 7850 4350 50  0001 C CNN
 	1    7850 4350
 	1    0    0    -1  
 $EndComp
+$Comp
+L R R6
+U 1 1 5B054A3A
+P 7600 3500
+F 0 "R6" V 7680 3500 50  0000 C CNN
+F 1 "2.2M" V 7600 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 7530 3500 50  0001 C CNN
+F 3 "" H 7600 3500 50  0001 C CNN
+	1    7600 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 3650 7600 3900
+Connection ~ 7600 3900
+Wire Wire Line
+	7600 3350 7850 3350
+Connection ~ 7850 3350
+Connection ~ 6650 3700
 $EndSCHEMATC
