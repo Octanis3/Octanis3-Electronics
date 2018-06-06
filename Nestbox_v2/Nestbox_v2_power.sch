@@ -398,7 +398,6 @@ F 3 "" H 2550 2950 50  0001 C CNN
 	1    2550 2950
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4450 1700
 $Comp
 L C C202
 U 1 1 5B095215
@@ -739,4 +738,5 @@ Connection ~ 4500 4750
 Wire Wire Line
 	4600 3800 4450 3800
 Connection ~ 8400 3250
+NoConn ~ 4450 1700
 $EndSCHEMATC

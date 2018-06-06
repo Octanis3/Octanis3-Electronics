@@ -492,7 +492,7 @@ Wire Wire Line
 	1550 4650 1500 4650
 Wire Wire Line
 	1300 4750 1550 4750
-Text GLabel 1300 4050 0    60   Input ~ 0
+Text GLabel 1300 4250 0    60   Input ~ 0
 HK_SOLAR_V
 Wire Wire Line
 	1300 4150 1550 4150
@@ -731,7 +731,7 @@ F 3 "" H 2650 2250 50  0000 C CNN
 	1    2650 2250
 	0    1    1    0   
 $EndComp
-Text GLabel 1300 4150 0    60   Input ~ 0
+Text GLabel 1300 4350 0    60   Input ~ 0
 HK_SOLAR_I
 Wire Wire Line
 	1550 4050 1300 4050
@@ -800,13 +800,13 @@ Wire Wire Line
 	3800 6600 3800 6450
 Text HLabel 1300 3950 0    60   Output ~ 0
 RFID_SLEEP_N
-Text HLabel 4000 2200 1    60   Input ~ 0
+Text HLabel 1300 4750 0    60   Input ~ 0
 RFID_CLK
 Wire Wire Line
 	4000 2200 4000 2450
 Text HLabel 1300 4450 0    60   Input ~ 0
 5V_PWM_ENABLE
-Text HLabel 1300 4250 0    60   Input ~ 0
+Text HLabel 4100 2200 1    60   Input ~ 0
 HK_BAT_V
 Text HLabel 1300 4850 0    60   Output ~ 0
 5V_ENABLE
@@ -844,7 +844,7 @@ Text HLabel 6700 3950 2    60   Output ~ 0
 LOADCELL_EXC_B_P
 Text HLabel 6700 3850 2    60   Output ~ 0
 LOADCELL_EXC_B_N
-Text HLabel 3300 6550 3    60   Output ~ 0
+Text HLabel 4200 2200 1    60   Output ~ 0
 BAT_TEST_ENABLE
 Wire Wire Line
 	3300 6550 3300 6450
@@ -856,9 +856,9 @@ Text HLabel 1300 3750 0    60   Output ~ 0
 LB1_LED
 Text HLabel 1300 3850 0    60   Output ~ 0
 PIR_EN
-Text GLabel 1300 4350 0    60   Input ~ 0
+Text GLabel 4000 2200 1    60   Input ~ 0
 HK_BAT_I
-Text HLabel 4200 2200 1    60   Output ~ 0
+Text HLabel 1300 4050 0    60   Output ~ 0
 PIR_IN1
 Wire Wire Line
 	4200 2200 4200 2450
@@ -895,7 +895,7 @@ F 3 "" H 5800 7400 50  0000 C CNN
 	1    5800 7400
 	-1   0    0    1   
 $EndComp
-Text HLabel 4100 2200 1    60   Output ~ 0
+Text HLabel 1300 4150 0    60   Output ~ 0
 PIR_IN2
 Connection ~ 10200 4550
 $EndSCHEMATC
