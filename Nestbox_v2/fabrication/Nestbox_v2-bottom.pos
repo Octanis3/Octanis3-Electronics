@@ -1,0 +1,13 @@
+### Module positions - created on 2018 June 12, Tuesday 20:49:42 ###
+### Printed by Pcbnew version kicad 4.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                               Package                                 PosX       PosY       Rot  Side
+CON301    Micro_SD_Card                     MICRO-SD9+4P-SMD-16.1X14.5X1.85MM    42.3486     2.9010   90.0000  bottom
+D301      SMD-LED-CLEAR-GREEN_0603_         LED-0603                             72.9900    44.1550  270.0000  bottom
+D302      SMD-LED-CLEAR-BLUE_0603_          LED-0603                             70.9900    44.1550  270.0000  bottom
+G***      LOGO                              octanis3_logo                        70.2100    36.0050   90.0000  bottom
+G***      LOGO                              VogelwarteLogo3                      37.7100    31.0050   90.0000  bottom
+G***      LOGO                              octanis_open_incubator_logo          50.7100    31.0050   90.0000  bottom
+SW301     SMD-BUTTON_2P-3.0X2.5X1.2+0.4MM_  SW_SPST_B3S-1000                     71.7350    25.7550    0.0000  bottom
+## End

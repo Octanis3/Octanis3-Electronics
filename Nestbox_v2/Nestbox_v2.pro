@@ -1,10 +1,6 @@
-update=2018 June 01, Friday 17:51:37
+update=2018 June 13, Wednesday 10:59:37
 version=1
 last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -61,3 +57,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/Octanis3
+[general]
+version=1

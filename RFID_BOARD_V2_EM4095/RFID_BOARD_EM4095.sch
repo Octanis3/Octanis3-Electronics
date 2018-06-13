@@ -80,9 +80,9 @@ F 3 "" H 4950 5500 50  0001 C CNN
 	1    4950 5500
 	1    0    0    -1  
 $EndComp
-Text Label 7850 4550 0    60   ~ 0
-rdyclk
 Text Label 7850 4650 0    60   ~ 0
+rdyclk
+Text Label 7850 4550 0    60   ~ 0
 demod_out
 Wire Wire Line
 	4950 3300 4950 3800
