@@ -255,7 +255,7 @@ F 3 "" H 6450 1900 50  0001 C CNN
 	1    6450 1900
 	1    0    0    -1  
 $EndComp
-Text HLabel 2900 3950 0    60   Input ~ 0
+Text HLabel 1600 3950 0    60   Input ~ 0
 5V_ENABLE
 Text HLabel 2450 2600 0    60   Input ~ 0
 HK_BAT_V
@@ -328,7 +328,7 @@ F 3 "" H 4700 5750 50  0001 C CNN
 	1    4700 5750
 	1    0    0    -1  
 $EndComp
-Text HLabel 3000 6450 0    60   Input ~ 0
+Text HLabel 2900 6450 0    60   Input ~ 0
 LDO_EN
 $Comp
 L TPS62745 U201
@@ -512,7 +512,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 6350 3100 6350
 Wire Wire Line
-	3100 6450 3000 6450
+	3100 6450 2900 6450
 Wire Wire Line
 	4100 6350 4400 6350
 Wire Wire Line
@@ -707,7 +707,7 @@ $EndComp
 Wire Wire Line
 	2900 3800 3050 3800
 Wire Wire Line
-	3050 3950 2900 3950
+	1600 3950 3050 3950
 Wire Wire Line
 	3050 4050 2150 4050
 Wire Wire Line
@@ -781,4 +781,58 @@ Wire Wire Line
 Connection ~ 9000 2900
 Text Label 9200 3250 0    60   ~ 0
 batt_in
+Text Notes 1150 7600 0    157  ~ 0
+TODO: ADD PULL DOWN TO ENABLE PIN \n(FOR UNDEFINED STATE DURING FLASHING)
+$Comp
+L R R?
+U 1 1 5B28CE2A
+P 1700 4150
+F 0 "R?" V 1493 4150 50  0000 C CNN
+F 1 "82k" V 1584 4150 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 1630 4150 50  0001 C CNN
+F 3 "" H 1700 4150 50  0001 C CNN
+	1    1700 4150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1700 4000 1700 3950
+Connection ~ 1700 3950
+$Comp
+L GND #PWR?
+U 1 1 5B28CF96
+P 1700 4350
+F 0 "#PWR?" H 1700 4100 50  0001 C CNN
+F 1 "GND" H 1705 4177 50  0000 C CNN
+F 2 "" H 1700 4350 50  0001 C CNN
+F 3 "" H 1700 4350 50  0001 C CNN
+	1    1700 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4350 1700 4300
+$Comp
+L R R?
+U 1 1 5B28D28A
+P 3000 6650
+F 0 "R?" V 2793 6650 50  0000 C CNN
+F 1 "82k" V 2884 6650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 2930 6650 50  0001 C CNN
+F 3 "" H 3000 6650 50  0001 C CNN
+	1    3000 6650
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 6500 3000 6450
+Connection ~ 3000 6450
+$Comp
+L GND #PWR?
+U 1 1 5B28D3DF
+P 3000 6800
+F 0 "#PWR?" H 3000 6550 50  0001 C CNN
+F 1 "GND" H 3005 6627 50  0000 C CNN
+F 2 "" H 3000 6800 50  0001 C CNN
+F 3 "" H 3000 6800 50  0001 C CNN
+	1    3000 6800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
