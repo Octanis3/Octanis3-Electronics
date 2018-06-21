@@ -85,11 +85,7 @@ rdyclk
 Text Label 7850 4550 0    60   ~ 0
 demod_out
 Wire Wire Line
-	4950 3300 4950 3550
-Wire Wire Line
-	4950 3550 4950 3650
-Wire Wire Line
-	4950 3650 4950 3800
+	4950 3300 4950 3800
 Text Label 7850 4450 0    60   ~ 0
 RFID_VDD
 Wire Wire Line
@@ -106,9 +102,7 @@ F 3 "" H 7950 4850 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7950 4850 8400 4850
-Wire Wire Line
-	8400 4850 8500 4850
+	7950 4850 8500 4850
 Wire Wire Line
 	8500 4750 7850 4750
 Wire Wire Line
@@ -119,9 +113,7 @@ NoConn ~ 1700 900
 Wire Wire Line
 	4950 5500 4950 5400
 Wire Wire Line
-	4800 3300 4800 3550
-Wire Wire Line
-	4800 3550 4800 3800
+	4800 3300 4800 3800
 Connection ~ 4950 3650
 $Comp
 L C C5
@@ -169,9 +161,7 @@ $EndComp
 Wire Wire Line
 	5550 4650 5450 4650
 Wire Wire Line
-	5450 4850 5750 4850
-Wire Wire Line
-	5750 4850 6000 4850
+	5450 4850 6000 4850
 Wire Wire Line
 	4250 4200 3900 4200
 Text Label 6000 4250 0    60   ~ 0
@@ -181,9 +171,7 @@ demod_out
 Text Label 3900 4200 0    60   ~ 0
 rdyclk
 Wire Wire Line
-	2850 5050 2850 5300
-Wire Wire Line
-	2850 5300 2850 5350
+	2850 5050 2850 5350
 Wire Wire Line
 	2850 5650 2850 5850
 $Comp
@@ -259,7 +247,7 @@ U 1 1 5B1BD1D3
 P 4450 3300
 F 0 "C1" H 4475 3400 50  0000 L CNN
 F 1 "10u" H 4475 3200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 4488 3150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 4488 3150 50  0001 C CNN
 F 3 "" H 4450 3300 50  0001 C CNN
 	1    4450 3300
 	0    1    1    0   
@@ -276,9 +264,7 @@ F 3 "" H 5450 3550 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5350 3550 5400 3550
-Wire Wire Line
-	5400 3550 5450 3550
+	5350 3550 5450 3550
 $Comp
 L EM4095 U1
 U 1 1 5AFA0C2C
@@ -340,9 +326,7 @@ $EndComp
 Wire Wire Line
 	4850 6150 4750 6150
 Wire Wire Line
-	5150 6150 5450 6150
-Wire Wire Line
-	5450 6150 5700 6150
+	5150 6150 5700 6150
 $Comp
 L R R2
 U 1 1 5B1BE082
@@ -389,9 +373,7 @@ $EndComp
 Wire Wire Line
 	5450 6850 5450 7000
 Wire Wire Line
-	5450 7000 5550 7000
-Wire Wire Line
-	5550 7000 5700 7000
+	5450 7000 5700 7000
 Wire Wire Line
 	5700 7000 5700 6700
 Connection ~ 5550 7000
@@ -598,7 +580,7 @@ U 1 1 5B1D5FAC
 P 5200 3300
 F 0 "C12" H 5225 3400 50  0000 L CNN
 F 1 "10u" H 5225 3200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603" H 5238 3150 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0805" H 5238 3150 50  0001 C CNN
 F 3 "" H 5200 3300 50  0001 C CNN
 	1    5200 3300
 	0    1    1    0   
