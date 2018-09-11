@@ -332,4 +332,6 @@ F 3 "" H 2950 2600 50  0000 C CNN
 	1    2950 2600
 	1    0    0    -1  
 $EndComp
+Text Notes 2450 2150 0    118  ~ 0
+!! PMOS IS INVERTED !!\n
 $EndSCHEMATC

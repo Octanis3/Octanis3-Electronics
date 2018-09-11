@@ -965,4 +965,28 @@ F 3 "" H 1400 3300 50  0001 C CNN
 	1    1400 3300
 	0    -1   -1   0   
 $EndComp
+Text Notes 6850 850  0    118  ~ 0
+!! Pull up is inverted !!\n
+Text Notes 7450 1250 0    118  ~ 0
+!! SPI_SD_CS_N leads nowhere !!\n
+NoConn ~ 3700 2450
+NoConn ~ 3800 2450
+NoConn ~ 4000 2450
+NoConn ~ 1550 4250
+NoConn ~ 1550 4350
+Text Notes 3300 7450 3    60   ~ 0
+!! currently used as SD_SPI_CS\n
+$Comp
+L Micro_SD_Card_Det J?
+U 1 1 5B7AFC3B
+P 8600 2850
+F 0 "J?" H 7950 3550 50  0000 C CNN
+F 1 "Micro_SD_Card_Det" H 9250 3550 50  0000 R CNN
+F 2 "" H 10650 3550 50  0001 C CNN
+F 3 "" H 8600 2950 50  0001 C CNN
+	1    8600 2850
+	1    0    0    -1  
+$EndComp
+Text Notes 8550 2850 0    59   ~ 0
+TODO: connect the card detection pin
 $EndSCHEMATC
