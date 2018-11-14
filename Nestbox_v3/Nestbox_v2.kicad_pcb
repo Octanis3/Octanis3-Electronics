@@ -93,7 +93,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerber2))
+      (outputdirectory gerber3_1))
   )
 
   (net 0 "")

@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v3/Nestbox_v2.sch</source>
-    <date>2018 November 02, Friday 16:07:05</date>
+    <date>2018 November 02, Friday 18:05:56</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -1257,23 +1257,23 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="Octanis3">
-      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/Octanis3.lib</uri>
-    </library>
-    <library logical="Nestbox_v2-cache">
-      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v3/Nestbox_v2-cache.lib</uri>
+    <library logical="conn">
+      <uri>/Users/raffael/Library/Application Support/kicad/library/conn.lib</uri>
     </library>
     <library logical="adc-dac">
       <uri>/Users/raffael/Library/Application Support/kicad/library/adc-dac.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/Users/raffael/Library/Application Support/kicad/library/device.lib</uri>
-    </library>
     <library logical="regul">
       <uri>/Users/raffael/Library/Application Support/kicad/library/regul.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/Users/raffael/Library/Application Support/kicad/library/conn.lib</uri>
+    <library logical="device">
+      <uri>/Users/raffael/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+    <library logical="Nestbox_v2-cache">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v3/Nestbox_v2-cache.lib</uri>
+    </library>
+    <library logical="Octanis3">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/Octanis3.lib</uri>
     </library>
   </libraries>
   <nets>
