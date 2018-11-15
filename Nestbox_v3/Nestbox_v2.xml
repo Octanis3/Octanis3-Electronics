@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v3/Nestbox_v2.sch</source>
-    <date>2018 November 02, Friday 18:05:56</date>
+    <date>2018 November 14, Wednesday 18:12:49</date>
     <tool>Eeschema 4.0.7</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -110,6 +110,9 @@
     <comp ref="C201">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5A0218AC</tstamp>
@@ -127,6 +130,9 @@
     <comp ref="C203">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5A022A38</tstamp>
@@ -134,6 +140,9 @@
     <comp ref="R205">
       <value>649k 1%</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07649KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5A0237B2</tstamp>
@@ -141,6 +150,9 @@
     <comp ref="R204">
       <value>162k 1%</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07162KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5A02384E</tstamp>
@@ -148,6 +160,9 @@
     <comp ref="C206">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5A024214</tstamp>
@@ -155,6 +170,9 @@
     <comp ref="C207">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5A0242B6</tstamp>
@@ -162,6 +180,9 @@
     <comp ref="C205">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5A024E86</tstamp>
@@ -183,6 +204,9 @@
     <comp ref="U203">
       <value>LP5907</value>
       <footprint>texasinstruments:SOT23-5</footprint>
+      <fields>
+        <field name="MPN">LP5907MFX-3.0/NOPB</field>
+      </fields>
       <libsource lib="regul" part="LD3985M"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B0757BD</tstamp>
@@ -190,6 +214,9 @@
     <comp ref="U201">
       <value>TPS62745</value>
       <footprint>Octanis3:WSON_3x2mm_12pin</footprint>
+      <fields>
+        <field name="MPN">TPS62745DSSR</field>
+      </fields>
       <libsource lib="Octanis3" part="TPS62745"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B08EADA</tstamp>
@@ -197,6 +224,9 @@
     <comp ref="R201">
       <value>82k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0782KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B090A89</tstamp>
@@ -204,6 +234,9 @@
     <comp ref="R202">
       <value>47k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0747KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B090AF9</tstamp>
@@ -211,6 +244,9 @@
     <comp ref="C202">
       <value>1u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B095215</tstamp>
@@ -218,6 +254,9 @@
     <comp ref="C204">
       <value>1u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B095439</tstamp>
@@ -225,6 +264,9 @@
     <comp ref="U202">
       <value>LTC3534</value>
       <footprint>SeeedOPL-IC-2016:SSOP16-0.635-5X4MM</footprint>
+      <fields>
+        <field name="MPN">LTC3534EDHC#PBF</field>
+      </fields>
       <libsource lib="Octanis3" part="LTC3534"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B118416</tstamp>
@@ -232,6 +274,9 @@
     <comp ref="R203">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0710KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B119694</tstamp>
@@ -239,6 +284,9 @@
     <comp ref="C210">
       <value>33p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN330</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B11973C</tstamp>
@@ -246,6 +294,9 @@
     <comp ref="R206">
       <value>15k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0715KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B119A58</tstamp>
@@ -253,6 +304,9 @@
     <comp ref="C208">
       <value>330p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN331</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B119ABA</tstamp>
@@ -260,6 +314,9 @@
     <comp ref="C209">
       <value>10p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN100</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B119DD0</tstamp>
@@ -269,6 +326,7 @@
       <footprint>Octanis3:TDSON-8-1_HandSoldering</footprint>
       <fields>
         <field name="MPN">TPH1R712MDL1Q</field>
+        <field name="MouserLink">https://www.mouser.ch/ProductDetail/Toshiba/TPH1R712MDL1Q?qs=sGAEpiMZZMvNM%2fd3q5fCV4Bsm%252b4NPS2VEWd3q01qzE4%3d</field>
       </fields>
       <libsource lib="device" part="Q_PMOS_DGS"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
@@ -277,6 +335,9 @@
     <comp ref="R207">
       <value>82k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0782KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B28CE2A</tstamp>
@@ -284,6 +345,9 @@
     <comp ref="R208">
       <value>82k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0782KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Power/" tstamps="/59EF7EEA/"/>
       <tstamp>5B28D28A</tstamp>
@@ -348,6 +412,9 @@
     <comp ref="C303">
       <value>24p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN240</field>
+      </fields>
       <libsource lib="Nestbox_v2-cache" part="CERAMIC-12PF-50V-5%-NPO_0603_"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>587CB4AD</tstamp>
@@ -355,6 +422,9 @@
     <comp ref="C302">
       <value>24p</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRNPO9BN240</field>
+      </fields>
       <libsource lib="Nestbox_v2-cache" part="CERAMIC-12PF-50V-5%-NPO_0603_"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>587CB591</tstamp>
@@ -384,6 +454,9 @@
     <comp ref="R301">
       <value>47k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0747KL</field>
+      </fields>
       <libsource lib="Nestbox_v2-cache" part="DIP-RES-47K-5%-1_4W_PR-D2.3XL6.5MM_"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>58BC590C</tstamp>
@@ -402,6 +475,9 @@
     <comp ref="C307">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>59FF0C21</tstamp>
@@ -409,6 +485,9 @@
     <comp ref="R306">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>59FF6DD5</tstamp>
@@ -416,6 +495,9 @@
     <comp ref="R307">
       <value>1k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-071KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>59FF6FBB</tstamp>
@@ -423,6 +505,9 @@
     <comp ref="R309">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0710KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>59FF7355</tstamp>
@@ -430,6 +515,9 @@
     <comp ref="R308">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0710KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>59FF739D</tstamp>
@@ -437,6 +525,9 @@
     <comp ref="C308">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>59FF75BA</tstamp>
@@ -444,6 +535,9 @@
     <comp ref="C304">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>59FF79ED</tstamp>
@@ -451,6 +545,9 @@
     <comp ref="C305">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>59FF7AC3</tstamp>
@@ -458,6 +555,9 @@
     <comp ref="C301">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>59FF7E1A</tstamp>
@@ -472,6 +572,9 @@
     <comp ref="Q301">
       <value>NTR3A052PZT1G</value>
       <footprint>TO_SOT_Packages_SMD:TSOT-23</footprint>
+      <fields>
+        <field name="MPN">NTR3A052PZT1G</field>
+      </fields>
       <libsource lib="device" part="Q_PMOS_GSD"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>5B18BF22</tstamp>
@@ -479,6 +582,9 @@
     <comp ref="R302">
       <value>82k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0782KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>5B28B132</tstamp>
@@ -500,6 +606,9 @@
     <comp ref="R303">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-070RL	</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>5BCD0C24</tstamp>
@@ -507,6 +616,9 @@
     <comp ref="R304">
       <value>0R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-070RL	</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Control/" tstamps="/59EF7F04/"/>
       <tstamp>5BCD0ECB</tstamp>
@@ -521,6 +633,9 @@
     <comp ref="U501">
       <value>ESP-12S</value>
       <footprint>Octanis3:ESP-12E_SMD_UART_ONLY</footprint>
+      <fields>
+        <field name="MPN">ESP-12F</field>
+      </fields>
       <libsource lib="Octanis3" part="ESP-12S"/>
       <sheetpath names="/Communication/" tstamps="/59F63D06/"/>
       <tstamp>59FF5CBB</tstamp>
@@ -528,6 +643,9 @@
     <comp ref="R501">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0710KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Communication/" tstamps="/59F63D06/"/>
       <tstamp>59FF5E36</tstamp>
@@ -535,6 +653,9 @@
     <comp ref="R505">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0710KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Communication/" tstamps="/59F63D06/"/>
       <tstamp>5B158E7F</tstamp>
@@ -542,6 +663,9 @@
     <comp ref="R503">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0710KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Communication/" tstamps="/59F63D06/"/>
       <tstamp>5B1595E2</tstamp>
@@ -556,6 +680,9 @@
     <comp ref="R506">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0710KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Communication/" tstamps="/59F63D06/"/>
       <tstamp>5B158DCF</tstamp>
@@ -563,6 +690,9 @@
     <comp ref="R504">
       <value>10k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0710KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Communication/" tstamps="/59F63D06/"/>
       <tstamp>5B1591D7</tstamp>
@@ -577,6 +707,9 @@
     <comp ref="Q501">
       <value>NTR3A052PZT1G</value>
       <footprint>TO_SOT_Packages_SMD:TSOT-23</footprint>
+      <fields>
+        <field name="MPN">NTR3A052PZT1G</field>
+      </fields>
       <libsource lib="device" part="Q_PMOS_GSD"/>
       <sheetpath names="/Communication/" tstamps="/59F63D06/"/>
       <tstamp>5B18B1E8</tstamp>
@@ -584,6 +717,9 @@
     <comp ref="R507">
       <value>82k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0782KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Communication/" tstamps="/59F63D06/"/>
       <tstamp>5B28C223</tstamp>
@@ -591,6 +727,9 @@
     <comp ref="C610">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF732F7</tstamp>
@@ -598,6 +737,9 @@
     <comp ref="C609">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB104</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF73543</tstamp>
@@ -605,6 +747,9 @@
     <comp ref="C608">
       <value>1u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF73573</tstamp>
@@ -640,6 +785,9 @@
     <comp ref="C607">
       <value>1u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF75450</tstamp>
@@ -654,6 +802,10 @@
     <comp ref="R612">
       <value>47R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0747RL</field>
+        <field name="SKU">301010091</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF767DC</tstamp>
@@ -661,6 +813,10 @@
     <comp ref="R611">
       <value>47R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0747RL</field>
+        <field name="SKU">301010091</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF7680A</tstamp>
@@ -668,6 +824,10 @@
     <comp ref="R610">
       <value>47R</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0747RL</field>
+        <field name="SKU">301010091</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF7683A</tstamp>
@@ -682,6 +842,9 @@
     <comp ref="U601">
       <value>ADS1220</value>
       <footprint>Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="MPN">ADS1220IPW</field>
+      </fields>
       <libsource lib="adc-dac" part="ADS1120-PW"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF72460</tstamp>
@@ -696,6 +859,9 @@
     <comp ref="R606">
       <value>100R 1%</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF9851F</tstamp>
@@ -703,6 +869,9 @@
     <comp ref="R605">
       <value>100R 1%</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-07100RL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF983FB</tstamp>
@@ -710,6 +879,9 @@
     <comp ref="C601">
       <value>1u</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF8D369</tstamp>
@@ -717,6 +889,9 @@
     <comp ref="C603">
       <value>100n 1%</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRX7R7BB104</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF8D18E</tstamp>
@@ -724,6 +899,9 @@
     <comp ref="C602">
       <value>100n 1%</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="MPN">CC0603JRX7R7BB104</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/Load_Cell/" tstamps="/5AF72069/"/>
       <tstamp>5AF8D08C</tstamp>
@@ -731,6 +909,9 @@
     <comp ref="R702">
       <value>47k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0747KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/RFID/" tstamps="/59EF7F28/"/>
       <tstamp>5AF8A68B</tstamp>
@@ -738,6 +919,9 @@
     <comp ref="R703">
       <value>47k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0747KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/RFID/" tstamps="/59EF7F28/"/>
       <tstamp>5AF8A741</tstamp>
@@ -745,6 +929,9 @@
     <comp ref="R704">
       <value>82k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0782KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/RFID/" tstamps="/59EF7F28/"/>
       <tstamp>5AF8AAF5</tstamp>
@@ -752,6 +939,9 @@
     <comp ref="R705">
       <value>82k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0782KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/RFID/" tstamps="/59EF7F28/"/>
       <tstamp>5AF8AB4E</tstamp>
@@ -759,6 +949,9 @@
     <comp ref="R701">
       <value>82k</value>
       <footprint>Resistors_SMD:R_0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0782KL</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/RFID/" tstamps="/59EF7F28/"/>
       <tstamp>5B088617</tstamp>
@@ -773,6 +966,9 @@
     <comp ref="Q701">
       <value>DMG3402L</value>
       <footprint>TO_SOT_Packages_SMD:TSOT-23</footprint>
+      <fields>
+        <field name="MPN">DMG3402L-7</field>
+      </fields>
       <libsource lib="device" part="Q_NMOS_GSD"/>
       <sheetpath names="/RFID/" tstamps="/59EF7F28/"/>
       <tstamp>5B18B8C9</tstamp>
@@ -1257,23 +1453,23 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>/Users/raffael/Library/Application Support/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="adc-dac">
-      <uri>/Users/raffael/Library/Application Support/kicad/library/adc-dac.lib</uri>
-    </library>
     <library logical="regul">
       <uri>/Users/raffael/Library/Application Support/kicad/library/regul.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/Users/raffael/Library/Application Support/kicad/library/device.lib</uri>
+    <library logical="adc-dac">
+      <uri>/Users/raffael/Library/Application Support/kicad/library/adc-dac.lib</uri>
     </library>
     <library logical="Nestbox_v2-cache">
       <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v3/Nestbox_v2-cache.lib</uri>
     </library>
     <library logical="Octanis3">
       <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/Octanis3.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/Users/raffael/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Users/raffael/Library/Application Support/kicad/library/device.lib</uri>
     </library>
   </libraries>
   <nets>

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 4
+EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -28,8 +28,9 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Octanis3
 LIBS:Nestbox_v2-cache
-EELAYER 26 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -109,6 +110,7 @@ F 0 "C611" V 8198 3350 50  0000 C CNN
 F 1 "10n" V 8289 3350 50  0000 C CNN
 F 2 "Capacitors_SMD:C_0603" H 8488 3200 50  0001 C CNN
 F 3 "" H 8450 3350 50  0001 C CNN
+F 4 "CC0603KRX7R9BB103" V 8450 3350 60  0001 C CNN "MPN"
 	1    8450 3350
 	0    1    1    0   
 $EndComp

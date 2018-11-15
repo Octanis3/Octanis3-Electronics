@@ -1,0 +1,9 @@
+### Module positions - created on 2018 November 15, Thursday 00:25:59 ###
+### Printed by Pcbnew version kicad 4.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                               Package                           PosX       PosY       Rot  Side
+D301      SMD-LED-CLEAR-GREEN_0603_         LED-0603                       73.2400    41.1550  270.0000  bottom
+D302      SMD-LED-CLEAR-BLUE_0603_          LED-0603                       71.2400    41.1550  270.0000  bottom
+SW301     SMD-BUTTON_2P-3.0X2.5X1.2+0.4MM_  SW_SPST_B3S-1000               71.7350    25.7550    0.0000  bottom
+## End
