@@ -1,0 +1,547 @@
+<openpnp-board version="1.1" name="RFID_panel.board.xml">
+   <dimensions units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+   <fiducials/>
+   <placements>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="209.5" y="-90.3" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="209.5" y="-59.8" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="209.5" y="-29.3" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="187.5" y="-29.3" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="231.5" y="-29.3" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="231.5" y="-59.8" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="187.5" y="-59.8" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="187.5" y="-90.3" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.5" y="-29.3" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="231.5" y="-90.3" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.5" y="-59.8" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.5" y="-90.3" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="157.0" y="-99.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="201.0" y="-99.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="179.0" y="-38.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="223.0" y="-38.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="157.0" y="-69.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="201.0" y="-38.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="201.0" y="-69.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="157.0" y="-38.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="223.0" y="-99.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="179.0" y="-69.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="223.0" y="-69.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="179.0" y="-99.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="215.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="193.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="237.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="193.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="171.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="215.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="193.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="237.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="237.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="215.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="171.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="171.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="213.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="213.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="213.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="235.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="191.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="235.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="191.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="169.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="191.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="235.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="169.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="169.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="185.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="163.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="185.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="185.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="207.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="163.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="163.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="207.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="229.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="229.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="207.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="229.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="DNP" type="Place" check-fids="false">
+         <location units="Millimeters" x="182.5" y="-41.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="DNP" type="Place" check-fids="false">
+         <location units="Millimeters" x="226.5" y="-41.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="DNP" type="Place" check-fids="false">
+         <location units="Millimeters" x="182.5" y="-72.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="DNP" type="Place" check-fids="false">
+         <location units="Millimeters" x="182.5" y="-102.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="DNP" type="Place" check-fids="false">
+         <location units="Millimeters" x="204.5" y="-41.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="DNP" type="Place" check-fids="false">
+         <location units="Millimeters" x="204.5" y="-72.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="DNP" type="Place" check-fids="false">
+         <location units="Millimeters" x="160.5" y="-41.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="DNP" type="Place" check-fids="false">
+         <location units="Millimeters" x="160.5" y="-72.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="DNP" type="Place" check-fids="false">
+         <location units="Millimeters" x="226.5" y="-72.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="DNP" type="Place" check-fids="false">
+         <location units="Millimeters" x="204.5" y="-102.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="DNP" type="Place" check-fids="false">
+         <location units="Millimeters" x="226.5" y="-102.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="DNP" type="Place" check-fids="false">
+         <location units="Millimeters" x="160.5" y="-102.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="231.5" y="-31.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="187.5" y="-31.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.5" y="-61.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="231.5" y="-61.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="209.5" y="-31.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="209.5" y="-92.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="187.5" y="-61.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.5" y="-92.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="231.5" y="-92.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="187.5" y="-92.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="209.5" y="-61.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.5" y="-31.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="179.0" y="-97.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="223.0" y="-67.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="223.0" y="-97.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="157.0" y="-97.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="179.0" y="-67.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="157.0" y="-36.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="179.0" y="-36.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="157.0" y="-67.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="223.0" y="-36.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="201.0" y="-97.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="201.0" y="-67.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="201.0" y="-36.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="C_fine_tuning" type="Place" check-fids="false">
+         <location units="Millimeters" x="183.5" y="-86.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="C_fine_tuning" type="Place" check-fids="false">
+         <location units="Millimeters" x="161.5" y="-25.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="C_fine_tuning" type="Place" check-fids="false">
+         <location units="Millimeters" x="227.5" y="-56.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="C_fine_tuning" type="Place" check-fids="false">
+         <location units="Millimeters" x="205.5" y="-56.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="C_fine_tuning" type="Place" check-fids="false">
+         <location units="Millimeters" x="183.5" y="-25.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="C_fine_tuning" type="Place" check-fids="false">
+         <location units="Millimeters" x="161.5" y="-56.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="C_fine_tuning" type="Place" check-fids="false">
+         <location units="Millimeters" x="227.5" y="-25.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="C_fine_tuning" type="Place" check-fids="false">
+         <location units="Millimeters" x="205.5" y="-86.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="C_fine_tuning" type="Place" check-fids="false">
+         <location units="Millimeters" x="205.5" y="-25.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="C_fine_tuning" type="Place" check-fids="false">
+         <location units="Millimeters" x="227.5" y="-86.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="C_fine_tuning" type="Place" check-fids="false">
+         <location units="Millimeters" x="183.5" y="-56.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="C_fine_tuning" type="Place" check-fids="false">
+         <location units="Millimeters" x="161.5" y="-86.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="227.5" y="-27.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="161.5" y="-58.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="161.5" y="-27.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="183.5" y="-27.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="227.5" y="-58.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="205.5" y="-27.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="227.5" y="-88.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="205.5" y="-88.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="183.5" y="-88.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="205.5" y="-58.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="161.5" y="-88.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="183.5" y="-58.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="205.5" y="-90.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="183.5" y="-90.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="161.5" y="-29.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="205.5" y="-60.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="161.5" y="-60.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="183.5" y="-29.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="227.5" y="-60.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="227.5" y="-90.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="227.5" y="-29.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="205.5" y="-29.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="183.5" y="-60.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="161.5" y="-90.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="158.0" y="-28.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="224.0" y="-89.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="158.0" y="-59.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="158.0" y="-89.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="202.0" y="-89.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="202.0" y="-59.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="180.0" y="-28.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="202.0" y="-28.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="180.0" y="-59.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="224.0" y="-28.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="224.0" y="-59.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="180.0" y="-89.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="224.0" y="-32.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="180.0" y="-32.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="180.0" y="-63.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="158.0" y="-93.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="202.0" y="-93.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="202.0" y="-32.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="158.0" y="-63.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="202.0" y="-63.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="224.0" y="-93.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="180.0" y="-93.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="224.0" y="-63.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="158.0" y="-32.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="187.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="209.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="209.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="209.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="187.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="231.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="231.0" y="-103.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="231.0" y="-42.5" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="187.0" y="-73.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="209.0" y="-97.4" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.0" y="-66.9" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="209.0" y="-66.9" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="231.0" y="-97.4" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.0" y="-97.4" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="165.0" y="-36.4" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="231.0" y="-66.9" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="187.0" y="-97.4" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="209.0" y="-36.4" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="187.0" y="-66.9" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="187.0" y="-36.4" z="0.0" rotation="270.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="231.0" y="-36.4" z="0.0" rotation="270.0"/>
+      </placement>
+   </placements>
+   <solder-paste-pads/>
+</openpnp-board>

@@ -1,0 +1,30 @@
+### Module positions - created on 2018 November 15, Thursday 21:23:43 ###
+### Printed by Pcbnew version kicad 4.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                           PosX       PosY       Rot  Side
+G***      LOGO      octanis_open_incubator_logo    15.5000    55.5000  180.0000  bottom
+G***      LOGO      VogelwarteLogo3                15.5000    43.0000  180.0000  bottom
+G***      LOGO      octanis_open_incubator_logo    15.5000    25.0000  180.0000  bottom
+G***      LOGO      VogelwarteLogo3                15.5000    12.5000  180.0000  bottom
+G***      LOGO      VogelwarteLogo3                15.5000    73.5000  180.0000  bottom
+G***      LOGO      octanis_open_incubator_logo    15.5000    86.0000  180.0000  bottom
+G***      LOGO      VogelwarteLogo3                37.5000    43.0000  180.0000  bottom
+G***      LOGO      octanis_open_incubator_logo    37.5000    55.5000  180.0000  bottom
+G***      LOGO      VogelwarteLogo3                37.5000    73.5000  180.0000  bottom
+G***      LOGO      VogelwarteLogo3                37.5000    12.5000  180.0000  bottom
+G***      LOGO      octanis_open_incubator_logo    37.5000    25.0000  180.0000  bottom
+G***      LOGO      octanis_open_incubator_logo    37.5000    86.0000  180.0000  bottom
+G***      LOGO      VogelwarteLogo3                59.5000    12.5000  180.0000  bottom
+G***      LOGO      octanis_open_incubator_logo    59.5000    25.0000  180.0000  bottom
+G***      LOGO      VogelwarteLogo3                59.5000    43.0000  180.0000  bottom
+G***      LOGO      octanis_open_incubator_logo    59.5000    55.5000  180.0000  bottom
+G***      LOGO      octanis_open_incubator_logo    59.5000    86.0000  180.0000  bottom
+G***      LOGO      VogelwarteLogo3                59.5000    73.5000  180.0000  bottom
+G***      LOGO      VogelwarteLogo3                81.5000    12.5000  180.0000  bottom
+G***      LOGO      octanis_open_incubator_logo    81.5000    25.0000  180.0000  bottom
+G***      LOGO      VogelwarteLogo3                81.5000    43.0000  180.0000  bottom
+G***      LOGO      octanis_open_incubator_logo    81.5000    55.5000  180.0000  bottom
+G***      LOGO      octanis_open_incubator_logo    81.5000    86.0000  180.0000  bottom
+G***      LOGO      VogelwarteLogo3                81.5000    73.5000  180.0000  bottom
+## End

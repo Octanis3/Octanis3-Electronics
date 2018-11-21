@@ -1,0 +1,22 @@
+<openpnp-job>
+   <panels/>
+   <board-locations>
+      <board-location side="Top" board-file="RFID_panel_FIDorigin.board.xml" panel-id="Panel1" check-fiducials="false" enabled="true">
+         <location units="Millimeters" x="187.56207029613205" y="121.68098057314941" z="-1.0" rotation="-0.3052433342686385"/>
+         <placed class="java.util.HashMap">
+            <entry>
+               <string>C11</string>
+               <boolean>true</boolean>
+            </entry>
+            <entry>
+               <string>C7</string>
+               <boolean>true</boolean>
+            </entry>
+            <entry>
+               <string>C2</string>
+               <boolean>true</boolean>
+            </entry>
+         </placed>
+      </board-location>
+   </board-locations>
+</openpnp-job>

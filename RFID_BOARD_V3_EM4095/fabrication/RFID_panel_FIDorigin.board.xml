@@ -1,0 +1,25 @@
+<openpnp-board version="1.1" name="RFID_panel_FIDorigin.board.xml">
+   <dimensions units="Millimeters" x="0.0" y="0.0" z="0.0" rotation="0.0"/>
+   <fiducials/>
+   <placements>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="30.5" y="17.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="14.5" y="13.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="83.0" y="24.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="FID2" side="Top" part-id="Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" type="Fiducial" check-fids="false">
+         <location units="Millimeters" x="6.0" y="1.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="FID3" side="Top" part-id="Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" type="Fiducial" check-fids="false">
+         <location units="Millimeters" x="6.0" y="98.5" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="FID4" side="Top" part-id="Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" type="Fiducial" check-fids="false">
+         <location units="Millimeters" x="90.5" y="98.5" z="0.0" rotation="0.0"/>
+      </placement>
+   </placements>
+   <solder-paste-pads/>
+</openpnp-board>
