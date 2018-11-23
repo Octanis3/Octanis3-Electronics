@@ -2,8 +2,8 @@
 
   (general
     (links 232)
-    (no_connects 4)
-    (area 0.149999 -60.100001 85.350001 0.100001)
+    (no_connects 2)
+    (area -42.849999 -82.95 95.35 8.700001)
     (thickness 1.6)
     (drawings 85)
     (tracks 1371)
@@ -2828,6 +2828,7 @@
     (at 78.75 -22.5 180)
     (descr S-PVSON-N10)
     (path /59EF7EEA/5B08EADA)
+    (attr smd)
     (fp_text reference U201 (at 2.75 2.5 180) (layer F.SilkS)
       (effects (font (size 1.2065 1.2065) (thickness 0.1016)) (justify left bottom))
     )
