@@ -1,0 +1,72 @@
+PCBNEW-LibModule-V1  
+# encoding utf-8
+Units mm
+$INDEX
+TSSOP-6
+$EndINDEX
+$MODULE TSSOP-6
+Po 0 0 0 15 00000000 00000000 ~~
+Li TSSOP-6
+Cd 
+Sc 00000000
+At SMD
+Op 0 0 0
+.SolderMask 0
+.SolderPaste 0
+T0 0.760935 -2.22846 0.513568 0.513568 0 0.05 N V 21 "TSSOP-6"
+T1 0 0 1 0.9 0 0.05 N H 21 "VAL**"
+DS -0.762 -1.524 -0.762 1.524 0.127 21
+DS -0.762 1.524 0.762 1.524 0.127 21
+DS 0.762 1.524 0.762 -1.524 0.127 21
+DS 0.762 -1.524 -0.762 -1.524 0.127 21
+DS -1.016 -1.524 -1.016 -1.778 0.127 21
+DS -1.016 -1.778 -0.762 -1.778 0.127 21
+$PAD
+Sh "P$1" R 0.9906 0.6096 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.16078 -0.9398
+$EndPAD
+$PAD
+Sh "P$2" R 0.9906 0.6096 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.16078 0
+$EndPAD
+$PAD
+Sh "P$3" R 0.9906 0.6096 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po -1.16078 0.9398
+$EndPAD
+$PAD
+Sh "P$4" R 0.9906 0.6096 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.16078 0.9398
+$EndPAD
+$PAD
+Sh "P$5" R 0.9906 0.6096 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.16078 0
+$EndPAD
+$PAD
+Sh "P$6" R 0.9906 0.6096 0 0 0
+At SMD N 00888000
+.SolderMask 0
+.SolderPaste 0
+Ne 0 ""
+Po 1.16078 -0.9398
+$EndPAD
+$EndMODULE TSSOP-6
