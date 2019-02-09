@@ -1,0 +1,61 @@
+<openpnp-board version="1.1" name="PNP_RFID_BOARD_V3_EM4095-top.board.xml">
+   <dimensions units="Millimeters" x="20.0" y="28.5" z="0.0" rotation="0.0"/>
+   <fiducials/>
+   <placements>
+      <placement version="1.2" id="C1" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="11.5" y="21.2" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C2" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="3.0" y="12.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C5" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="17.0" y="8.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C6" side="Top" part-id="10n" type="Place" check-fids="false">
+         <location units="Millimeters" x="15.0" y="8.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C7" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="9.0" y="8.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="C8" side="Top" part-id="100n5%" type="Place" check-fids="false">
+         <location units="Millimeters" x="6.5" y="9.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="C11" side="Top" part-id="100n" type="Place" check-fids="false">
+         <location units="Millimeters" x="11.5" y="19.5" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="C12" side="Top" part-id="10u" type="Place" check-fids="false">
+         <location units="Millimeters" x="3.0" y="14.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES1" side="Top" part-id="15nF" type="Place" check-fids="false">
+         <location units="Millimeters" x="7.5" y="25.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="CRES2" side="Top" part-id="1.8n" type="Place" check-fids="false">
+         <location units="Millimeters" x="7.5" y="23.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="CRES3" side="Top" part-id="1n" type="Place" check-fids="false">
+         <location units="Millimeters" x="7.5" y="21.0" z="0.0" rotation="180.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv1" side="Top" part-id="10p" type="Place" check-fids="false">
+         <location units="Millimeters" x="4.0" y="22.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="Cdiv2" side="Top" part-id="1.5n" type="Place" check-fids="false">
+         <location units="Millimeters" x="4.0" y="18.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="FID1" side="Top" part-id="Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" type="Fiducial" check-fids="false">
+         <location units="Millimeters" x="2.0" y="4.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="FID2" side="Top" part-id="Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" type="Fiducial" check-fids="false">
+         <location units="Millimeters" x="18.0" y="26.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="FID3" side="Top" part-id="Fiducial_1mm_Dia_2.54mm_Outer_CopperTop" type="Fiducial" check-fids="false">
+         <location units="Millimeters" x="2.0" y="26.0" z="0.0" rotation="0.0"/>
+      </placement>
+      <placement version="1.2" id="R3" side="Top" part-id="0R" type="Place" check-fids="false">
+         <location units="Millimeters" x="11.0" y="8.0" z="0.0" rotation="90.0"/>
+      </placement>
+      <placement version="1.2" id="U1" side="Top" part-id="EM4095" type="Place" check-fids="false">
+         <location units="Millimeters" x="11.0" y="14.1" z="0.0" rotation="270.0"/>
+      </placement>
+   </placements>
+   <solder-paste-pads/>
+</openpnp-board>

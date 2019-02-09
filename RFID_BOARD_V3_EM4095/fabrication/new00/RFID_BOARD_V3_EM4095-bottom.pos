@@ -1,0 +1,8 @@
+### Module positions - created on 2018 December 15, Saturday 15:44:18 ###
+### Printed by Pcbnew version kicad 4.0.7
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                           PosX       PosY       Rot  Side
+G***      LOGO      VogelwarteLogo3                10.0000     7.5000  180.0000  bottom
+G***      LOGO      octanis_open_incubator_logo    10.0000    20.0000  180.0000  bottom
+## End
