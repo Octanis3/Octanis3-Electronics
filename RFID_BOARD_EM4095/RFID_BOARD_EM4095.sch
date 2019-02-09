@@ -1,0 +1,439 @@
+EESchema Schematic File Version 2
+LIBS:Octanis3
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C4
+U 1 1 5A0F095D
+P 3850 4800
+F 0 "C4" H 3875 4900 50  0000 L CNN
+F 1 "C" H 3875 4700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3888 4650 50  0001 C CNN
+F 3 "" H 3850 4800 50  0001 C CNN
+	1    3850 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C1
+U 1 1 5A0F095F
+P 5700 5000
+F 0 "C1" H 5725 5100 50  0000 L CNN
+F 1 "C" H 5725 4900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5738 4850 50  0001 C CNN
+F 3 "" H 5700 5000 50  0001 C CNN
+	1    5700 5000
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C3
+U 1 1 5A0F0960
+P 3600 4800
+F 0 "C3" H 3625 4900 50  0000 L CNN
+F 1 "C" H 3625 4700 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3638 4650 50  0001 C CNN
+F 3 "" H 3600 4800 50  0001 C CNN
+	1    3600 4800
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C2
+U 1 1 5A0F0961
+P 3600 5200
+F 0 "C2" H 3625 5300 50  0000 L CNN
+F 1 "C" H 3625 5100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3638 5050 50  0001 C CNN
+F 3 "" H 3600 5200 50  0001 C CNN
+	1    3600 5200
+	-1   0    0    1   
+$EndComp
+Text Label 4950 3400 3    60   ~ 0
+RFID_VDD
+$Comp
+L GND #PWR01
+U 1 1 5A0F096E
+P 4850 5500
+F 0 "#PWR01" H 4850 5250 50  0001 C CNN
+F 1 "GND" H 4855 5327 50  0000 C CNN
+F 2 "" H 4850 5500 50  0001 C CNN
+F 3 "" H 4850 5500 50  0001 C CNN
+	1    4850 5500
+	1    0    0    -1  
+$EndComp
+Text Label 7850 4550 0    60   ~ 0
+rdyclk
+Text Label 7850 4650 0    60   ~ 0
+demod_out
+Text Label 7850 4750 0    60   ~ 0
+mod
+$Comp
+L Antenna_Loop AE1
+U 1 1 5A1309D1
+P 4950 1150
+F 0 "AE1" H 5000 1400 50  0000 C CNN
+F 1 "Antenna_Loop" H 5000 1350 50  0000 C CNN
+F 2 "Octanis3:125kHz_PCB_Antenna" H 4950 1150 50  0001 C CNN
+F 3 "" H 4950 1150 50  0001 C CNN
+	1    4950 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Antenna_Loop AE2
+U 1 1 5A130BD8
+P 5550 1150
+F 0 "AE2" H 5600 1400 50  0000 C CNN
+F 1 "Antenna_Loop" H 5600 1350 50  0000 C CNN
+F 2 "Octanis3:125kHz_PCB_Antenna" H 5550 1150 50  0001 C CNN
+F 3 "" H 5550 1150 50  0001 C CNN
+	1    5550 1150
+	-1   0    0    -1  
+$EndComp
+Connection ~ 4600 3050
+Connection ~ 4600 2800
+Connection ~ 4600 2550
+Wire Wire Line
+	4600 2300 4850 2300
+Connection ~ 4600 2300
+Wire Wire Line
+	5650 2300 5850 2300
+Connection ~ 5850 2300
+Wire Wire Line
+	4950 3400 4950 3800
+Wire Wire Line
+	4950 1350 4850 1350
+Wire Wire Line
+	5050 1350 5450 1350
+Wire Wire Line
+	5550 1350 5650 1350
+Text Label 4750 2300 1    60   ~ 0
+ant2
+Text Label 5800 2300 1    60   ~ 0
+ant1
+Connection ~ 4850 2300
+Connection ~ 5650 2300
+Text Label 7850 4450 0    60   ~ 0
+RFID_VDD
+Wire Wire Line
+	7850 4450 8500 4450
+$Comp
+L GND #PWR02
+U 1 1 5AF8D215
+P 7950 5000
+F 0 "#PWR02" H 7950 4750 50  0001 C CNN
+F 1 "GND" H 7955 4827 50  0000 C CNN
+F 2 "" H 7950 5000 50  0001 C CNN
+F 3 "" H 7950 5000 50  0001 C CNN
+	1    7950 5000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 4850 8500 4850
+Wire Wire Line
+	8500 4750 7850 4750
+Wire Wire Line
+	7850 4650 8500 4650
+Wire Wire Line
+	8500 4550 7850 4550
+NoConn ~ 1700 900 
+$Comp
+L Jumper JP1
+U 1 1 5AFA01C2
+P 4850 1800
+F 0 "JP1" V 4804 1927 50  0000 L CNN
+F 1 "Jumper" V 4895 1927 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 4850 1800 50  0001 C CNN
+F 3 "" H 4850 1800 50  0001 C CNN
+	1    4850 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L EM4095 U1
+U 1 1 5AFA0C2C
+P 4850 4600
+F 0 "U1" H 4850 5578 50  0000 C CNN
+F 1 "EM4095" H 4850 5487 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 4850 4600 50  0001 C CIN
+F 3 "" H 4850 4600 50  0001 C CNN
+	1    4850 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 5400 4800 5500
+Wire Wire Line
+	4800 5500 4950 5500
+Wire Wire Line
+	4950 5500 4950 5400
+Connection ~ 4850 5500
+Wire Wire Line
+	4800 3800 4800 3650
+Wire Wire Line
+	4800 3650 4950 3650
+Connection ~ 4950 3650
+$Comp
+L C C6
+U 1 1 5AFA1B9F
+P 5700 4050
+F 0 "C6" H 5725 4150 50  0000 L CNN
+F 1 "C" H 5725 3950 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5738 3900 50  0001 C CNN
+F 3 "" H 5700 4050 50  0001 C CNN
+	1    5700 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L C C7
+U 1 1 5AFA1EF5
+P 5700 4150
+F 0 "C7" H 5725 4250 50  0000 L CNN
+F 1 "C" H 5725 4050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5738 4000 50  0001 C CNN
+F 3 "" H 5700 4150 50  0001 C CNN
+	1    5700 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 4050 5450 4050
+Wire Wire Line
+	5450 4150 5550 4150
+Wire Wire Line
+	5450 4250 6000 4250
+Wire Wire Line
+	5450 4400 6000 4400
+Wire Wire Line
+	5450 4550 6000 4550
+$Comp
+L C C8
+U 1 1 5AFA2685
+P 5700 4650
+F 0 "C8" H 5725 4750 50  0000 L CNN
+F 1 "C" H 5725 4550 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 5738 4500 50  0001 C CNN
+F 3 "" H 5700 4650 50  0001 C CNN
+	1    5700 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5550 4650 5450 4650
+Wire Wire Line
+	5450 4850 5700 4850
+Wire Wire Line
+	5450 4950 5450 5150
+Wire Wire Line
+	5450 5150 5700 5150
+Wire Wire Line
+	4250 4200 3900 4200
+Text Label 6000 4250 0    60   ~ 0
+shd
+Text Label 6000 4400 0    60   ~ 0
+demod_out
+Text Label 6000 4550 0    60   ~ 0
+mod
+Text Label 3900 4200 0    60   ~ 0
+rdyclk
+Wire Wire Line
+	3600 4650 3900 4650
+Connection ~ 3850 4650
+$Comp
+L C C5
+U 1 1 5AFA2EF7
+P 3850 5200
+F 0 "C5" H 3875 5300 50  0000 L CNN
+F 1 "C" H 3875 5100 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3888 5050 50  0001 C CNN
+F 3 "" H 3850 5200 50  0001 C CNN
+	1    3850 5200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3600 4950 3600 5050
+Wire Wire Line
+	3850 4950 3850 5050
+Wire Wire Line
+	3600 5350 3600 5400
+Wire Wire Line
+	3600 5400 3850 5400
+$Comp
+L GND #PWR03
+U 1 1 5AFA309E
+P 3850 5400
+F 0 "#PWR03" H 3850 5150 50  0001 C CNN
+F 1 "GND" H 3855 5227 50  0000 C CNN
+F 2 "" H 3850 5400 50  0001 C CNN
+F 3 "" H 3850 5400 50  0001 C CNN
+	1    3850 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5400 3850 5350
+Wire Wire Line
+	3600 5000 3900 5000
+Connection ~ 3850 5000
+Connection ~ 3600 5000
+Wire Wire Line
+	4250 4950 3900 4950
+Wire Wire Line
+	3900 4950 3900 5000
+$Comp
+L C CRES1
+U 1 1 5AFA360B
+P 4050 4650
+F 0 "CRES1" V 3798 4650 50  0000 C CNN
+F 1 "C" V 3889 4650 50  0000 C CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7_W2_P5" H 4088 4500 50  0001 C CNN
+F 3 "" H 4050 4650 50  0001 C CNN
+	1    4050 4650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4250 4650 4200 4650
+Wire Wire Line
+	4250 4500 3600 4500
+$Comp
+L Jumper JP2
+U 1 1 5AFA4272
+P 5650 1750
+F 0 "JP2" V 5604 1877 50  0000 L CNN
+F 1 "Jumper" V 5695 1877 50  0000 L CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.00mm" H 5650 1750 50  0001 C CNN
+F 3 "" H 5650 1750 50  0001 C CNN
+	1    5650 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 1350 5650 1450
+Wire Wire Line
+	5650 2050 5650 2300
+Wire Wire Line
+	4850 2300 4850 2100
+Wire Wire Line
+	4850 1350 4850 1500
+Text Label 3800 4500 2    60   ~ 0
+ant1
+Text Label 3750 4650 2    60   ~ 0
+ant2
+$Comp
+L GND #PWR04
+U 1 1 5AFA47E2
+P 5850 4650
+F 0 "#PWR04" H 5850 4400 50  0001 C CNN
+F 1 "GND" H 5855 4477 50  0000 C CNN
+F 2 "" H 5850 4650 50  0001 C CNN
+F 3 "" H 5850 4650 50  0001 C CNN
+	1    5850 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR05
+U 1 1 5AFA4851
+P 5850 4150
+F 0 "#PWR05" H 5850 3900 50  0001 C CNN
+F 1 "GND" H 5855 3977 50  0000 C CNN
+F 2 "" H 5850 4150 50  0001 C CNN
+F 3 "" H 5850 4150 50  0001 C CNN
+	1    5850 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR06
+U 1 1 5AFA4884
+P 5850 4050
+F 0 "#PWR06" H 5850 3800 50  0001 C CNN
+F 1 "GND" H 5855 3877 50  0000 C CNN
+F 2 "" H 5850 4050 50  0001 C CNN
+F 3 "" H 5850 4050 50  0001 C CNN
+	1    5850 4050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X06 J1
+U 1 1 5AFA4E81
+P 8700 4700
+F 0 "J1" H 8778 4741 50  0000 L CNN
+F 1 "CONN_01X06" H 8778 4650 50  0000 L CNN
+F 2 "Connect:PINHEAD1-6" H 8700 4700 50  0001 C CNN
+F 3 "" H 8700 4700 50  0001 C CNN
+	1    8700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 5000 8500 5000
+Wire Wire Line
+	8500 5000 8500 4950
+Text Label 7950 4850 0    60   ~ 0
+shd
+$Comp
+L C CRES2
+U 1 1 5AFA5B3B
+P 4050 4750
+F 0 "CRES2" V 3798 4750 50  0000 C CNN
+F 1 "C" V 3889 4750 50  0000 C CNN
+F 2 "Capacitors_ThroughHole:C_Rect_L7_W2_P5" H 4088 4600 50  0001 C CNN
+F 3 "" H 4050 4750 50  0001 C CNN
+	1    4050 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3900 4650 3900 4750
+Wire Wire Line
+	4250 4600 4250 4750
+Wire Wire Line
+	4250 4750 4200 4750
+$Comp
+L C C9
+U 1 1 5AFA5D8F
+P 4050 4600
+F 0 "C9" H 4075 4700 50  0000 L CNN
+F 1 "C" H 4075 4500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4088 4450 50  0001 C CNN
+F 3 "" H 4050 4600 50  0001 C CNN
+	1    4050 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3900 4600 3850 4600
+Wire Wire Line
+	3850 4600 3850 4650
+Wire Wire Line
+	4200 4600 4250 4600
+Connection ~ 4250 4650
+$EndSCHEMATC

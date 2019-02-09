@@ -1,0 +1,352 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Octanis3
+LIBS:Nestbox_v2-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP-12S U501
+U 1 1 59FF5CBB
+P 2800 5050
+F 0 "U501" H 3200 5237 60  0000 C CNN
+F 1 "ESP-12S" H 3200 5131 60  0000 C CNN
+F 2 "Octanis3:ESP-12E_SMD_UART_ONLY" H 2800 5050 60  0001 C CNN
+F 3 "" H 2800 5050 60  0001 C CNN
+F 4 "ESP-12F" H 0   0   50  0001 C CNN "MPN"
+	1    2800 5050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2700 5600
+NoConn ~ 2700 5800
+NoConn ~ 2700 5900
+NoConn ~ 2700 6000
+NoConn ~ 2700 6100
+NoConn ~ 3700 5800
+NoConn ~ 3700 5700
+$Comp
+L R R501
+U 1 1 59FF5E36
+P 2550 5300
+F 0 "R501" H 2620 5346 50  0000 L CNN
+F 1 "10k" H 2620 5255 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 2480 5300 50  0001 C CNN
+F 3 "" H 2550 5300 50  0000 C CNN
+F 4 "RC0603JR-0710KL" H 0   0   50  0001 C CNN "MPN"
+	1    2550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR052
+U 1 1 59FF60B0
+P 4300 6250
+F 0 "#PWR052" H 4300 6000 50  0001 C CNN
+F 1 "GND" V 4305 6122 50  0000 R CNN
+F 2 "" H 4300 6250 50  0000 C CNN
+F 3 "" H 4300 6250 50  0000 C CNN
+	1    4300 6250
+	1    0    0    -1  
+$EndComp
+Text Notes 1900 6850 0    60   Italic 0
+TODO: break out all necessary pins for flashing the ESP on the PCB. \nInclude a debugger header compatible with standard FTDI boards:\nhttps://www.sparkfun.com/products/9873 for example\n\n
+Text Notes 1950 4600 0    60   ~ 0
+UART0 will output some printed information when the device is \npowered on and is booting up. If this issue exerts influence on some \nspecific applications, users can exchange the inner pins of UART when \ninitializing, that is to say, exchange U0TXD, U0RXD with U0RTS, \nU0CTS (IO15 & IO13)\n. 
+Text HLabel 3800 4650 1    60   Input ~ 0
+ESP12_TX
+Text HLabel 4050 5000 1    60   Input ~ 0
+ESP12_RX
+Text HLabel 1550 5700 0    60   Input ~ 0
+ESP12_ENABLE
+$Comp
+L R R505
+U 1 1 5B158E7F
+P 4400 5750
+F 0 "R505" H 4470 5796 50  0000 L CNN
+F 1 "10k" H 4470 5705 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 4330 5750 50  0001 C CNN
+F 3 "" H 4400 5750 50  0000 C CNN
+F 4 "RC0603JR-0710KL" H 0   0   50  0001 C CNN "MPN"
+	1    4400 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R503
+U 1 1 5B1595E2
+P 1900 5500
+F 0 "R503" H 1970 5546 50  0000 L CNN
+F 1 "10k" H 1970 5455 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 1830 5500 50  0001 C CNN
+F 3 "" H 1900 5500 50  0000 C CNN
+F 4 "RC0603JR-0710KL" H -250 200 50  0001 C CNN "MPN"
+	1    1900 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X06 J502
+U 1 1 5B1599BB
+P 5850 5550
+F 0 "J502" H 5850 5900 50  0000 C CNN
+F 1 "CONN_01X06" V 5950 5550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x06_Pitch2.54mm" H 5850 5550 50  0001 C CNN
+F 3 "" H 5850 5550 50  0001 C CNN
+	1    5850 5550
+	1    0    0    -1  
+$EndComp
+Text Label 5200 5300 0    60   ~ 0
+DTR
+Text Label 5200 5500 0    60   ~ 0
+RX
+Text Label 5200 5800 0    60   ~ 0
+GND
+Text Label 4000 5900 0    60   ~ 0
+DTR
+$Comp
+L R R506
+U 1 1 5B158DCF
+P 4550 5750
+F 0 "R506" H 4620 5796 50  0000 L CNN
+F 1 "10k" H 4620 5705 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 4480 5750 50  0001 C CNN
+F 3 "" H 4550 5750 50  0000 C CNN
+F 4 "RC0603JR-0710KL" H 0   0   50  0001 C CNN "MPN"
+	1    4550 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 5000 2550 5150
+Wire Wire Line
+	2550 5450 2550 5500
+Wire Wire Line
+	2550 5500 2700 5500
+Wire Wire Line
+	2550 6200 2700 6200
+Wire Wire Line
+	3800 5500 3700 5500
+Wire Wire Line
+	3700 5600 4050 5600
+Wire Wire Line
+	3700 6000 4550 6000
+Wire Wire Line
+	4550 6000 4550 5900
+Wire Wire Line
+	4550 5500 4550 5600
+Wire Wire Line
+	3700 5900 4400 5900
+Wire Wire Line
+	4400 5500 4400 5600
+Wire Wire Line
+	3700 6100 3850 6100
+Wire Wire Line
+	4300 6100 4300 6250
+Wire Wire Line
+	3700 6200 4300 6200
+Wire Wire Line
+	4150 6100 4300 6100
+Connection ~ 4300 6200
+Wire Wire Line
+	5650 5300 5200 5300
+Wire Wire Line
+	5200 5400 5650 5400
+Wire Wire Line
+	5650 5500 5200 5500
+Wire Wire Line
+	5650 5600 5200 5600
+Wire Wire Line
+	5650 5700 5200 5700
+Wire Wire Line
+	5650 5800 5200 5800
+$Comp
+L R R504
+U 1 1 5B1591D7
+P 4000 6100
+F 0 "R504" H 4070 6146 50  0000 L CNN
+F 1 "10k" H 4070 6055 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 3930 6100 50  0001 C CNN
+F 3 "" H 4000 6100 50  0000 C CNN
+F 4 "RC0603JR-0710KL" H 0   0   50  0001 C CNN "MPN"
+	1    4000 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L Jumper JP501
+U 1 1 5B166E39
+P 4050 5300
+F 0 "JP501" H 4050 5450 50  0000 C CNN
+F 1 "Jumper" H 4050 5220 50  0000 C CNN
+F 2 "Connect:GS2" H 4050 5300 50  0001 C CNN
+F 3 "" H 4050 5300 50  0001 C CNN
+	1    4050 5300
+	0    1    1    0   
+$EndComp
+Text Label 3800 5600 0    60   ~ 0
+RX
+Text Label 2250 5700 0    60   ~ 0
+CTS
+Text Label 5200 5700 0    60   ~ 0
+CTS
+$Comp
+L R R507
+U 1 1 5BF52201
+P 1600 5100
+F 0 "R507" H 1670 5146 50  0000 L CNN
+F 1 "82k" H 1670 5055 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" V 1530 5100 50  0001 C CNN
+F 3 "" H 1600 5100 50  0000 C CNN
+F 4 "RC0603JR-0710KL" H -550 -200 50  0001 C CNN "MPN"
+	1    1600 5100
+	0    1    1    0   
+$EndComp
+Connection ~ 2550 5100
+Wire Wire Line
+	1450 5100 1350 5100
+Text HLabel 1350 5100 0    60   Input ~ 0
+ESP12_VCC_sense
+Wire Wire Line
+	1750 5100 1800 5100
+Wire Wire Line
+	2400 5100 2550 5100
+$Comp
+L Jumper JP502
+U 1 1 5BF54615
+P 2100 5100
+F 0 "JP502" H 2100 5250 50  0000 C CNN
+F 1 "Jumper" H 2100 5020 50  0000 C CNN
+F 2 "Connect:GS2" H 2100 5100 50  0001 C CNN
+F 3 "" H 2100 5100 50  0001 C CNN
+	1    2100 5100
+	-1   0    0    1   
+$EndComp
+$Comp
+L VDDA #PWR053
+U 1 1 5BF57845
+P 2550 5000
+F 0 "#PWR053" H 2550 4850 50  0001 C CNN
+F 1 "VDDA" H 2550 5150 50  0000 C CNN
+F 2 "" H 2550 5000 50  0001 C CNN
+F 3 "" H 2550 5000 50  0001 C CNN
+	1    2550 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDDA #PWR054
+U 1 1 5BF57875
+P 4400 5500
+F 0 "#PWR054" H 4400 5350 50  0001 C CNN
+F 1 "VDDA" H 4400 5650 50  0000 C CNN
+F 2 "" H 4400 5500 50  0001 C CNN
+F 3 "" H 4400 5500 50  0001 C CNN
+	1    4400 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDDA #PWR055
+U 1 1 5BF5789E
+P 4550 5500
+F 0 "#PWR055" H 4550 5350 50  0001 C CNN
+F 1 "VDDA" H 4550 5650 50  0000 C CNN
+F 2 "" H 4550 5500 50  0001 C CNN
+F 3 "" H 4550 5500 50  0001 C CNN
+	1    4550 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VDDA #PWR056
+U 1 1 5BF57938
+P 5200 5600
+F 0 "#PWR056" H 5200 5450 50  0001 C CNN
+F 1 "VDDA" H 5200 5750 50  0000 C CNN
+F 2 "" H 5200 5600 50  0001 C CNN
+F 3 "" H 5200 5600 50  0001 C CNN
+	1    5200 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VDDA #PWR057
+U 1 1 5BF57A01
+P 2550 6200
+F 0 "#PWR057" H 2550 6050 50  0001 C CNN
+F 1 "VDDA" H 2550 6350 50  0000 C CNN
+F 2 "" H 2550 6200 50  0001 C CNN
+F 3 "" H 2550 6200 50  0001 C CNN
+	1    2550 6200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L VDDA #PWR058
+U 1 1 5BF583A6
+P 1650 5500
+F 0 "#PWR058" H 1650 5350 50  0001 C CNN
+F 1 "VDDA" H 1650 5650 50  0000 C CNN
+F 2 "" H 1650 5500 50  0001 C CNN
+F 3 "" H 1650 5500 50  0001 C CNN
+	1    1650 5500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1650 5500 1750 5500
+Wire Wire Line
+	2050 5500 2150 5500
+Wire Wire Line
+	2150 5500 2150 5700
+Connection ~ 2150 5700
+Wire Wire Line
+	1550 5700 2700 5700
+$Comp
+L Jumper JP503
+U 1 1 5BF5CB9A
+P 3800 5050
+F 0 "JP503" H 3800 5200 50  0000 C CNN
+F 1 "Jumper" H 3800 4970 50  0000 C CNN
+F 2 "Connect:GS2" H 3800 5050 50  0001 C CNN
+F 3 "" H 3800 5050 50  0001 C CNN
+	1    3800 5050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3800 4650 3800 4750
+Wire Wire Line
+	3800 5350 3800 5500
+Text Label 5200 5400 0    60   ~ 0
+TX
+Text Label 3700 5500 0    60   ~ 0
+TX
+$EndSCHEMATC

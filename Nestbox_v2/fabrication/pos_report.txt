@@ -1,0 +1,7 @@
+Info: Front side (top side) place file: '/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v2/fabrication/Nestbox_v2-top.pos'.
+Info: Component count: 82.
+Info: Back side (bottom side) place file: '/Users/raffael/Desktop/Octanis/Octanis3/pcb/Nestbox_v2/fabrication/Nestbox_v2-bottom.pos'.
+Info: Component count: 4.
+Info: Full component count: 86
+
+Component Placement File generation OK.

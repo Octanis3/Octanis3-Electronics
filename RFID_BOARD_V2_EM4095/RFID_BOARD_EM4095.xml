@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/Users/raffael/Desktop/Octanis/Octanis3/pcb/RFID_BOARD_V2_EM4095/RFID_BOARD_EM4095.sch</source>
+    <date>2018 July 01, Sunday 18:29:10</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RFID_BOARD_EM4095.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C9">
+      <value>100n 250V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0F095F</tstamp>
+    </comp>
+    <comp ref="Cdiv2">
+      <value>1.5n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A0F0961</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10n  (22n max)</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AFA1B9F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AFA1EF5</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AFA2685</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BD07A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BD1D3</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>EM4095</value>
+      <footprint>Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm</footprint>
+      <libsource lib="Octanis3" part="EM4095"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AFA0C2C</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>STTH1R06</value>
+      <footprint>Diodes_SMD:SMB_Standard</footprint>
+      <libsource lib="device" part="D"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BD61F</tstamp>
+    </comp>
+    <comp ref="CRES1">
+      <value>C_fine_tuning (10nF, 50V)</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BDB46</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>100R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BDF25</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BE082</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100n 250V</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1BE1A4</tstamp>
+    </comp>
+    <comp ref="CRES3">
+      <value>1n 450V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="MPN">C0805C102JAGACTU or CC0805JKNPOBBN102</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1CC93D</tstamp>
+    </comp>
+    <comp ref="CRES2">
+      <value>1.8n 250V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="MPN">C0805C182JAGAC</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1CCB22</tstamp>
+    </comp>
+    <comp ref="Cdiv1">
+      <value>10p 500V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="MPN">C0805C100KBRACTU</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1D0396</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1.8n 250V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="MPN">C0805C182JAGAC</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1D0684</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>1.8n 250V</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <fields>
+        <field name="MPN">C0805C182JAGAC</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1D075A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>DNP or 100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>DNP</datasheet>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1D2F3A</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>0R</value>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1D34BC</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_01X05</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x05_Pitch2.54mm</footprint>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1D394E</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1D5387</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1D5FAC</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X01</value>
+      <footprint>Measurement_Points:Measurement_Point_Square-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1D646B</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01X01</value>
+      <footprint>Measurement_Points:Measurement_Point_Square-SMD-Pad_Small</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5B1D64DD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector, single row, 01x01, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <description>Connector, single row, 01x05, pin header</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X*</fp>
+        <fp>Pin_Header_Angled_1X*</fp>
+        <fp>Socket_Strip_Straight_1X*</fp>
+        <fp>Socket_Strip_Angled_1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Octanis3" part="EM4095">
+      <description>HITAG RF Reader Device, SOIC-14</description>
+      <docs>http://www.nxp.com/documents/data_sheet/HTRC11001T.pdf</docs>
+      <footprints>
+        <fp>SOIC-14*</fp>
+        <fp>SO-14*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EM4095</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VSS" type="power_in"/>
+        <pin num="2" name="RDY/CLK" type="output"/>
+        <pin num="3" name="ANT1" type="output"/>
+        <pin num="4" name="DVDD" type="power_in"/>
+        <pin num="5" name="DVSS" type="power_in"/>
+        <pin num="6" name="ANT2" type="output"/>
+        <pin num="7" name="VDD" type="passive"/>
+        <pin num="8" name="DEMOD_IN" type="input"/>
+        <pin num="9" name="CDEC_OUT" type="passive"/>
+        <pin num="10" name="CDEC_IN" type="input"/>
+        <pin num="11" name="AGND" type="input"/>
+        <pin num="12" name="MOD" type="input"/>
+        <pin num="13" name="DEMOD_OUT" type="output"/>
+        <pin num="14" name="SHD" type="output"/>
+        <pin num="15" name="FCAP" type="passive"/>
+        <pin num="16" name="DC2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>/Users/raffael/Library/Application Support/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="Octanis3">
+      <uri>/Users/raffael/Desktop/Octanis/Octanis3/pcb/lib/Octanis3.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/Users/raffael/Library/Application Support/kicad/library/device.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="2" name="Net-(CRES2-Pad1)">
+      <node ref="CRES3" pin="2"/>
+      <node ref="CRES2" pin="1"/>
+    </net>
+    <net code="3" name="Net-(CRES1-Pad1)">
+      <node ref="CRES1" pin="1"/>
+      <node ref="CRES2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C10-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C3" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C8-Pad2)">
+      <node ref="U1" pin="10"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+    </net>
+    <net code="6" name="Net-(C8-Pad1)">
+      <node ref="U1" pin="9"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="7" name="/ant2">
+      <node ref="D1" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="CRES1" pin="2"/>
+      <node ref="Cdiv1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C10-Pad2)">
+      <node ref="C9" pin="1"/>
+      <node ref="C10" pin="2"/>
+    </net>
+    <net code="10" name="/RFID_VDD">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="11" name="GND">
+      <node ref="Cdiv2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C12" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="12" name="/ant1">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="13" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="12"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="14" name="Net-(C5-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="15" name="Net-(C6-Pad2)">
+      <node ref="U1" pin="15"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="16" name="/shd">
+      <node ref="U1" pin="14"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="17" name="/demod_out">
+      <node ref="U1" pin="13"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="19" name="/rdyclk">
+      <node ref="U1" pin="2"/>
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="21" name="Net-(CRES3-Pad1)">
+      <node ref="CRES3" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="22" name="Net-(Cdiv1-Pad1)">
+      <node ref="Cdiv1" pin="1"/>
+      <node ref="Cdiv2" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+  </nets>
+</export>

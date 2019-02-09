@@ -1,0 +1,24 @@
+### Module positions - created on 2018 December 15, Saturday 15:44:18 ###
+### Printed by Pcbnew version kicad 4.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                                      Package                                       PosX       PosY       Rot  Side
+C1        10u                                      C_0805                                     11.5000    21.2000  180.0000  top
+C2        100n                                     C_0603                                      3.0000    12.0000    0.0000  top
+C5        10n                                      C_0603                                     17.0000     8.0000   90.0000  top
+C6        10n                                      C_0603                                     15.0000     8.0000   90.0000  top
+C7        100n                                     C_0603                                      9.0000     8.0000   90.0000  top
+C8        100n                                     C_0603                                      6.5000     9.0000    0.0000  top
+C11       100n                                     C_0603                                     11.5000    19.5000  180.0000  top
+C12       10u                                      C_0805                                      3.0000    14.0000    0.0000  top
+CRES1     15nF                                     C_0603                                      7.5000    25.0000  180.0000  top
+CRES2     1.8n                                     C_0805                                      7.5000    23.0000    0.0000  top
+CRES3     1n                                       C_0805                                      7.5000    21.0000  180.0000  top
+Cdiv1     10p                                      C_0805                                      4.0000    22.0000   90.0000  top
+Cdiv2     1.5n                                     C_0603                                      4.0000    18.0000   90.0000  top
+FID1      Fiducial_1mm_Dia_2.54mm_Outer_CopperTop  Fiducial_1mm_Dia_2.54mm_Outer_CopperTop     2.0000     4.0000    0.0000  top
+FID2      Fiducial_1mm_Dia_2.54mm_Outer_CopperTop  Fiducial_1mm_Dia_2.54mm_Outer_CopperTop    18.0000    26.0000    0.0000  top
+FID3      Fiducial_1mm_Dia_2.54mm_Outer_CopperTop  Fiducial_1mm_Dia_2.54mm_Outer_CopperTop     2.0000    26.0000    0.0000  top
+R3        0R                                       R_0603                                     11.0000     8.0000   90.0000  top
+U1        EM4095                                   SOIC-16_3.9x9.9mm_Pitch1.27mm              11.0000    14.1000  270.0000  top
+## End

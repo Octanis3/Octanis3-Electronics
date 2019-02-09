@@ -1,5 +1,16 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP C_X2Y
+D feedthrough capacitor
+K EMI filter feedthrough capacitor
+$ENDCMP
+#
+$CMP EM4095
+D HITAG RF Reader Device, SOIC-14
+K HITAG RFID
+F http://www.nxp.com/documents/data_sheet/HTRC11001T.pdf
+$ENDCMP
+#
 $CMP Jumper_SELECT_Dual
 D Dual Jumper, normally closed
 K jumper bridge link nc
